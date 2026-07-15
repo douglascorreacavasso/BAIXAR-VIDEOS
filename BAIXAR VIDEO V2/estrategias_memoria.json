@@ -1,0 +1,24 @@
+{
+  "xnxx.com": {
+    "mp4_prioritario": {
+      "ok": 0,
+      "fail": 5
+    },
+    "melhor_qualquer": {
+      "ok": 0,
+      "fail": 5
+    },
+    "unico_melhor": {
+      "ok": 0,
+      "fail": 5
+    },
+    "hls_nativo": {
+      "ok": 0,
+      "fail": 5
+    },
+    "generico_best": {
+      "ok": 0,
+      "fail": 5
+    }
+  }
+}
