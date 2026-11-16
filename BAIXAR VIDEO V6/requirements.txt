@@ -1,0 +1,11 @@
+yt-dlp
+requests
+PySocks
+curl_cffi
+mss
+Pillow
+numpy<2.4
+soundcard
+comtypes
+playwright
+streamlink

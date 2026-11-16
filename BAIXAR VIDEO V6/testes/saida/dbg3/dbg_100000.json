@@ -1,0 +1,109 @@
+{
+ "total": 16,
+ "ok": 16,
+ "taxa_ok": 1.0,
+ "resultados": {
+  "ok": 16
+ },
+ "segundos_medio": 3.72,
+ "tempo_total_s": 19,
+ "por": {
+  "familia:clappr": {
+   "ok": 2
+  },
+  "familia:dashjs": {
+   "ok": 1
+  },
+  "familia:flowplayer": {
+   "ok": 2
+  },
+  "familia:hlsjs": {
+   "ok": 1
+  },
+  "familia:html5_sources": {
+   "ok": 2
+  },
+  "familia:html5_src": {
+   "ok": 2
+  },
+  "familia:lazy_data": {
+   "ok": 1
+  },
+  "familia:mse_blob_js": {
+   "ok": 2
+  },
+  "familia:nuxt_state": {
+   "ok": 1
+  },
+  "familia:social_json": {
+   "ok": 1
+  },
+  "familia:twitter_card": {
+   "ok": 1
+  },
+  "fmt:360.mp4": {
+   "ok": 2
+  },
+  "fmt:av1.mp4": {
+   "ok": 3
+  },
+  "fmt:flv": {
+   "ok": 1
+  },
+  "fmt:mkv": {
+   "ok": 2
+  },
+  "fmt:mov": {
+   "ok": 1
+  },
+  "fmt:mp4": {
+   "ok": 3
+  },
+  "fmt:mudo.mp4": {
+   "ok": 1
+  },
+  "fmt:ts": {
+   "ok": 3
+  },
+  "mania:ck": {
+   "ok": 1
+  },
+  "mania:drop": {
+   "ok": 3
+  },
+  "mania:gzip": {
+   "ok": 2
+  },
+  "mania:norange": {
+   "ok": 3
+  },
+  "mania:octet": {
+   "ok": 2
+  },
+  "mania:r429": {
+   "ok": 1
+  },
+  "mania:r503": {
+   "ok": 2
+  },
+  "mania:redir": {
+   "ok": 2
+  },
+  "mania:ref": {
+   "ok": 1
+  },
+  "mania:slow": {
+   "ok": 2
+  },
+  "motor:direto": {
+   "ok": 11
+  },
+  "motor:streamlink": {
+   "ok": 1
+  },
+  "motor:yt-dlp": {
+   "ok": 4
+  }
+ },
+ "falhas": []
+}

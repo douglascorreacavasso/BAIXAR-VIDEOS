@@ -1,0 +1,12 @@
+{
+ "ffmpeg": "C:\\Users\\Douglas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE",
+ "cor_nova": [
+  218,
+  43,
+  41
+ ],
+ "ffprobe_programa": true,
+ "decodifica_programa": true,
+ "jeito_antigo_bytes": 1728,
+ "jeito_antigo_codigo": 0
+}

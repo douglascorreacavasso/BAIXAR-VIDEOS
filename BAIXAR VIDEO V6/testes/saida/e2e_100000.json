@@ -1,0 +1,163 @@
+{
+ "total": 60,
+ "ok": 60,
+ "taxa_ok": 1.0,
+ "resultados": {
+  "ok": 60
+ },
+ "segundos_medio": 5.32,
+ "tempo_total_s": 85,
+ "por": {
+  "familia:artplayer": {
+   "ok": 2
+  },
+  "familia:atob": {
+   "ok": 1
+  },
+  "familia:clappr": {
+   "ok": 3
+  },
+  "familia:dashjs": {
+   "ok": 2
+  },
+  "familia:download_link": {
+   "ok": 1
+  },
+  "familia:encoded_param": {
+   "ok": 2
+  },
+  "familia:flashvars": {
+   "ok": 2
+  },
+  "familia:flowplayer": {
+   "ok": 5
+  },
+  "familia:fluid": {
+   "ok": 3
+  },
+  "familia:hlsjs": {
+   "ok": 2
+  },
+  "familia:html5_sources": {
+   "ok": 3
+  },
+  "familia:html5_src": {
+   "ok": 4
+  },
+  "familia:jsonld": {
+   "ok": 1
+  },
+  "familia:jwplayer": {
+   "ok": 1
+  },
+  "familia:lazy_data": {
+   "ok": 1
+  },
+  "familia:mse_blob_js": {
+   "ok": 4
+  },
+  "familia:nuxt_state": {
+   "ok": 2
+  },
+  "familia:og_only": {
+   "ok": 3
+  },
+  "familia:plyr": {
+   "ok": 6
+  },
+  "familia:sem_video": {
+   "ok": 1
+  },
+  "familia:shaka": {
+   "ok": 1
+  },
+  "familia:social_json": {
+   "ok": 6
+  },
+  "familia:twitter_card": {
+   "ok": 4
+  },
+  "fmt:360.mp4": {
+   "ok": 5
+  },
+  "fmt:av1.mp4": {
+   "ok": 7
+  },
+  "fmt:flv": {
+   "ok": 2
+  },
+  "fmt:hevc.mp4": {
+   "ok": 5
+  },
+  "fmt:mkv": {
+   "ok": 7
+  },
+  "fmt:mov": {
+   "ok": 4
+  },
+  "fmt:mp4": {
+   "ok": 14
+  },
+  "fmt:mudo.mp4": {
+   "ok": 4
+  },
+  "fmt:ts": {
+   "ok": 8
+  },
+  "fmt:webm": {
+   "ok": 4
+  },
+  "mania:chunked": {
+   "ok": 6
+  },
+  "mania:ck": {
+   "ok": 2
+  },
+  "mania:drop": {
+   "ok": 6
+  },
+  "mania:gzip": {
+   "ok": 8
+  },
+  "mania:norange": {
+   "ok": 5
+  },
+  "mania:octet": {
+   "ok": 6
+  },
+  "mania:r429": {
+   "ok": 4
+  },
+  "mania:r503": {
+   "ok": 7
+  },
+  "mania:redir": {
+   "ok": 7
+  },
+  "mania:ref": {
+   "ok": 4
+  },
+  "mania:seg404": {
+   "ok": 5
+  },
+  "mania:slow": {
+   "ok": 7
+  },
+  "mania:ua": {
+   "ok": 4
+  },
+  "motor:-": {
+   "ok": 1
+  },
+  "motor:direto": {
+   "ok": 44
+  },
+  "motor:ffmpeg": {
+   "ok": 1
+  },
+  "motor:yt-dlp": {
+   "ok": 14
+  }
+ },
+ "falhas": []
+}

@@ -1,0 +1,7869 @@
+{
+ "total": 95000,
+ "ok": 94123,
+ "taxa_ok": 0.99077,
+ "resultados": {
+  "ok": 94123,
+  "duvida": 18012,
+  "isca": 877
+ },
+ "ms_por_pagina": 2.77,
+ "tempo_s": 279,
+ "por": {
+  "espera:navegador": {
+   "ok": 2135,
+   "isca": 224
+  },
+  "espera:nenhum": {
+   "ok": 1904,
+   "isca": 457
+  },
+  "espera:video": {
+   "ok": 90084,
+   "isca": 196
+  },
+  "familia:artplayer": {
+   "ok": 3914
+  },
+  "familia:atob": {
+   "ok": 3954
+  },
+  "familia:clappr": {
+   "ok": 3934
+  },
+  "familia:dashjs": {
+   "ok": 3988
+  },
+  "familia:download_link": {
+   "ok": 3911
+  },
+  "familia:encoded_param": {
+   "ok": 3908
+  },
+  "familia:flashvars": {
+   "ok": 3864
+  },
+  "familia:flowplayer": {
+   "ok": 4017
+  },
+  "familia:fluid": {
+   "ok": 3897
+  },
+  "familia:hlsjs": {
+   "ok": 3974
+  },
+  "familia:html5_sources": {
+   "ok": 3907
+  },
+  "familia:html5_src": {
+   "ok": 3901
+  },
+  "familia:iframe_embed": {
+   "ok": 3573,
+   "isca": 196
+  },
+  "familia:jsonld": {
+   "ok": 3853
+  },
+  "familia:jwplayer": {
+   "ok": 3942
+  },
+  "familia:lazy_data": {
+   "ok": 3940
+  },
+  "familia:mse_blob_js": {
+   "ok": 2135,
+   "isca": 224
+  },
+  "familia:nuxt_state": {
+   "ok": 3842
+  },
+  "familia:og_only": {
+   "ok": 3987
+  },
+  "familia:plyr": {
+   "ok": 3863
+  },
+  "familia:sem_video": {
+   "ok": 1904,
+   "isca": 457
+  },
+  "familia:shaka": {
+   "ok": 3994
+  },
+  "familia:social_json": {
+   "ok": 4022
+  },
+  "familia:twitter_card": {
+   "ok": 4031
+  },
+  "familia:videojs": {
+   "ok": 3868
+  },
+  "isca:audio": {
+   "ok": 21082,
+   "isca": 161
+  },
+  "isca:fundo": {
+   "ok": 21146,
+   "isca": 151
+  },
+  "isca:gif_mp4": {
+   "ok": 21115,
+   "isca": 137
+  },
+  "isca:legenda": {
+   "ok": 20813,
+   "isca": 142
+  },
+  "isca:outro_artigo": {
+   "ok": 21142,
+   "isca": 152
+  },
+  "isca:previa_principal": {
+   "ok": 21250,
+   "isca": 167
+  },
+  "isca:promo_rodape": {
+   "ok": 21257,
+   "isca": 145
+  },
+  "isca:propaganda": {
+   "ok": 21217,
+   "isca": 143
+  },
+  "isca:proximo_video": {
+   "ok": 20682,
+   "isca": 522
+  },
+  "isca:relacionados": {
+   "ok": 21244,
+   "isca": 126
+  },
+  "isca:relacionados_json": {
+   "ok": 20752,
+   "isca": 425
+  },
+  "isca:storyboard": {
+   "ok": 21228,
+   "isca": 195
+  },
+  "isca:trailer": {
+   "ok": 21093,
+   "isca": 137
+  },
+  "n_iscas:0": {
+   "ok": 10924
+  },
+  "n_iscas:1": {
+   "ok": 10769,
+   "isca": 112
+  },
+  "n_iscas:2": {
+   "ok": 20896,
+   "isca": 232
+  },
+  "n_iscas:3": {
+   "ok": 10613,
+   "isca": 279
+  },
+  "n_iscas:4": {
+   "ok": 10455,
+   "isca": 67
+  },
+  "n_iscas:5": {
+   "ok": 10160,
+   "isca": 61
+  },
+  "n_iscas:6": {
+   "ok": 20306,
+   "isca": 126
+  },
+  "peculiar:acento_espaco": {
+   "ok": 3619
+  },
+  "peculiar:barra_escapada": {
+   "ok": 32369,
+   "isca": 289
+  },
+  "peculiar:base_href": {
+   "ok": 5614,
+   "isca": 52
+  },
+  "peculiar:comentario": {
+   "ok": 9303,
+   "isca": 86
+  },
+  "peculiar:ext_maiuscula": {
+   "ok": 4557
+  },
+  "peculiar:html_quebrado": {
+   "ok": 7567,
+   "isca": 76
+  },
+  "peculiar:pagina_enorme": {
+   "ok": 4582,
+   "isca": 53
+  },
+  "peculiar:protocolo_relativo": {
+   "ok": 39495,
+   "isca": 247
+  },
+  "peculiar:relativo": {
+   "ok": 13746,
+   "isca": 88
+  },
+  "peculiar:unicode_escapado": {
+   "ok": 9819,
+   "isca": 78
+  }
+ },
+ "falhas": [
+  {
+   "seed": 106,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "fundo",
+    "propaganda",
+    "outro_artigo",
+    "proximo_video",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://media20.cdnhost73.test/v/7665405/mP4X4YaU/1080p.mp4",
+   "prob": 0.624,
+   "verdade": [
+    "https://media20.cdnhost73.test/hls/4692610/H4EmX8-9/master.m3u8"
+   ],
+   "url": "https://m.cine473.test/videos/96991657"
+  },
+  {
+   "seed": 195,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "legenda",
+    "previa_principal",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.video501.test/v/2813458/MC5Rv5FT/1440p.mp4",
+   "prob": 0.801,
+   "verdade": [],
+   "url": "https://m.video501.test/videos/807543/"
+  },
+  {
+   "seed": 273,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "promo_rodape",
+    "gif_mp4",
+    "audio",
+    "relacionados_json",
+    "legenda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://video590.test/v/8788605/ryzpwFeG/2160p.mp4",
+   "prob": 0.857,
+   "verdade": [
+    "https://player.vimeo.com/video/91777546"
+   ],
+   "url": "https://video590.test/post/93309804/"
+  },
+  {
+   "seed": 354,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "previa_principal",
+    "fundo"
+   ],
+   "peculiar": [
+    "relativo",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://cdn3.portal847.test/v/1242079/K5QP-cbHpp7M3aVh/240p.mp4",
+   "prob": 0.277,
+   "verdade": [],
+   "url": "https://portal847.test/post/aula-01/ymke-sqg-titulo-do-video"
+  },
+  {
+   "seed": 677,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://cdn2.cine918.test/v/7883275/bqPh3cRV/2160p.mp4",
+   "prob": 0.89,
+   "verdade": [],
+   "url": "https://cine918.test/v/8483050?ref=home"
+  },
+  {
+   "seed": 1089,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge7.test/v/4200394/746eg4Lz/2160p.mp4",
+   "prob": 0.886,
+   "verdade": [
+    "https://www.youtube.com/embed/5qBsz_Uuczg"
+   ],
+   "url": "https://www.vids107.test/v/817282/"
+  },
+  {
+   "seed": 1125,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json",
+    "legenda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai2.test/v/9642217/52retCYs/2160p.mp4",
+   "prob": 0.928,
+   "verdade": [],
+   "url": "https://www.media708.test/watch/titulo-do-video-de-hoje"
+  },
+  {
+   "seed": 1255,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "fundo",
+    "proximo_video",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://www.media452.test/v/6580420/nvucvsy2P5d7jiJE/1080p.mp4",
+   "prob": 0.554,
+   "verdade": [
+    "https://ok.ru/videoembed/30650751"
+   ],
+   "url": "https://www.media452.test/videos/5606026"
+  },
+  {
+   "seed": 1297,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "previa_principal",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media40.cdnhost79.test/v/8793215/hB8N_c2ua_B6p7hv8k6SLUSz94G9zyY-/1080p.mp4",
+   "prob": 0.737,
+   "verdade": [
+    "https://media40.cdnhost79.test/hls/1838782/ZUAg4Ee_Khh-zTWVBg-8Jiz8xKDBhUxj/playlist.m3u8"
+   ],
+   "url": "https://video5.test/videos/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 1387,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "previa_principal",
+    "outro_artigo",
+    "gif_mp4",
+    "audio",
+    "promo_rodape",
+    "proximo_video",
+    "fundo",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada",
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.edge9.test/v/9986358/YnGD35FspZEDz2Wq/1080p.mp4",
+   "prob": 0.602,
+   "verdade": [
+    "https://vod.edge9.test/hls/2821806/fWcMUa6jUywEuz7r/index.m3u8"
+   ],
+   "url": "https://m.portal351.test/video/2821806?ref=home"
+  },
+  {
+   "seed": 1415,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "comentario"
+   ],
+   "escolhido": "https://cdn4.cine610.test/v/933621/4hFtijUmM-xStmuu/2160p.mp4",
+   "prob": 0.906,
+   "verdade": [
+    "https://cdn4.cine610.test/hls/2810841/zxHyjFTvmg72bm5H/master.m3u8?token=mYyCU_VWv2ktLBJZe8fXuBhs&expires=1707436798"
+   ],
+   "url": "https://cine610.test/p/titulo-do-video-de-hoje/"
+  },
+  {
+   "seed": 1455,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://clip853.test/v/2743737/XEVmseS3/2160p.mp4",
+   "prob": 0.892,
+   "verdade": [],
+   "url": "https://clip853.test/video/titulo-do-video-de-hoje/cxqy7h2b-titulo-do-video"
+  },
+  {
+   "seed": 1611,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "proximo_video",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://vod.akamai2.test/v/7140977/aydWav6U/720p.mp4",
+   "prob": 0.604,
+   "verdade": [],
+   "url": "https://m.cine610.test/video/3261493/ubhbqhhm-titulo-do-video"
+  },
+  {
+   "seed": 1643,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "base_href"
+   ],
+   "escolhido": "https://m.video115.test/v/3037481/ayD_Cpam/720p.mp4",
+   "prob": 0.427,
+   "verdade": [],
+   "url": "https://m.video115.test/v/5430458"
+  },
+  {
+   "seed": 1846,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "gif_mp4",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn6.video329.test/v/9261763/5F9LFDw_SUo6VffNucPureFDq9bbc_-m/2160p.mp4",
+   "prob": 0.671,
+   "verdade": [],
+   "url": "https://video329.test/watch/4676957?ref=home"
+  },
+  {
+   "seed": 1949,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.cloudfront8.test/v/5825028/u4Y7Kuvzfbe9R4PUH7Xovq74bc7a_owz/1440p.mp4",
+   "prob": 0.604,
+   "verdade": [],
+   "url": "https://portal895.test/post/4325146?ref=home"
+  },
+  {
+   "seed": 2022,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://vod.edge2.test/v/9948599/9yYT3i-bcGKXnDmX/1440p.mp4",
+   "prob": 0.721,
+   "verdade": [],
+   "url": "https://cine274.test/p/2360150/x_wx8uts-titulo-do-video"
+  },
+  {
+   "seed": 2312,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados",
+    "outro_artigo",
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media560.test/v/4798120/qmeLmjKzf296-vpDaKhfQDSJT4mwwL5Q/2160p.mp4",
+   "prob": 0.78,
+   "verdade": [
+    "https://ok.ru/videoembed/69242846"
+   ],
+   "url": "https://media560.test/watch/53842752/wgag5twt-titulo-do-video"
+  },
+  {
+   "seed": 2495,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://media4.cdnhost23.test/v/954709/Gxp3kn5Rf-PrFEmkTULndVfDUKVUzJ9J/2160p.mp4",
+   "prob": 0.931,
+   "verdade": [],
+   "url": "https://canal998.test/videos/5442311/ahqnkfya-titulo-do-video"
+  },
+  {
+   "seed": 2918,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "gif_mp4",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://www.video455.test/v/276195/EDxY8g3Kq48MzBBaPoJzrmFz23SgLJF-/480p.mp4",
+   "prob": 0.378,
+   "verdade": [],
+   "url": "https://www.video455.test/watch/917506/"
+  },
+  {
+   "seed": 3055,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "fundo",
+    "previa_principal",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "relativo"
+   ],
+   "escolhido": "https://www.canal182.test/v/6928661/xjr6G7BYKtz7uZc7j9mmsNY8NpLEjBen/2160p.mp4",
+   "prob": 0.683,
+   "verdade": [
+    "https://www.youtube.com/embed/VJ4njXEsmM8"
+   ],
+   "url": "https://www.canal182.test/post/7737653?ref=home"
+  },
+  {
+   "seed": 3102,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados",
+    "legenda",
+    "proximo_video",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media10.cdnhost61.test/v/9986067/Z8EbHPb7/2160p.mp4",
+   "prob": 0.878,
+   "verdade": [
+    "https://media10.cdnhost61.test/hls/4100771/jnzuNdCp/master.m3u8"
+   ],
+   "url": "https://www.tube281.test/video/4100771?ref=home"
+  },
+  {
+   "seed": 3476,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "audio",
+    "previa_principal"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media40.cdnhost37.test/v/7946320/NeEKKN9H/1440p.mp4",
+   "prob": 0.765,
+   "verdade": [],
+   "url": "https://canal872.test/watch/titulo-do-video-de-hoje/"
+  },
+  {
+   "seed": 3572,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "relacionados_json",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "relativo"
+   ],
+   "escolhido": "https://cdn7.video580.test/v/2135685/EeUGjYj6pkiLZHZZ/2160p.mp4",
+   "prob": 0.707,
+   "verdade": [],
+   "url": "https://www.video580.test/v/melhores-momentos"
+  },
+  {
+   "seed": 3722,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://media7.cdnhost84.test/v/8280811/WzyUWbjdAA9Ujm6iypEKzYYvytqNPkLV/2160p.mp4",
+   "prob": 0.872,
+   "verdade": [
+    "https://media7.cdnhost84.test/hls/4320949/nmeXWnPwXDWqvtNK9zF8RCvcC_i7-zPE/master.m3u8?token=PLNEjnvvUNqCc7RB3D8Gqz6B&expires=1709254719"
+   ],
+   "url": "https://m.tube82.test/v/94103654"
+  },
+  {
+   "seed": 4104,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "previa_principal",
+    "audio",
+    "trailer",
+    "fundo",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://media3.cdnhost54.test/v/2478434/Ahq8XBu6/1440p.mp4",
+   "prob": 0.725,
+   "verdade": [
+    "https://www.youtube.com/embed/tSLJS46KT9K"
+   ],
+   "url": "https://canal598.test/watch/91740502"
+  },
+  {
+   "seed": 4256,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.canal471.test/v/7881778/PczJE5Vz/2160p.mp4",
+   "prob": 0.88,
+   "verdade": [
+    "https://ok.ru/videoembed/79069475"
+   ],
+   "url": "https://m.canal471.test/p/5685690/"
+  },
+  {
+   "seed": 4385,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.cloudfront7.test/v/1034557/DknaTyqyKgbxhHgu/360p.mp4",
+   "prob": 0.503,
+   "verdade": [],
+   "url": "https://media754.test/watch/56261445/"
+  },
+  {
+   "seed": 4820,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "trailer",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai9.test/v/4232277/meuCNANASh5HEiYLbi-nfK8BWAPN-keX/1080p.mp4",
+   "prob": 0.62,
+   "verdade": [
+    "https://rumble.com/embed/vs8bLnq66SrQ/"
+   ],
+   "url": "https://www.clip472.test/watch/aula-01/qjwcrdvj-titulo-do-video"
+  },
+  {
+   "seed": 4823,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "propaganda",
+    "proximo_video",
+    "previa_principal",
+    "fundo"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media38.cdnhost19.test/v/6516561/_z8a_g7xfGVQsMCv/1440p.mp4",
+   "prob": 0.758,
+   "verdade": [
+    "https://media38.cdnhost19.test/hls/3661673/fjSPBSWtNN7zBEBF/playlist.m3u8"
+   ],
+   "url": "https://www.clip300.test/video/3661673/"
+  },
+  {
+   "seed": 4985,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://vids902.test/v/8166419/y5AYu34Z6iGSG7xJHzcUewdLT2tEQHXS/720p.mp4",
+   "prob": 0.224,
+   "verdade": [],
+   "url": "https://vids902.test/v/aula-01/wxdjyms7-titulo-do-video"
+  },
+  {
+   "seed": 5021,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "legenda",
+    "relacionados_json",
+    "previa_principal",
+    "storyboard",
+    "promo_rodape"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cine682.test/v/3373147/DhhM6Jii/2160p.mp4",
+   "prob": 0.749,
+   "verdade": [
+    "https://rumble.com/embed/voSHp7QvPAG_/"
+   ],
+   "url": "https://cine682.test/p/7181784/"
+  },
+  {
+   "seed": 5097,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "trailer",
+    "relacionados_json",
+    "propaganda"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://media10.cdnhost49.test/v/1556150/As5HXH4g7pD-SVEX4DcJwkyRpzVTtnJc/1440p.mp4",
+   "prob": 0.565,
+   "verdade": [
+    "https://media10.cdnhost49.test/hls/5027238/UEuJXq7ipU38ZtnTL_S-p3_hGjaPLmbJ/5027238.m3u8"
+   ],
+   "url": "https://m.media669.test/post/5027238?ref=home"
+  },
+  {
+   "seed": 5167,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.vids477.test/v/7156270/eDsBfpHT/2160p.mp4",
+   "prob": 0.787,
+   "verdade": [
+    "https://www.youtube.com/embed/_UVxS5BzdFi"
+   ],
+   "url": "https://m.vids477.test/watch/83693504/"
+  },
+  {
+   "seed": 5388,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.cine407.test/v/3986013/cfbrLFxUKGoQ8V6N/1440p.mp4",
+   "prob": 0.737,
+   "verdade": [
+    "https://streamable.com/e/-JhbQqAkmyN"
+   ],
+   "url": "https://m.cine407.test/video/6080044"
+  },
+  {
+   "seed": 5544,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai1.test/v/2842179/W3g3QEWa/720p.mp4",
+   "prob": 0.735,
+   "verdade": [],
+   "url": "https://canal545.test/p/titulo-do-video-de-hoje?ref=home"
+  },
+  {
+   "seed": 5652,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media21.cdnhost58.test/v/282401/WmdVmjoS/1440p.mp4",
+   "prob": 0.699,
+   "verdade": [
+    "https://player.vimeo.com/video/28789056"
+   ],
+   "url": "https://m.clip160.test/v/2470440"
+  },
+  {
+   "seed": 5711,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "outro_artigo",
+    "relacionados"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn8.clip893.test/v/5638606/UDH9_PAjdVExRgnQ/1440p.mp4",
+   "prob": 0.653,
+   "verdade": [],
+   "url": "https://www.clip893.test/p/49605327"
+  },
+  {
+   "seed": 5777,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "outro_artigo",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai4.test/v/5858195/4JUmi6aX3akjym5YdgfwaMxSah7MxZ-b/1080p.mp4",
+   "prob": 0.356,
+   "verdade": [],
+   "url": "https://vids246.test/video/5983952?ref=home"
+  },
+  {
+   "seed": 5845,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "relacionados_json",
+    "legenda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn1.tube53.test/v/6216494/6yPzRGYZaYwEi-A6sCZieKDAw_8HpaAk/720p.mp4",
+   "prob": 0.389,
+   "verdade": [],
+   "url": "https://www.tube53.test/post/2392735"
+  },
+  {
+   "seed": 5864,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "legenda",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://vod.akamai3.test/v/1904775/LYRv3niz8Y-MkEhZ/2160p.mp4",
+   "prob": 0.889,
+   "verdade": [],
+   "url": "https://canal905.test/v/titulo-do-video-de-hoje/7vcglf2v-titulo-do-video"
+  },
+  {
+   "seed": 6042,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "trailer",
+    "propaganda",
+    "propaganda",
+    "storyboard",
+    "previa_principal",
+    "proximo_video",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "unicode_escapado",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://cdn3.clip325.test/v/5737245/o3fcq9thubLyMJVp/1440p.mp4",
+   "prob": 0.673,
+   "verdade": [
+    "https://cdn3.clip325.test/hls/4832044/LpxXAbHCsjdBmykT/index.m3u8"
+   ],
+   "url": "https://clip325.test/v/4832044/"
+  },
+  {
+   "seed": 6056,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media26.cdnhost49.test/v/9581864/VsHdMHvuw39m9dKhcyLjWc8yX4_U7mQE/240p.mp4",
+   "prob": 0.434,
+   "verdade": [],
+   "url": "https://m.canal523.test/post/entrevista-completa/"
+  },
+  {
+   "seed": 6065,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai1.test/v/1446584/-wEqvHNVQPgRobMxBDB8zPwgz5EHcbCQ/1440p.mp4",
+   "prob": 0.894,
+   "verdade": [
+    "https://vod.akamai1.test/hls/1814161/QuhivMTn6W56R3LvFmMFTSBwZFgZvHEP/master.m3u8"
+   ],
+   "url": "https://www.portal628.test/videos/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 6328,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn4.vids448.test/v/4386146/CAYxa-KfNh7GaDmq/2160p.mp4",
+   "prob": 0.792,
+   "verdade": [
+    "https://streamable.com/e/d4gg_vB92Ax"
+   ],
+   "url": "https://m.vids448.test/videos/1990331?ref=home"
+  },
+  {
+   "seed": 6371,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.video414.test/v/1706719/kGAfc8dSwrWkDd8V8bdn3F5LdBqFdSFx/2160p.mp4",
+   "prob": 0.641,
+   "verdade": [
+    "https://ok.ru/videoembed/8470826"
+   ],
+   "url": "https://video414.test/v/7640026/"
+  },
+  {
+   "seed": 6476,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://media10.cdnhost63.test/v/1527222/32UuF3RH/240p.mp4",
+   "prob": 0.591,
+   "verdade": [],
+   "url": "https://tube620.test/watch/8131420?ref=home"
+  },
+  {
+   "seed": 6566,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media34.cdnhost69.test/v/6371322/DJuhsFm8tkEUxfc4Tmmz8py7mFCKMWgc/1080p.mp4",
+   "prob": 0.841,
+   "verdade": [],
+   "url": "https://portal32.test/v/4194593?ref=home"
+  },
+  {
+   "seed": 6596,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "legenda",
+    "outro_artigo",
+    "gif_mp4",
+    "storyboard",
+    "proximo_video",
+    "promo_rodape",
+    "relacionados_json",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://cdn1.cine839.test/v/3574430/SDtkZAhQWm4dx-WnCLiPijBoZxem8KeF/2160p.mp4",
+   "prob": 0.707,
+   "verdade": [
+    "https://player.vimeo.com/video/96888520"
+   ],
+   "url": "https://www.cine839.test/v/melhores-momentos/nf7y49jw-titulo-do-video"
+  },
+  {
+   "seed": 6768,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "storyboard"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media49.cdnhost52.test/v/2735988/Zxmw55AJky5NSNrS/1080p.mp4",
+   "prob": 0.828,
+   "verdade": [],
+   "url": "https://media14.test/watch/melhores-momentos"
+  },
+  {
+   "seed": 6784,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "propaganda",
+    "storyboard",
+    "fundo",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai8.test/v/1538580/USL_Vgth/1440p.mp4",
+   "prob": 0.74,
+   "verdade": [
+    "https://ok.ru/videoembed/91876934"
+   ],
+   "url": "https://m.video518.test/post/aula-01/"
+  },
+  {
+   "seed": 6814,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "previa_principal",
+    "gif_mp4",
+    "proximo_video",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://cdn7.canal616.test/v/4940801/Y7-fe8QL4kGebk59nP3uwbyFrE4xmdi9/2160p.mp4",
+   "prob": 0.711,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xNfDtwKYnRuv"
+   ],
+   "url": "https://www.canal616.test/p/melhores-momentos/"
+  },
+  {
+   "seed": 6877,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "previa_principal",
+    "gif_mp4"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media14.cdnhost12.test/v/116111/vs_JtPuq/720p.mp4",
+   "prob": 0.517,
+   "verdade": [],
+   "url": "https://m.video577.test/videos/aula-01/kvcsufff-titulo-do-video"
+  },
+  {
+   "seed": 7149,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront2.test/v/3391643/qqjJ7CgaUS-VXA_52dFcRYX88fWMwkCj/240p.mp4",
+   "prob": 0.591,
+   "verdade": [
+    "https://vod.cloudfront2.test/hls/8295278/nDfqggwToT5ExCKnnRNy3Ks2SuWudYaP/8295278.m3u8"
+   ],
+   "url": "https://m.video845.test/watch/7663640?ref=home"
+  },
+  {
+   "seed": 7181,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "outro_artigo",
+    "promo_rodape",
+    "relacionados",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "unicode_escapado"
+   ],
+   "escolhido": "https://vod.cloudfront2.test/v/7572203/cwqregcfE9mWFSdCfFgD4H5g7qY87kQs/2160p.mp4",
+   "prob": 0.884,
+   "verdade": [
+    "https://www.youtube.com/embed/x8u9YD7BRUe"
+   ],
+   "url": "https://m.vids584.test/p/3459458"
+  },
+  {
+   "seed": 7211,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "legenda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://cdn8.video201.test/v/2967920/SVhyRX4-kDfD8aPFCNGNXeqnMUc3z3Ad/720p.mp4",
+   "prob": 0.509,
+   "verdade": [],
+   "url": "https://www.video201.test/p/1384066/"
+  },
+  {
+   "seed": 7249,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "legenda",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn4.portal393.test/v/624222/wwAxQr94JzDu4NXvn9H4QUifnbBYzcQE/240p.mp4",
+   "prob": 0.209,
+   "verdade": [],
+   "url": "https://portal393.test/post/7317658/drspvdz3-titulo-do-video"
+  },
+  {
+   "seed": 7346,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "outro_artigo",
+    "trailer",
+    "proximo_video",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://media42.cdnhost62.test/v/4554789/N_QL5QwDvHv4bkADnh4vkcAE7QTeioce/2160p.mp4",
+   "prob": 0.817,
+   "verdade": [
+    "https://www.youtube.com/embed/Axo44bcvWoq"
+   ],
+   "url": "https://cine330.test/videos/6624487/vcer_z3j-titulo-do-video"
+  },
+  {
+   "seed": 7453,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "trailer",
+    "storyboard",
+    "relacionados_json",
+    "relacionados_json",
+    "fundo",
+    "propaganda",
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://www.portal838.test/v/9216534/BrTqGBCXKjn-KFJq/2160p.mp4",
+   "prob": 0.797,
+   "verdade": [
+    "https://www.portal838.test/hls/6334993/Cf_zbcaJfdtggtcx/6334993.m3u8?token=Znvo36HpsXTVt6r-iyqrP4wa&expires=1773932218&ip=10.0.218.238"
+   ],
+   "url": "https://www.portal838.test/watch/6334993/"
+  },
+  {
+   "seed": 7536,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "legenda",
+    "proximo_video",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://canal258.test/v/8574274/AwZSFJoc/1440p.mp4",
+   "prob": 0.737,
+   "verdade": [
+    "https://canal258.test/hls/7098279/2XA6nNze/index.m3u8"
+   ],
+   "url": "https://canal258.test/v/7098279/"
+  },
+  {
+   "seed": 7632,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "html_quebrado"
+   ],
+   "escolhido": "https://cdn7.clip391.test/v/8187165/CoZ6zKfNenhcSJKPsMTBY5aUxgeYXZ9L/2160p.mp4",
+   "prob": 0.77,
+   "verdade": [],
+   "url": "https://www.clip391.test/post/7423552/"
+  },
+  {
+   "seed": 7633,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "legenda",
+    "relacionados_json",
+    "fundo",
+    "proximo_video",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media7.cdnhost44.test/v/2035853/a6Y73RTEDcMwWSQa/2160p.mp4",
+   "prob": 0.802,
+   "verdade": [
+    "https://media7.cdnhost44.test/hls/1902907/uPsQ4MXnFaeBKTFZ/playlist.m3u8?token=Pv6WPGWrPogabNrXjNFxCpzT&expires=1706383384"
+   ],
+   "url": "https://clip201.test/p/titulo-do-video-de-hoje/"
+  },
+  {
+   "seed": 7640,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape",
+    "audio",
+    "gif_mp4",
+    "legenda"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai6.test/v/4790248/fEsvd68gfvcQjkR_/1080p.mp4",
+   "prob": 0.672,
+   "verdade": [
+    "https://vod.akamai6.test/hls/2796601/uC-AqKvWsjsA8nic/2796601.m3u8?token=2VZcGjUcgRTn4FnqZ9Jaawss&expires=1793887451"
+   ],
+   "url": "https://www.tube456.test/v/49885492?ref=home"
+  },
+  {
+   "seed": 7774,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.media641.test/v/34475/jSZT7rSzyhMafcDuADqXYtSxscyQ8UtW/360p.mp4",
+   "prob": 0.567,
+   "verdade": [],
+   "url": "https://m.media641.test/v/43946700/"
+  },
+  {
+   "seed": 7850,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "previa_principal",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media40.cdnhost27.test/v/7895694/mdt6HZEhmQnv9X43qFaBaHZc_WR_Jwda/1080p.mp4",
+   "prob": 0.651,
+   "verdade": [],
+   "url": "https://m.portal146.test/watch/entrevista-completa/owvmplda-titulo-do-video"
+  },
+  {
+   "seed": 7892,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "outro_artigo",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media18.cdnhost22.test/v/7731919/J8tMNx8t_eHWSk5gB3MHoMawxhmjYdjE/2160p.mp4",
+   "prob": 0.915,
+   "verdade": [],
+   "url": "https://clip614.test/post/5436351?ref=home"
+  },
+  {
+   "seed": 7894,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "proximo_video",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn3.clip397.test/v/648675/C7t6nDdE/360p.mp4",
+   "prob": 0.335,
+   "verdade": [],
+   "url": "https://clip397.test/video/2087478/"
+  },
+  {
+   "seed": 7995,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "storyboard",
+    "fundo",
+    "gif_mp4",
+    "trailer",
+    "relacionados",
+    "propaganda",
+    "legenda"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn1.tube441.test/v/6823827/zMupLgb8SmfMzFP5mJQZ7CGoN_ztqDDF/1440p.mp4",
+   "prob": 0.641,
+   "verdade": [
+    "https://www.youtube.com/embed/iNwuhPjVwUC"
+   ],
+   "url": "https://www.tube441.test/post/entrevista-completa/qci7pmm--titulo-do-video"
+  },
+  {
+   "seed": 8005,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://media24.cdnhost88.test/v/885777/LYJVqihsqajWpTEBLEZvxS3HNBtwGmAH/1440p.mp4",
+   "prob": 0.781,
+   "verdade": [
+    "https://streamable.com/e/gUxUpS7vXAz"
+   ],
+   "url": "https://www.canal561.test/v/aula-01/hijiw9dy-titulo-do-video"
+  },
+  {
+   "seed": 8049,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media30.cdnhost10.test/v/7934105/JhwyrJZK/1440p.mp4",
+   "prob": 0.707,
+   "verdade": [],
+   "url": "https://m.cine638.test/video/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 8351,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.media870.test/v/1737172/Kj_qidofEu8xrvAx/1440p.mp4",
+   "prob": 0.543,
+   "verdade": [],
+   "url": "https://m.media870.test/v/titulo-do-video-de-hoje?ref=home"
+  },
+  {
+   "seed": 8363,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "proximo_video",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada",
+    "html_quebrado"
+   ],
+   "escolhido": "https://media28.cdnhost26.test/v/4197733/tzk-_3VQ6X85J-ge/1440p.mp4",
+   "prob": 0.776,
+   "verdade": [
+    "https://www.youtube.com/embed/ba6vYqEj6UX"
+   ],
+   "url": "https://portal816.test/v/869313?ref=home"
+  },
+  {
+   "seed": 8489,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "trailer"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "relativo"
+   ],
+   "escolhido": "https://vids442.test/v/6379424/fsMAwQAL/1080p.mp4",
+   "prob": 0.617,
+   "verdade": [
+    "https://vids442.test/hls/3592793/86dZEopQ/3592793.m3u8"
+   ],
+   "url": "https://vids442.test/post/29477074/qphac_gp-titulo-do-video"
+  },
+  {
+   "seed": 8492,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.edge7.test/v/7655281/ieRkJAPS/720p.mp4",
+   "prob": 0.617,
+   "verdade": [],
+   "url": "https://clip825.test/videos/titulo-do-video-de-hoje/jyxfwmvp-titulo-do-video"
+  },
+  {
+   "seed": 8537,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn4.tube774.test/v/954540/f4dSXR7opumysNRA/1440p.mp4",
+   "prob": 0.666,
+   "verdade": [],
+   "url": "https://www.tube774.test/post/47800626/"
+  },
+  {
+   "seed": 8551,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "proximo_video",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://www.vids570.test/v/2202318/uabkbhGU/1440p.mp4",
+   "prob": 0.621,
+   "verdade": [],
+   "url": "https://www.vids570.test/p/3624669?ref=home"
+  },
+  {
+   "seed": 8846,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "relacionados_json",
+    "propaganda"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media35.cdnhost57.test/v/5680886/xYujABbq/2160p.mp4",
+   "prob": 0.915,
+   "verdade": [],
+   "url": "https://media117.test/watch/1238149"
+  },
+  {
+   "seed": 8929,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "outro_artigo",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn5.cine243.test/v/7033304/b44rHyDNsPt8GbeHSgubxKgUmjjiGrEW/240p.mp4",
+   "prob": 0.295,
+   "verdade": [],
+   "url": "https://m.cine243.test/post/66626156/rqxf2eqa-titulo-do-video"
+  },
+  {
+   "seed": 8970,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape",
+    "storyboard",
+    "propaganda"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai5.test/v/6835604/Pv3Rrkr4/1440p.mp4",
+   "prob": 0.781,
+   "verdade": [
+    "https://vod.akamai5.test/hls/273478/htgCQTZJ/master.m3u8?token=eA7xvKQqc_43PiFWAb5vDiJg&expires=1775983371"
+   ],
+   "url": "https://www.video941.test/p/88657226/"
+  },
+  {
+   "seed": 8988,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "fundo",
+    "promo_rodape"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cine786.test/v/2899612/ACkE95FS/2160p.mp4",
+   "prob": 0.838,
+   "verdade": [],
+   "url": "https://cine786.test/post/aula-01"
+  },
+  {
+   "seed": 9012,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "base_href"
+   ],
+   "escolhido": "https://media50.cdnhost33.test/v/7420495/Lduqv9kZ/1440p.mp4",
+   "prob": 0.843,
+   "verdade": [
+    "https://www.youtube.com/embed/SWocCXASkrz"
+   ],
+   "url": "https://www.canal861.test/v/1383556/cen6gctp-titulo-do-video"
+  },
+  {
+   "seed": 9029,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "propaganda",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront1.test/v/9693662/SVjRb8Pd/360p.mp4",
+   "prob": 0.402,
+   "verdade": [],
+   "url": "https://tube111.test/p/3994819/unw2h4gq-titulo-do-video"
+  },
+  {
+   "seed": 9041,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "propaganda",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media14.cdnhost91.test/v/9539477/aUZUTzjpQzLZrHgmnBFHmV8eVun-jcht/360p.mp4",
+   "prob": 0.402,
+   "verdade": [],
+   "url": "https://www.vids971.test/v/8233806/"
+  },
+  {
+   "seed": 9049,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai8.test/v/6533078/w-Ssy2NXBmiMMiQ5MNs6KS4bQoKCKE9R/1440p.mp4",
+   "prob": 0.709,
+   "verdade": [],
+   "url": "https://m.portal478.test/videos/33034504/"
+  },
+  {
+   "seed": 9054,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "legenda",
+    "outro_artigo",
+    "fundo",
+    "storyboard",
+    "propaganda",
+    "promo_rodape",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "protocolo_relativo",
+    "relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.cloudfront8.test/v/7388847/mc3F8kZj4H22BwEyV_NPiZ8b9YVpPo38/1440p.mp4",
+   "prob": 0.733,
+   "verdade": [
+    "https://vod.cloudfront8.test/hls/7835181/BgYFyzAi4q-GBMHivzVFjYfivhvQiWQq/playlist.m3u8"
+   ],
+   "url": "https://m.cine140.test/post/7835181/"
+  },
+  {
+   "seed": 9072,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn7.cine941.test/v/9741000/79itdyeu/1080p.mp4",
+   "prob": 0.799,
+   "verdade": [],
+   "url": "https://www.cine941.test/post/59101?ref=home"
+  },
+  {
+   "seed": 9195,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados_json",
+    "legenda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn3.canal693.test/v/2694779/JMGi_UA4xqXMiK6yTe3NsU5QNks8yvUn/360p.mp4",
+   "prob": 0.283,
+   "verdade": [],
+   "url": "https://m.canal693.test/v/9049269"
+  },
+  {
+   "seed": 9223,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media37.cdnhost62.test/v/1020654/aybteqDQ/240p.mp4",
+   "prob": 0.321,
+   "verdade": [],
+   "url": "https://www.canal401.test/video/2693327?ref=home"
+  },
+  {
+   "seed": 9400,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "comentario",
+    "html_quebrado",
+    "base_href"
+   ],
+   "escolhido": "https://media9.cdnhost43.test/v/5735147/FqSf3nSrL6N_ivcc/1440p.mp4",
+   "prob": 0.809,
+   "verdade": [],
+   "url": "https://canal895.test/post/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 9449,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media44.cdnhost30.test/v/7390239/FAktaZKXCwRTodRPn8JBKRr5f-JU8JFr/1080p.mp4",
+   "prob": 0.672,
+   "verdade": [
+    "https://rumble.com/embed/va3_teyWjLjQ/"
+   ],
+   "url": "https://m.portal48.test/post/7750938/bcbcapcy-titulo-do-video"
+  },
+  {
+   "seed": 9483,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://www.portal321.test/v/4251504/EpAieNoq/480p.mp4",
+   "prob": 0.523,
+   "verdade": [],
+   "url": "https://www.portal321.test/videos/63678683?ref=home"
+  },
+  {
+   "seed": 9512,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "storyboard",
+    "relacionados",
+    "storyboard",
+    "fundo"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://cdn8.portal627.test/v/283580/kZDPPvaajTSUCYHL/2160p.mp4",
+   "prob": 0.783,
+   "verdade": [
+    "https://player.vimeo.com/video/8111612"
+   ],
+   "url": "https://m.portal627.test/v/6670487?ref=home"
+  },
+  {
+   "seed": 9808,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media49.cdnhost7.test/v/2033534/JZ2XZ8Tx/720p.mp4",
+   "prob": 0.752,
+   "verdade": [],
+   "url": "https://m.clip452.test/post/2558609/hgkna-bu-titulo-do-video"
+  },
+  {
+   "seed": 9870,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media14.cdnhost74.test/v/111505/LiAi74Bw/480p.mp4",
+   "prob": 0.657,
+   "verdade": [
+    "https://media14.cdnhost74.test/hls/3945213/x6Ch3NNf/playlist.m3u8"
+   ],
+   "url": "https://m.video455.test/p/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 9947,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "relacionados",
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "unicode_escapado"
+   ],
+   "escolhido": "https://tube836.test/v/5603238/5TviDSK38c3q8Kfq7rNe7dzGiLtze5SQ/2160p.mp4",
+   "prob": 0.596,
+   "verdade": [
+    "https://tube836.test/hls/9923249/cY3Thh6wbsQpxLDZd4sGH9a6WUmmqh87/master.m3u8"
+   ],
+   "url": "https://tube836.test/watch/73210821?ref=home"
+  },
+  {
+   "seed": 10150,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "storyboard"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://www.media779.test/v/469321/o_gzuWkBLJeKM5n36mcs3EH6cFQiQC7S/240p.mp4",
+   "prob": 0.521,
+   "verdade": [],
+   "url": "https://www.media779.test/post/99973407"
+  },
+  {
+   "seed": 10291,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "relacionados",
+    "fundo",
+    "trailer",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media5.cdnhost58.test/v/5759986/vY8FGJX2fsLSqQY3/1440p.mp4",
+   "prob": 0.698,
+   "verdade": [
+    "https://ok.ru/videoembed/72596620"
+   ],
+   "url": "https://tube130.test/video/1212991?ref=home"
+  },
+  {
+   "seed": 10553,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "legenda",
+    "fundo",
+    "outro_artigo",
+    "promo_rodape",
+    "previa_principal",
+    "proximo_video",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://media3.cdnhost4.test/v/4666996/KjGWF-kF/1440p.mp4",
+   "prob": 0.725,
+   "verdade": [
+    "https://ok.ru/videoembed/1806816"
+   ],
+   "url": "https://video864.test/video/2742377?ref=home"
+  },
+  {
+   "seed": 10555,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "proximo_video",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://www.portal654.test/v/4840143/pG2-YZxh/480p.mp4",
+   "prob": 0.298,
+   "verdade": [],
+   "url": "https://www.portal654.test/v/5830433/w2dergwm-titulo-do-video"
+  },
+  {
+   "seed": 10771,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "legenda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media28.cdnhost32.test/v/2138060/AppbwqKCDWXcyVBR/1080p.mp4",
+   "prob": 0.806,
+   "verdade": [],
+   "url": "https://m.cine534.test/v/melhores-momentos/"
+  },
+  {
+   "seed": 10778,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "previa_principal",
+    "trailer",
+    "legenda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "unicode_escapado",
+    "base_href"
+   ],
+   "escolhido": "https://vod.cloudfront1.test/v/1526964/XqynCvTQp--7a5qC/1080p.mp4",
+   "prob": 0.651,
+   "verdade": [
+    "https://vod.cloudfront1.test/hls/6480034/8FrZKA9AvHSR6mrG/6480034.m3u8"
+   ],
+   "url": "https://canal34.test/video/titulo-do-video-de-hoje"
+  },
+  {
+   "seed": 10797,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.edge9.test/v/9307747/kLBGrKRa/360p.mp4",
+   "prob": 0.342,
+   "verdade": [],
+   "url": "https://www.video787.test/watch/aula-01"
+  },
+  {
+   "seed": 10940,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media42.cdnhost80.test/v/2333316/puy4fpmf/720p.mp4",
+   "prob": 0.604,
+   "verdade": [],
+   "url": "https://www.vids34.test/video/4124827/"
+  },
+  {
+   "seed": 11131,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge3.test/v/217847/Azi47ruy/2160p.mp4",
+   "prob": 0.832,
+   "verdade": [
+    "https://streamable.com/e/mw3gQvo5kC6"
+   ],
+   "url": "https://media836.test/v/63361391"
+  },
+  {
+   "seed": 11311,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "proximo_video",
+    "fundo"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://m.portal5.test/v/1662813/QLVR2-vUAVbmUs5-/1080p.mp4",
+   "prob": 0.279,
+   "verdade": [],
+   "url": "https://m.portal5.test/v/8656502/"
+  },
+  {
+   "seed": 11727,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "previa_principal",
+    "previa_principal",
+    "storyboard",
+    "trailer",
+    "proximo_video",
+    "audio",
+    "previa_principal",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media36.cdnhost36.test/v/6163368/9vHF99TN/1440p.mp4",
+   "prob": 0.725,
+   "verdade": [
+    "https://player.vimeo.com/video/79619937"
+   ],
+   "url": "https://www.vids82.test/video/9764729/"
+  },
+  {
+   "seed": 11755,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "proximo_video",
+    "legenda"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://vod.akamai9.test/v/8165331/5ia9UD_LuovspoCG/240p.mp4",
+   "prob": 0.434,
+   "verdade": [],
+   "url": "https://m.media220.test/watch/entrevista-completa"
+  },
+  {
+   "seed": 11782,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados",
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://tube630.test/v/2189604/LhuJsYNd/720p.mp4",
+   "prob": 0.312,
+   "verdade": [],
+   "url": "https://tube630.test/video/titulo-do-video-de-hoje/"
+  },
+  {
+   "seed": 11827,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://www.tube416.test/v/1648990/T7JSsWrTG4fnWA5qUoKKu5gNGDE4hbmj/1080p.mp4",
+   "prob": 0.509,
+   "verdade": [],
+   "url": "https://www.tube416.test/p/2840415/mu4zxmvw-titulo-do-video"
+  },
+  {
+   "seed": 11873,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "legenda",
+    "fundo",
+    "legenda",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai9.test/v/4879571/n8AbtdDm339zT8WM2KqGN6tb9uyeLg5T/2160p.mp4",
+   "prob": 0.905,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xS-mHQr_X2Gn"
+   ],
+   "url": "https://www.tube918.test/post/8009176/"
+  },
+  {
+   "seed": 11916,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "propaganda",
+    "storyboard"
+   ],
+   "peculiar": [],
+   "escolhido": "https://www.video904.test/v/9729780/k2bzvz7DAMGe7JrG/720p.mp4",
+   "prob": 0.488,
+   "verdade": [],
+   "url": "https://www.video904.test/video/6450610?ref=home"
+  },
+  {
+   "seed": 12011,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn4.vids444.test/v/7726826/47THW68eWrZqaNvJBuH4Td-nDfuXQDZN/240p.mp4",
+   "prob": 0.387,
+   "verdade": [],
+   "url": "https://m.vids444.test/post/7176623?ref=home"
+  },
+  {
+   "seed": 12048,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "proximo_video",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai3.test/v/2674991/MYXUjyoNGYjCDTHbsp3BP_FkmtfbbWPW/480p.mp4",
+   "prob": 0.406,
+   "verdade": [],
+   "url": "https://m.media120.test/v/3850797/9u7w9y_x-titulo-do-video"
+  },
+  {
+   "seed": 12113,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "relacionados"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn5.media932.test/v/5661612/m3hjsJ8i/2160p.mp4",
+   "prob": 0.841,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xJc_DsD7op-B"
+   ],
+   "url": "https://media932.test/post/6878627"
+  },
+  {
+   "seed": 12429,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://media25.cdnhost21.test/v/1327104/Pb8R7k7r/1440p.mp4",
+   "prob": 0.843,
+   "verdade": [],
+   "url": "https://www.portal187.test/videos/9057742"
+  },
+  {
+   "seed": 12462,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://media28.cdnhost38.test/v/4669295/tcGtdqsW/1440p.mp4",
+   "prob": 0.67,
+   "verdade": [],
+   "url": "https://media917.test/video/3646910"
+  },
+  {
+   "seed": 12609,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn6.vids934.test/v/1329981/HwHFULDWDDy_UpbfSvh8WGfyLZNDEJPe/2160p.mp4",
+   "prob": 0.95,
+   "verdade": [
+    "https://cdn6.vids934.test/hls/4122453/PncEZb4kigcDXXdwUBvKgsH5GntQu7ko/4122453.m3u8?token=-8nNJ_dpJ-KdA8vmmDMTurbG&expires=1732369046&ip=10.0.93.122"
+   ],
+   "url": "https://www.vids934.test/video/entrevista-completa"
+  },
+  {
+   "seed": 12653,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "previa_principal",
+    "proximo_video",
+    "storyboard",
+    "propaganda",
+    "fundo",
+    "trailer"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "relativo"
+   ],
+   "escolhido": "https://cdn4.cine848.test/v/9522251/thmTnjRj/2160p.mp4",
+   "prob": 0.867,
+   "verdade": [
+    "https://cdn4.cine848.test/hls/3999559/pJfr-kuB/master.m3u8"
+   ],
+   "url": "https://cine848.test/v/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 12660,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "trailer",
+    "propaganda",
+    "relacionados_json",
+    "storyboard"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.cine970.test/v/5273661/VbEgurnU_BBxAGrK/2160p.mp4",
+   "prob": 0.814,
+   "verdade": [
+    "https://m.cine970.test/hls/8471950/TGYBr4uxKet_Reif/index.m3u8?token=GXeCDvQsaFfHs5pKPoQsL9Gd&expires=1715391641"
+   ],
+   "url": "https://m.cine970.test/post/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 12672,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "proximo_video",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.cine721.test/v/1130691/XNvoWJtr/2160p.mp4",
+   "prob": 0.797,
+   "verdade": [
+    "https://www.youtube.com/embed/p6ifLqwWmXB"
+   ],
+   "url": "https://m.cine721.test/watch/9882961?ref=home"
+  },
+  {
+   "seed": 12782,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media50.test/v/9567680/R6KCw_HGdKDuWS3i/2160p.mp4",
+   "prob": 0.836,
+   "verdade": [],
+   "url": "https://media50.test/video/8808444"
+  },
+  {
+   "seed": 12959,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://video619.test/v/3713518/GwEPUr8r6ZpnSQSa4kaq--_3Z7fB8U39/2160p.mp4",
+   "prob": 0.89,
+   "verdade": [
+    "https://www.youtube.com/embed/yCfeUtaf2iH"
+   ],
+   "url": "https://video619.test/p/7554748/3pfybf2t-titulo-do-video"
+  },
+  {
+   "seed": 12981,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "legenda",
+    "relacionados_json",
+    "fundo",
+    "fundo",
+    "promo_rodape"
+   ],
+   "peculiar": [],
+   "escolhido": "https://www.video129.test/v/4171800/6jAAKgGm/1440p.mp4",
+   "prob": 0.572,
+   "verdade": [
+    "https://ok.ru/videoembed/95539558"
+   ],
+   "url": "https://www.video129.test/p/melhores-momentos/h4jj7oyx-titulo-do-video"
+  },
+  {
+   "seed": 12989,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "relacionados_json",
+    "legenda"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://www.canal675.test/v/3752670/DVsMKZ6Lh8a5SV8uGnVvvJidBuAtwTaw/720p.mp4",
+   "prob": 0.334,
+   "verdade": [],
+   "url": "https://www.canal675.test/watch/4390846/"
+  },
+  {
+   "seed": 13126,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "legenda",
+    "audio",
+    "storyboard",
+    "propaganda",
+    "legenda",
+    "legenda",
+    "promo_rodape"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn9.clip857.test/v/8899876/CeWbFzps/2160p.mp4",
+   "prob": 0.881,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xK9KJAKJ3UxS"
+   ],
+   "url": "https://clip857.test/v/entrevista-completa"
+  },
+  {
+   "seed": 13262,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "relacionados"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media277.test/v/1195430/psj3UEX2QPrtHkqkujRTpfHUi3_gqcQW/1080p.mp4",
+   "prob": 0.573,
+   "verdade": [
+    "https://media277.test/hls/1979649/QPo8LQ6wzFF8T4ijW6dK4GXEuCm8qNgh/index.m3u8?token=UaFtnWw_E6izaV7rj3rgjaj5&expires=1786442728"
+   ],
+   "url": "https://media277.test/video/aula-01/skd7hvvs-titulo-do-video"
+  },
+  {
+   "seed": 13352,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media35.cdnhost93.test/v/6121855/sLq3-CPJyp5vEmCpaSSPBVmkBnTf2Kyb/1440p.mp4",
+   "prob": 0.588,
+   "verdade": [],
+   "url": "https://media797.test/videos/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 13401,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "audio",
+    "storyboard",
+    "outro_artigo",
+    "outro_artigo",
+    "fundo",
+    "fundo",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "relativo"
+   ],
+   "escolhido": "https://m.vids682.test/v/9814494/HksjgYYY/2160p.mp4",
+   "prob": 0.708,
+   "verdade": [
+    "https://m.vids682.test/hls/65480/2x4wDMZD/index.m3u8"
+   ],
+   "url": "https://m.vids682.test/p/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 13597,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://cdn4.media116.test/v/3661979/jBXyrB4h/240p.mp4",
+   "prob": 0.521,
+   "verdade": [],
+   "url": "https://www.media116.test/watch/467703?ref=home"
+  },
+  {
+   "seed": 13822,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "trailer",
+    "fundo",
+    "proximo_video",
+    "propaganda",
+    "gif_mp4",
+    "promo_rodape",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "barra_escapada",
+    "relativo"
+   ],
+   "escolhido": "https://www.portal975.test/v/3187547/pbBPFD_GDKdCsyCc/2160p.mp4",
+   "prob": 0.821,
+   "verdade": [
+    "https://www.portal975.test/hls/6895033/g7Phm7ArsgDRATxw/6895033.m3u8"
+   ],
+   "url": "https://www.portal975.test/post/6895033?ref=home"
+  },
+  {
+   "seed": 13844,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://www.portal349.test/v/4674059/tbWUP-NuiQ6f4edm/480p.mp4",
+   "prob": 0.523,
+   "verdade": [],
+   "url": "https://www.portal349.test/v/82680850/womgfptt-titulo-do-video"
+  },
+  {
+   "seed": 13867,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "trailer",
+    "outro_artigo",
+    "promo_rodape",
+    "relacionados_json",
+    "storyboard",
+    "legenda",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn2.tube34.test/v/1903869/apXWbXobJsSnGSCi/2160p.mp4",
+   "prob": 0.785,
+   "verdade": [
+    "https://cdn2.tube34.test/hls/8405735/MUfCGETzMAkBJVvR/index.m3u8"
+   ],
+   "url": "https://m.tube34.test/videos/24018707?ref=home"
+  },
+  {
+   "seed": 14222,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json",
+    "trailer",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge3.test/v/8466799/WmCHBE3WpEbJxnpk/2160p.mp4",
+   "prob": 0.751,
+   "verdade": [
+    "https://ok.ru/videoembed/89036469"
+   ],
+   "url": "https://cine995.test/p/1937275/oqkkmgjf-titulo-do-video"
+  },
+  {
+   "seed": 14290,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "storyboard",
+    "propaganda",
+    "relacionados",
+    "proximo_video",
+    "relacionados"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media25.cdnhost84.test/v/7388836/JYUZVcTGgGh7Aud-/2160p.mp4",
+   "prob": 0.88,
+   "verdade": [
+    "https://media25.cdnhost84.test/hls/1885289/ByegRpUdDSCG6Mms/index.m3u8"
+   ],
+   "url": "https://vids561.test/post/1885289/mdapkwtc-titulo-do-video"
+  },
+  {
+   "seed": 14359,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "previa_principal",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "relativo"
+   ],
+   "escolhido": "https://m.tube923.test/v/6103288/EdYHjLnrDosNaTyG/240p.mp4",
+   "prob": 0.16,
+   "verdade": [],
+   "url": "https://m.tube923.test/post/74770334"
+  },
+  {
+   "seed": 14366,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.cloudfront7.test/v/2540538/ZgsYmZkT3D6fH4ie_3rsKQ-sNMrcWcCT/2160p.mp4",
+   "prob": 0.817,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/x4ZSA43_uEWu"
+   ],
+   "url": "https://www.tube781.test/video/6161061"
+  },
+  {
+   "seed": 14397,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront6.test/v/5202736/R36Q2zTF/1440p.mp4",
+   "prob": 0.758,
+   "verdade": [],
+   "url": "https://m.tube883.test/videos/6383724?ref=home"
+  },
+  {
+   "seed": 14408,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://media17.cdnhost64.test/v/1183166/S-3tiWy2orvJVDbcRdeFkkYU5N8HvNFC/2160p.mp4",
+   "prob": 0.712,
+   "verdade": [],
+   "url": "https://m.vids305.test/v/titulo-do-video-de-hoje?ref=home"
+  },
+  {
+   "seed": 14416,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "proximo_video",
+    "outro_artigo",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media25.cdnhost60.test/v/7423593/iNxD9KeB/720p.mp4",
+   "prob": 0.487,
+   "verdade": [
+    "https://www.youtube.com/embed/Z9BiRrrgvX4"
+   ],
+   "url": "https://www.clip880.test/video/6418018?ref=home"
+  },
+  {
+   "seed": 14489,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media50.cdnhost57.test/v/6771784/h7AhbDP_X5dNRtRZ/2160p.mp4",
+   "prob": 0.942,
+   "verdade": [],
+   "url": "https://m.cine912.test/p/3777687?ref=home"
+  },
+  {
+   "seed": 14494,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "propaganda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "html_quebrado",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://vod.cloudfront6.test/v/1733890/yXzxFpc7/1440p.mp4",
+   "prob": 0.843,
+   "verdade": [
+    "https://vod.cloudfront6.test/hls/4140933/fGE3D_a9/playlist.m3u8"
+   ],
+   "url": "https://vids33.test/v/4140933/kztdt5fc-titulo-do-video"
+  },
+  {
+   "seed": 14530,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "audio",
+    "previa_principal"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media46.cdnhost68.test/v/2695327/h5g2x5gD/360p.mp4",
+   "prob": 0.371,
+   "verdade": [],
+   "url": "https://m.vids892.test/v/6354331/ffwiwtco-titulo-do-video"
+  },
+  {
+   "seed": 14684,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "trailer",
+    "relacionados",
+    "proximo_video",
+    "gif_mp4",
+    "legenda",
+    "storyboard",
+    "outro_artigo",
+    "propaganda"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media5.cdnhost6.test/v/9033741/LtZxqToZmcfScxQ7uBX5YQaM5x4Qzg2M/1440p.mp4",
+   "prob": 0.725,
+   "verdade": [
+    "https://media5.cdnhost6.test/hls/1711266/GknH9jNimRYnJByLXz_6eJUKD4zecKrg/1711266.m3u8?token=vza68P5wf3u-JaXKfLVWGiCH&expires=1794633226"
+   ],
+   "url": "https://canal163.test/post/1711266?ref=home"
+  },
+  {
+   "seed": 14853,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "promo_rodape",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.edge9.test/v/1748413/3beggwvS99Q2VkE3CDTC-DNmjR7vn8DH/1440p.mp4",
+   "prob": 0.579,
+   "verdade": [],
+   "url": "https://m.media508.test/videos/8620599?ref=home"
+  },
+  {
+   "seed": 14974,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "previa_principal",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://vod.cloudfront4.test/v/2379752/gZEUsJMcz4U7MbaXWRZP_GjpvXPBcU8S/1440p.mp4",
+   "prob": 0.809,
+   "verdade": [
+    "https://vod.cloudfront4.test/hls/666273/McksWFp9abF_jUMHwgzyNYYtoHMCrPWe/666273.m3u8?token=u2_WB3NDeprXhneVGVxjLSn9&expires=1761685990"
+   ],
+   "url": "https://m.cine862.test/post/melhores-momentos"
+  },
+  {
+   "seed": 14996,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "propaganda",
+    "relacionados_json",
+    "legenda",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "protocolo_relativo",
+    "comentario",
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.cloudfront1.test/v/1324975/ogkjjj5-UYajx_8JfD5Dnw6cdsMoVttY/2160p.mp4",
+   "prob": 0.807,
+   "verdade": [
+    "https://rumble.com/embed/vBGxxg3grbpN/"
+   ],
+   "url": "https://tube512.test/p/7361806"
+  },
+  {
+   "seed": 15168,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://cdn7.media231.test/v/831514/JA9g2ch4/1440p.mp4",
+   "prob": 0.673,
+   "verdade": [],
+   "url": "https://www.media231.test/video/511876/"
+  },
+  {
+   "seed": 15202,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "proximo_video",
+    "promo_rodape",
+    "propaganda",
+    "proximo_video",
+    "legenda"
+   ],
+   "peculiar": [
+    "relativo",
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.edge7.test/v/3915153/FC5mXk-uz4jmD53R/2160p.mp4",
+   "prob": 0.84,
+   "verdade": [
+    "https://streamable.com/e/c_QrZ8yb3aX"
+   ],
+   "url": "https://m.media690.test/v/1480746"
+  },
+  {
+   "seed": 15219,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "base_href"
+   ],
+   "escolhido": "https://www.portal121.test/v/6979235/cTRCQHTZ/360p.mp4",
+   "prob": 0.347,
+   "verdade": [],
+   "url": "https://www.portal121.test/post/17636146"
+  },
+  {
+   "seed": 15220,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn8.canal405.test/v/5773833/mJ84PwE26BzcM5Ha/1440p.mp4",
+   "prob": 0.598,
+   "verdade": [],
+   "url": "https://canal405.test/videos/92645146?ref=home"
+  },
+  {
+   "seed": 15443,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://www.portal511.test/v/5774831/WuTS8HLn/1440p.mp4",
+   "prob": 0.689,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xgEZE5PYKSbB"
+   ],
+   "url": "https://www.portal511.test/p/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 15455,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "storyboard",
+    "storyboard",
+    "outro_artigo",
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media15.cdnhost10.test/v/1822738/F3ZVowSv/2160p.mp4",
+   "prob": 0.898,
+   "verdade": [
+    "https://www.youtube.com/embed/Tb-RbXDerzf"
+   ],
+   "url": "https://m.tube687.test/videos/12107587/968gza2h-titulo-do-video"
+  },
+  {
+   "seed": 15464,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cine603.test/v/469507/MynH8Gp-M8Fqhmwd/1080p.mp4",
+   "prob": 0.716,
+   "verdade": [
+    "https://cine603.test/hls/6384602/FhSAuuRNYsXFmJdM/6384602.m3u8"
+   ],
+   "url": "https://cine603.test/watch/melhores-momentos"
+  },
+  {
+   "seed": 15495,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "proximo_video",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media49.cdnhost47.test/v/2734993/kYiLsXU3DsF9rsdSadtGf2GeofLiN8hh/2160p.mp4",
+   "prob": 0.858,
+   "verdade": [],
+   "url": "https://www.tube713.test/v/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 15536,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "relativo",
+    "comentario"
+   ],
+   "escolhido": "https://m.canal687.test/v/5764755/CKj-zqrHqJqeZmEQ/1080p.mp4",
+   "prob": 0.34,
+   "verdade": [],
+   "url": "https://m.canal687.test/watch/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 15776,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "relacionados_json",
+    "relacionados"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://www.clip122.test/v/5494566/HL6V_dpa/2160p.mp4",
+   "prob": 0.8,
+   "verdade": [],
+   "url": "https://www.clip122.test/video/8637225?ref=home"
+  },
+  {
+   "seed": 15824,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "propaganda",
+    "proximo_video",
+    "proximo_video",
+    "audio"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media22.cdnhost19.test/v/9784761/E6HVtiGzcTYpt_RxbVS4BZSzYBswdxBM/1440p.mp4",
+   "prob": 0.7,
+   "verdade": [
+    "https://ok.ru/videoembed/97277211"
+   ],
+   "url": "https://canal713.test/post/847732/i6qlvswv-titulo-do-video"
+  },
+  {
+   "seed": 16066,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://media29.cdnhost40.test/v/4418605/tDZ7bxiK/1080p.mp4",
+   "prob": 0.748,
+   "verdade": [],
+   "url": "https://m.media789.test/videos/5114728?ref=home"
+  },
+  {
+   "seed": 16082,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "relacionados_json",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://canal816.test/v/6123971/2_qUE5WMKCEYTcn2/720p.mp4",
+   "prob": 0.308,
+   "verdade": [],
+   "url": "https://canal816.test/videos/aula-01/b9jrknb6-titulo-do-video"
+  },
+  {
+   "seed": 16236,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "promo_rodape",
+    "relacionados_json",
+    "trailer",
+    "previa_principal",
+    "fundo",
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai7.test/v/9166687/RLzfWvnHQLzF_NwpTpfKTYigtBRZvuhG/1440p.mp4",
+   "prob": 0.702,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xEQWSGZR9ZQ4"
+   ],
+   "url": "https://m.cine788.test/post/2001143/"
+  },
+  {
+   "seed": 16405,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://portal550.test/v/1813719/733TEqcs/240p.mp4",
+   "prob": 0.276,
+   "verdade": [],
+   "url": "https://portal550.test/videos/3289424/kyhh_h3g-titulo-do-video"
+  },
+  {
+   "seed": 16544,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "storyboard",
+    "proximo_video",
+    "audio",
+    "audio",
+    "proximo_video",
+    "proximo_video",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada",
+    "unicode_escapado",
+    "unicode_escapado",
+    "relativo"
+   ],
+   "escolhido": "https://www.vids261.test/v/2816625/Q9MgFzMXUeSChWixo6HYSMVYwyXo6t-r/2160p.mp4",
+   "prob": 0.74,
+   "verdade": [
+    "https://www.vids261.test/hls/9787488/rxuxT28L9xzQeukLQVeciFCzYe2pSuL5/playlist.m3u8"
+   ],
+   "url": "https://www.vids261.test/videos/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 16629,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "outro_artigo",
+    "promo_rodape",
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai5.test/v/1171559/kCaHw6zb/2160p.mp4",
+   "prob": 0.889,
+   "verdade": [
+    "https://vod.akamai5.test/hls/356713/ZQqoV8Nb/index.m3u8"
+   ],
+   "url": "https://m.canal979.test/post/entrevista-completa"
+  },
+  {
+   "seed": 16656,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront3.test/v/4389920/6qfdfceh/1080p.mp4",
+   "prob": 0.82,
+   "verdade": [],
+   "url": "https://m.cine133.test/watch/47341957"
+  },
+  {
+   "seed": 16708,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados",
+    "fundo",
+    "audio",
+    "proximo_video",
+    "propaganda",
+    "trailer"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "unicode_escapado",
+    "barra_escapada",
+    "base_href"
+   ],
+   "escolhido": "https://vod.cloudfront6.test/v/7487643/meSMrC3_/2160p.mp4",
+   "prob": 0.867,
+   "verdade": [
+    "https://streamable.com/e/yReztHjQnzS"
+   ],
+   "url": "https://m.video25.test/watch/melhores-momentos/"
+  },
+  {
+   "seed": 16750,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "relacionados",
+    "proximo_video",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "unicode_escapado"
+   ],
+   "escolhido": "https://vod.akamai4.test/v/8075184/CjecBBmY/2160p.mp4",
+   "prob": 0.882,
+   "verdade": [
+    "https://rumble.com/embed/vqg2E6P6QMT6/"
+   ],
+   "url": "https://canal159.test/post/1516351?ref=home"
+  },
+  {
+   "seed": 16806,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media20.cdnhost2.test/v/9128253/S5xNzG49Kp3uBtShrSmB3493vmp_kfmU/2160p.mp4",
+   "prob": 0.805,
+   "verdade": [],
+   "url": "https://cine656.test/post/4554833?ref=home"
+  },
+  {
+   "seed": 16811,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.edge3.test/v/2124746/qCV6g7NGoizofsrD/720p.mp4",
+   "prob": 0.752,
+   "verdade": [],
+   "url": "https://video26.test/v/2043066"
+  },
+  {
+   "seed": 16880,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "audio",
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.cloudfront6.test/v/5328641/RzDMsGZm/1440p.mp4",
+   "prob": 0.902,
+   "verdade": [],
+   "url": "https://www.tube785.test/video/9640727/xxezn7us-titulo-do-video"
+  },
+  {
+   "seed": 17052,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados",
+    "propaganda",
+    "relacionados_json",
+    "promo_rodape",
+    "gif_mp4",
+    "propaganda",
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.vids468.test/v/2264372/6FbBpdQ8jgNhAWLbZKagXmvJTYX2Uss7/2160p.mp4",
+   "prob": 0.676,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xT6Qoks4pdEk"
+   ],
+   "url": "https://m.vids468.test/video/9729656"
+  },
+  {
+   "seed": 17114,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai1.test/v/1452001/nkFLv6pSucgExPhw/360p.mp4",
+   "prob": 0.291,
+   "verdade": [],
+   "url": "https://m.media619.test/videos/7312100/"
+  },
+  {
+   "seed": 17147,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados",
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn4.media406.test/v/543126/nRpuUQ5C4rouBpZ6vLhdmMV6nW3fMEur/360p.mp4",
+   "prob": 0.259,
+   "verdade": [],
+   "url": "https://m.media406.test/post/2847271/r3gzdx4p-titulo-do-video"
+  },
+  {
+   "seed": 17217,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "propaganda"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://media40.cdnhost41.test/v/3385325/mdinmbb8yh36qe5Y/1440p.mp4",
+   "prob": 0.655,
+   "verdade": [],
+   "url": "https://media721.test/videos/5861454/ypmdiabv-titulo-do-video"
+  },
+  {
+   "seed": 17302,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://m.media702.test/v/956649/FaAFescP/1080p.mp4",
+   "prob": 0.565,
+   "verdade": [
+    "https://m.media702.test/hls/3159963/bEX3J8Jg/3159963.m3u8"
+   ],
+   "url": "https://m.media702.test/post/3159963/"
+  },
+  {
+   "seed": 17355,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://video422.test/v/7624274/H5B-iadW/720p.mp4",
+   "prob": 0.695,
+   "verdade": [
+    "https://video422.test/hls/6539612/XZMQjmiB/master.m3u8?token=7NbLk-L9b2rf9-DqPmGX8fWb&expires=1754969028&ip=10.0.108.42"
+   ],
+   "url": "https://video422.test/post/titulo-do-video-de-hoje/kapby8qj-titulo-do-video"
+  },
+  {
+   "seed": 17394,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "propaganda",
+    "proximo_video",
+    "fundo",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge4.test/v/926086/bYjAnueh/1080p.mp4",
+   "prob": 0.672,
+   "verdade": [
+    "https://vod.edge4.test/hls/7196740/3-zmRx_7/7196740.m3u8"
+   ],
+   "url": "https://m.media604.test/post/70497706?ref=home"
+  },
+  {
+   "seed": 17464,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "legenda",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge6.test/v/6083772/K3F9Skj9pzrxHgwS/2160p.mp4",
+   "prob": 0.823,
+   "verdade": [],
+   "url": "https://www.tube411.test/videos/20444431"
+  },
+  {
+   "seed": 17565,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "legenda",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media34.cdnhost22.test/v/6221878/HbvDrNsx/480p.mp4",
+   "prob": 0.406,
+   "verdade": [],
+   "url": "https://video356.test/video/31400393/be7nmb6a-titulo-do-video"
+  },
+  {
+   "seed": 17593,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront9.test/v/8529919/XxthdL68UqdWzxXN7t56drmCkh75goBM/2160p.mp4",
+   "prob": 0.905,
+   "verdade": [
+    "https://player.vimeo.com/video/74531941"
+   ],
+   "url": "https://www.media812.test/watch/44311193/"
+  },
+  {
+   "seed": 17600,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "propaganda",
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://video935.test/v/4512698/bwWt2Amq/2160p.mp4",
+   "prob": 0.803,
+   "verdade": [
+    "https://video935.test/hls/1480231/jg6WKnGb/1480231.m3u8"
+   ],
+   "url": "https://video935.test/p/1480231"
+  },
+  {
+   "seed": 17605,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.cloudfront9.test/v/9545539/-qYW25jDnMKw9kHiZbStwjWzfYfreK-i/2160p.mp4",
+   "prob": 0.915,
+   "verdade": [],
+   "url": "https://video798.test/p/9546944/"
+  },
+  {
+   "seed": 17674,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.cloudfront5.test/v/3360355/6BuZBnd2gYMP-M-qkourWqFyGfCx7RqT/720p.mp4",
+   "prob": 0.366,
+   "verdade": [],
+   "url": "https://www.portal690.test/watch/5957484/2pmvpdhx-titulo-do-video"
+  },
+  {
+   "seed": 17677,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media36.cdnhost6.test/v/8723160/S4GJG2Pe4T9Nje8a/2160p.mp4",
+   "prob": 0.743,
+   "verdade": [],
+   "url": "https://clip266.test/watch/7109726/296sggwt-titulo-do-video"
+  },
+  {
+   "seed": 17702,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "previa_principal",
+    "proximo_video",
+    "fundo"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media12.cdnhost46.test/v/5691772/qUH7MZ4c/1080p.mp4",
+   "prob": 0.672,
+   "verdade": [
+    "https://media12.cdnhost46.test/hls/3718606/GgZVPrko/3718606.m3u8"
+   ],
+   "url": "https://tube332.test/videos/3718606/ssujwnaw-titulo-do-video"
+  },
+  {
+   "seed": 17787,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.akamai6.test/v/5357754/tsFenJ_X/1440p.mp4",
+   "prob": 0.843,
+   "verdade": [
+    "https://vod.akamai6.test/hls/3700691/WaTc_7Pm/index.m3u8?token=xjqiCUMy-ePDitp_4gkGu2Lo&expires=1769141336&ip=10.0.106.202"
+   ],
+   "url": "https://www.tube419.test/video/3700691?ref=home"
+  },
+  {
+   "seed": 17799,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "fundo",
+    "previa_principal",
+    "proximo_video",
+    "trailer"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn2.media68.test/v/5038219/ikBdwbANBhYfe4he/1440p.mp4",
+   "prob": 0.701,
+   "verdade": [
+    "https://cdn2.media68.test/hls/4932281/TS66gt5pNDvXM-nk/playlist.m3u8?token=LprdCRnB28Amq6xmTgHiMAmd&expires=1751252282"
+   ],
+   "url": "https://www.media68.test/video/4932281?ref=home"
+  },
+  {
+   "seed": 17810,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "relacionados",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "base_href"
+   ],
+   "escolhido": "https://media16.cdnhost74.test/v/63539/r7QHjRdwizQwzZZe2Fv-b9AzdKBH8aFD/720p.mp4",
+   "prob": 0.458,
+   "verdade": [],
+   "url": "https://m.canal881.test/videos/39105354/xoqwy7cn-titulo-do-video"
+  },
+  {
+   "seed": 17984,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "storyboard",
+    "outro_artigo",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn6.video800.test/v/5595550/q_Vuao2x/2160p.mp4",
+   "prob": 0.906,
+   "verdade": [
+    "https://cdn6.video800.test/hls/6095203/EBjA82EH/index.m3u8"
+   ],
+   "url": "https://www.video800.test/watch/aula-01?ref=home"
+  },
+  {
+   "seed": 18015,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados",
+    "storyboard"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media22.cdnhost21.test/v/84765/x6UVnRWP/1080p.mp4",
+   "prob": 0.602,
+   "verdade": [],
+   "url": "https://tube146.test/v/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 18303,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "previa_principal",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://media2.cdnhost10.test/v/2853558/Z37DqYGeBrNsHMFc/360p.mp4",
+   "prob": 0.402,
+   "verdade": [],
+   "url": "https://www.canal25.test/p/57939493/bjp66bmu-titulo-do-video"
+  },
+  {
+   "seed": 18452,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vids122.test/v/9353629/gSZgYBXuf8JQdH-8/1080p.mp4",
+   "prob": 0.444,
+   "verdade": [],
+   "url": "https://vids122.test/videos/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 18475,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn1.media149.test/v/442568/zXje_VGzVg7enwuK/2160p.mp4",
+   "prob": 0.924,
+   "verdade": [],
+   "url": "https://m.media149.test/v/melhores-momentos/kctsrz5--titulo-do-video"
+  },
+  {
+   "seed": 18712,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "gif_mp4",
+    "propaganda",
+    "proximo_video",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.cloudfront6.test/v/7234219/VDyEnzyK-xKRZN-bi3MjNgMsZPM6g-Gh/2160p.mp4",
+   "prob": 0.89,
+   "verdade": [
+    "https://vod.cloudfront6.test/hls/9916589/LbZB-TqwFKvt-ZjUFWFk2YKAED34X6ks/9916589.m3u8?token=denWsSDRwCyxqHVTfyFGURac&expires=1737674014&ip=10.0.27.181"
+   ],
+   "url": "https://video38.test/v/9916589"
+  },
+  {
+   "seed": 18788,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "legenda",
+    "relacionados"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront9.test/v/4665843/m3shxGhz/2160p.mp4",
+   "prob": 0.867,
+   "verdade": [],
+   "url": "https://clip253.test/v/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 19061,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://cdn4.portal621.test/v/9652946/yR-Nkx3RCvE3eTsb/360p.mp4",
+   "prob": 0.244,
+   "verdade": [],
+   "url": "https://m.portal621.test/post/titulo-do-video-de-hoje/ql6mnptz-titulo-do-video"
+  },
+  {
+   "seed": 19175,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "audio",
+    "relacionados_json",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.canal137.test/v/5499937/-56pnsN2_uY4KShR/1080p.mp4",
+   "prob": 0.224,
+   "verdade": [],
+   "url": "https://m.canal137.test/watch/1556485/kzeq6-ez-titulo-do-video"
+  },
+  {
+   "seed": 19438,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados",
+    "promo_rodape",
+    "propaganda",
+    "propaganda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai6.test/v/6237686/h2t_WPjbVFwC-xT_heioETU_tMRgfUka/1440p.mp4",
+   "prob": 0.733,
+   "verdade": [
+    "https://ok.ru/videoembed/92925772"
+   ],
+   "url": "https://vids411.test/v/8320318/"
+  },
+  {
+   "seed": 19540,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "audio",
+    "trailer",
+    "outro_artigo",
+    "storyboard"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "base_href"
+   ],
+   "escolhido": "https://cdn6.tube107.test/v/3526953/VMMdok7QuDx2nqjK/1080p.mp4",
+   "prob": 0.605,
+   "verdade": [
+    "https://cdn6.tube107.test/hls/3318709/-yfzqjx6aSrgqLPB/playlist.m3u8?token=x3-6VPB9MD--rThm5ANZGb98&expires=1723965712"
+   ],
+   "url": "https://m.tube107.test/videos/78246422"
+  },
+  {
+   "seed": 19819,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://m.media736.test/v/6720388/JhDL-Xh2LaGkb-cNCDZiyFNfriJuMAu8/720p.mp4",
+   "prob": 0.695,
+   "verdade": [
+    "https://m.media736.test/hls/4307174/4m7GWkU_HA2S2pEpZBqxmQaq9mZsJnfk/playlist.m3u8?token=ZRdEXmkUSdr3-ebJTF-LvgPH&expires=1717988789&ip=10.0.111.89"
+   ],
+   "url": "https://m.media736.test/post/4307174/u_lthsou-titulo-do-video"
+  },
+  {
+   "seed": 19842,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "audio",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cine528.test/v/9221474/MvxQw93g/2160p.mp4",
+   "prob": 0.787,
+   "verdade": [],
+   "url": "https://cine528.test/post/5777723/"
+  },
+  {
+   "seed": 19911,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "legenda",
+    "fundo",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.cine145.test/v/400528/-Q9fJDkaMCVnMp2u/360p.mp4",
+   "prob": 0.326,
+   "verdade": [],
+   "url": "https://m.cine145.test/watch/aula-01"
+  },
+  {
+   "seed": 20192,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://www.portal958.test/v/6721647/s2eoQ9q3wmZmkQAs_QfC7UomF7TGjzEh/240p.mp4",
+   "prob": 0.162,
+   "verdade": [],
+   "url": "https://www.portal958.test/video/340845"
+  },
+  {
+   "seed": 20195,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados",
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "relativo",
+    "relativo",
+    "relativo",
+    "relativo",
+    "protocolo_relativo",
+    "base_href"
+   ],
+   "escolhido": "https://vids266.test/v/7648733/96mUurPTgfN7pyeZ/2160p.mp4",
+   "prob": 0.659,
+   "verdade": [],
+   "url": "https://vids266.test/v/7702442/ncnglcyh-titulo-do-video"
+  },
+  {
+   "seed": 20359,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "audio"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai3.test/v/6706558/TKmWtRtC9UDqzWT8/720p.mp4",
+   "prob": 0.639,
+   "verdade": [],
+   "url": "https://www.canal77.test/videos/entrevista-completa/nvjsjg2q-titulo-do-video"
+  },
+  {
+   "seed": 20366,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "outro_artigo",
+    "promo_rodape",
+    "proximo_video",
+    "legenda",
+    "promo_rodape",
+    "propaganda"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "relativo"
+   ],
+   "escolhido": "https://media4.cdnhost93.test/v/5309766/63waRWF4/2160p.mp4",
+   "prob": 0.889,
+   "verdade": [
+    "https://media4.cdnhost93.test/hls/4564761/wjKdRhiV/4564761.m3u8?token=ekMcP7Ujc9ABNsBYZXdoPXKF&expires=1702298115"
+   ],
+   "url": "https://www.vids769.test/post/melhores-momentos/"
+  },
+  {
+   "seed": 20653,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "legenda",
+    "relacionados_json",
+    "gif_mp4",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://vod.cloudfront3.test/v/8771196/7W88-VYYHXJuZHgS/2160p.mp4",
+   "prob": 0.744,
+   "verdade": [
+    "https://ok.ru/videoembed/71667302"
+   ],
+   "url": "https://vids322.test/post/8392600/2kiqmdya-titulo-do-video"
+  },
+  {
+   "seed": 20854,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn7.video814.test/v/8134898/-5Uf3JyvjThNxb7b/1440p.mp4",
+   "prob": 0.631,
+   "verdade": [],
+   "url": "https://m.video814.test/videos/4784326/ssagjzxb-titulo-do-video"
+  },
+  {
+   "seed": 20871,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://m.vids539.test/v/5935061/S94GSbNV434RKCUxu6bVcfzd_TS4nvSK/2160p.mp4",
+   "prob": 0.758,
+   "verdade": [
+    "https://ok.ru/videoembed/38872773"
+   ],
+   "url": "https://m.vids539.test/watch/16086238"
+  },
+  {
+   "seed": 21052,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "fundo",
+    "proximo_video",
+    "previa_principal",
+    "propaganda",
+    "trailer"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada"
+   ],
+   "escolhido": "https://media4.cdnhost58.test/v/3820620/SrsGEVr2/1080p.mp4",
+   "prob": 0.642,
+   "verdade": [
+    "https://media4.cdnhost58.test/hls/3352730/Rb2yxREe/playlist.m3u8"
+   ],
+   "url": "https://m.tube132.test/p/3352730/"
+  },
+  {
+   "seed": 21053,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai6.test/v/2498335/9HLD3WCXhGxxh6qjCZoFqjZ3Qpm9pW6V/1440p.mp4",
+   "prob": 0.743,
+   "verdade": [],
+   "url": "https://canal406.test/watch/4762418?ref=home"
+  },
+  {
+   "seed": 21124,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "storyboard",
+    "fundo",
+    "propaganda",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "barra_escapada",
+    "comentario"
+   ],
+   "escolhido": "https://media22.cdnhost32.test/v/1380679/RWVx9uUa/2160p.mp4",
+   "prob": 0.915,
+   "verdade": [
+    "https://media22.cdnhost32.test/hls/5708081/QLSHKbyv/playlist.m3u8"
+   ],
+   "url": "https://www.video236.test/videos/5708081"
+  },
+  {
+   "seed": 21467,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "base_href"
+   ],
+   "escolhido": "https://media40.cdnhost82.test/v/9792074/Hr8Moub3/1440p.mp4",
+   "prob": 0.894,
+   "verdade": [],
+   "url": "https://vids571.test/p/aula-01/jgpbpfxb-titulo-do-video"
+  },
+  {
+   "seed": 21498,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "audio",
+    "gif_mp4",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.edge3.test/v/7799203/DfAQiW4j_3HnshvkaTpc8PUUPP_2iidi/360p.mp4",
+   "prob": 0.467,
+   "verdade": [],
+   "url": "https://video650.test/videos/5487419?ref=home"
+  },
+  {
+   "seed": 21577,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn4.video967.test/v/5725292/jjZ_tnxM/240p.mp4",
+   "prob": 0.379,
+   "verdade": [],
+   "url": "https://video967.test/v/64926133/kfzhbpnh-titulo-do-video"
+  },
+  {
+   "seed": 21803,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "outro_artigo",
+    "propaganda",
+    "relacionados",
+    "gif_mp4",
+    "fundo",
+    "storyboard",
+    "proximo_video",
+    "storyboard"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "relativo"
+   ],
+   "escolhido": "https://vod.akamai2.test/v/4664498/B7K8gC7EL6BJX9XoE_A5FdzxHSJCZb3z/1080p.mp4",
+   "prob": 0.57,
+   "verdade": [
+    "https://vod.akamai2.test/hls/57794/p7uE9eUUaxmALqu3F79rhrET48CtBjP-/master.m3u8"
+   ],
+   "url": "https://m.media680.test/video/47350865/"
+  },
+  {
+   "seed": 21879,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "html_quebrado",
+    "base_href"
+   ],
+   "escolhido": "https://vod.edge2.test/v/8222095/wfUpckT3/1440p.mp4",
+   "prob": 0.888,
+   "verdade": [],
+   "url": "https://portal554.test/p/5795499/"
+  },
+  {
+   "seed": 21886,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "propaganda",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://www.canal877.test/v/7652609/owt4uGQAfZTqzt8t/2160p.mp4",
+   "prob": 0.634,
+   "verdade": [
+    "https://www.canal877.test/hls/4856752/4W9F2KK5Z9M7fDri/playlist.m3u8?token=GpnJAGF4xrUHUqFPpvZpfgis&expires=1781479812"
+   ],
+   "url": "https://www.canal877.test/watch/entrevista-completa/gskcja2g-titulo-do-video"
+  },
+  {
+   "seed": 22014,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn2.video781.test/v/6629552/srvfyABPuFxQ7GMR/1440p.mp4",
+   "prob": 0.451,
+   "verdade": [],
+   "url": "https://m.video781.test/v/5119681/"
+  },
+  {
+   "seed": 22062,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "fundo",
+    "gif_mp4",
+    "storyboard",
+    "proximo_video",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://m.vids890.test/v/668808/v6qXgzGECDqHmUA7/1440p.mp4",
+   "prob": 0.602,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xg36cPckGHZv"
+   ],
+   "url": "https://m.vids890.test/v/5307559/v_7kz5sd-titulo-do-video"
+  },
+  {
+   "seed": 22086,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vids318.test/v/7879356/XCGAAKcxmiFpqzoc/360p.mp4",
+   "prob": 0.477,
+   "verdade": [],
+   "url": "https://vids318.test/p/64178517"
+  },
+  {
+   "seed": 22566,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "html_quebrado",
+    "base_href"
+   ],
+   "escolhido": "https://vod.cloudfront7.test/v/5867906/_prtqeAyn3PaSTCz/2160p.mp4",
+   "prob": 0.758,
+   "verdade": [],
+   "url": "https://portal236.test/videos/5771934/"
+  },
+  {
+   "seed": 22592,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "legenda",
+    "storyboard"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn2.clip484.test/v/3681434/JX_2N4TQo76MbwW4/240p.mp4",
+   "prob": 0.521,
+   "verdade": [],
+   "url": "https://clip484.test/v/5293491"
+  },
+  {
+   "seed": 22650,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "fundo",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai1.test/v/6987052/uL5Pgrij7xy73D5J/1440p.mp4",
+   "prob": 0.822,
+   "verdade": [],
+   "url": "https://www.video654.test/v/57550889/"
+  },
+  {
+   "seed": 22682,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "trailer",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.portal193.test/v/8906322/vudezTVNBzNxGhRLBqwHuUVYK_sHnS4e/360p.mp4",
+   "prob": 0.335,
+   "verdade": [],
+   "url": "https://m.portal193.test/videos/4203106/5w6bfxrl-titulo-do-video"
+  },
+  {
+   "seed": 22828,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json",
+    "relacionados",
+    "fundo"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://media34.cdnhost93.test/v/2653174/-_Jt9uMfvqikYTph8zc4yCaz_M6FR4QB/1440p.mp4",
+   "prob": 0.495,
+   "verdade": [
+    "https://ok.ru/videoembed/22298915"
+   ],
+   "url": "https://m.portal498.test/videos/5854455"
+  },
+  {
+   "seed": 23094,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "proximo_video",
+    "gif_mp4"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.canal263.test/v/8989136/xyVCX5e79gw59VrimATJ7f4FtZfD_5td/2160p.mp4",
+   "prob": 0.89,
+   "verdade": [],
+   "url": "https://canal263.test/v/melhores-momentos/f9yd6fhs-titulo-do-video"
+  },
+  {
+   "seed": 23146,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "promo_rodape",
+    "relacionados_json",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media42.cdnhost48.test/v/4668809/bveQRUiadJSxkUYq/1080p.mp4",
+   "prob": 0.496,
+   "verdade": [
+    "https://rumble.com/embed/v2LRR8TDz_Yx/"
+   ],
+   "url": "https://clip191.test/p/4966665?ref=home"
+  },
+  {
+   "seed": 23163,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "legenda",
+    "audio",
+    "previa_principal",
+    "relacionados",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://media9.cdnhost58.test/v/6061505/W6Fh24C6/1440p.mp4",
+   "prob": 0.696,
+   "verdade": [
+    "https://media9.cdnhost58.test/hls/9334607/c9wkZr65/master.m3u8"
+   ],
+   "url": "https://www.cine393.test/videos/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 23204,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "promo_rodape",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn6.portal275.test/v/717595/YNxdV7bFGsSpC_QXtJc5jnTpVmh52XgJ/480p.mp4",
+   "prob": 0.312,
+   "verdade": [],
+   "url": "https://m.portal275.test/videos/7067176?ref=home"
+  },
+  {
+   "seed": 23273,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn2.tube842.test/v/2629136/RhukFjaw/480p.mp4",
+   "prob": 0.576,
+   "verdade": [],
+   "url": "https://m.tube842.test/post/39611872/7lnttqyw-titulo-do-video"
+  },
+  {
+   "seed": 23284,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [],
+   "escolhido": "https://www.media803.test/v/7994124/jXMpfXJv/2160p.mp4",
+   "prob": 0.851,
+   "verdade": [],
+   "url": "https://www.media803.test/watch/entrevista-completa/"
+  },
+  {
+   "seed": 23287,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "propaganda",
+    "audio",
+    "relacionados_json",
+    "relacionados",
+    "relacionados"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai7.test/v/8142251/kNxXQFwBBXNXUxao/2160p.mp4",
+   "prob": 0.82,
+   "verdade": [
+    "https://rumble.com/embed/vEQ5t8mheEgB/"
+   ],
+   "url": "https://vids394.test/watch/7395996/"
+  },
+  {
+   "seed": 23290,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://vod.akamai5.test/v/870581/QzmAtwKh9dbdkwvg/720p.mp4",
+   "prob": 0.752,
+   "verdade": [],
+   "url": "https://m.canal999.test/video/5410275/"
+  },
+  {
+   "seed": 23332,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "promo_rodape",
+    "relacionados_json",
+    "promo_rodape",
+    "storyboard",
+    "outro_artigo",
+    "proximo_video",
+    "relacionados_json",
+    "gif_mp4"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.canal796.test/v/9288166/VMVGXZKrUDEkkNgG/2160p.mp4",
+   "prob": 0.726,
+   "verdade": [
+    "https://player.vimeo.com/video/29484557"
+   ],
+   "url": "https://m.canal796.test/videos/4578346/"
+  },
+  {
+   "seed": 23454,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "promo_rodape",
+    "proximo_video",
+    "previa_principal",
+    "relacionados",
+    "fundo"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.cloudfront9.test/v/6001466/XWvfqu8s7qgadas4bbuwrxxZrC2x3dd_/1440p.mp4",
+   "prob": 0.702,
+   "verdade": [
+    "https://rumble.com/embed/vzjioZQCkUYC/"
+   ],
+   "url": "https://www.cine391.test/video/2295094"
+  },
+  {
+   "seed": 23518,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "audio",
+    "propaganda",
+    "fundo",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada",
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.cloudfront4.test/v/8904704/MT_zgFTx/2160p.mp4",
+   "prob": 0.884,
+   "verdade": [
+    "https://www.youtube.com/embed/qg9JF_YbvqQ"
+   ],
+   "url": "https://m.tube831.test/p/titulo-do-video-de-hoje/jgzhwkpq-titulo-do-video"
+  },
+  {
+   "seed": 23664,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://clip118.test/v/5321073/gikVFt79HZPXGh7VwWchAHPJRCXntRF9/1440p.mp4",
+   "prob": 0.412,
+   "verdade": [],
+   "url": "https://clip118.test/videos/entrevista-completa"
+  },
+  {
+   "seed": 23926,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "legenda",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.video86.test/v/7949187/KWcQNz36/2160p.mp4",
+   "prob": 0.89,
+   "verdade": [
+    "https://streamable.com/e/fq6FuUjh-Mm"
+   ],
+   "url": "https://m.video86.test/watch/5512484/_lp8ejz2-titulo-do-video"
+  },
+  {
+   "seed": 24039,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "proximo_video",
+    "relacionados"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "relativo",
+    "pagina_enorme",
+    "base_href"
+   ],
+   "escolhido": "https://portal514.test/v/1377192/kHQauQU8zMGgAx-k/1440p.mp4",
+   "prob": 0.573,
+   "verdade": [],
+   "url": "https://portal514.test/post/6348878/"
+  },
+  {
+   "seed": 24046,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.cloudfront9.test/v/5209984/qryR-Con/720p.mp4",
+   "prob": 0.639,
+   "verdade": [
+    "https://vod.cloudfront9.test/hls/8791152/xR-fSP62/master.m3u8"
+   ],
+   "url": "https://cine788.test/watch/8791152/"
+  },
+  {
+   "seed": 24299,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "relacionados_json",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai8.test/v/7999288/PReDx3WvDL73CJdy/1440p.mp4",
+   "prob": 0.503,
+   "verdade": [],
+   "url": "https://tube952.test/post/46631217/"
+  },
+  {
+   "seed": 24474,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "legenda",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront4.test/v/598442/FLtED9oQ/360p.mp4",
+   "prob": 0.578,
+   "verdade": [],
+   "url": "https://m.portal830.test/p/melhores-momentos/"
+  },
+  {
+   "seed": 24476,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn2.tube431.test/v/3947475/L2MgShrY69iC4Tbw/1440p.mp4",
+   "prob": 0.801,
+   "verdade": [],
+   "url": "https://www.tube431.test/videos/5058655/"
+  },
+  {
+   "seed": 24831,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://m.portal101.test/v/6834640/ZYeW4afkYGip6M3Md-tjtkVS2KbB2YJZ/2160p.mp4",
+   "prob": 0.686,
+   "verdade": [],
+   "url": "https://m.portal101.test/v/7103249"
+  },
+  {
+   "seed": 24985,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "previa_principal",
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media17.cdnhost62.test/v/5078630/CFxiqfeB/2160p.mp4",
+   "prob": 0.876,
+   "verdade": [
+    "https://media17.cdnhost62.test/hls/766678/5auF-qBK/766678.m3u8?token=gFBD4d45Fmvrmxuk54kAa3Dc&expires=1735760011"
+   ],
+   "url": "https://m.canal45.test/videos/83659763?ref=home"
+  },
+  {
+   "seed": 25132,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "legenda",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge6.test/v/4873023/Lx6jnRw7f_cidVhB/360p.mp4",
+   "prob": 0.503,
+   "verdade": [],
+   "url": "https://m.media872.test/v/15144400/"
+  },
+  {
+   "seed": 25158,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn8.canal38.test/v/334270/LdEyF57o/2160p.mp4",
+   "prob": 0.924,
+   "verdade": [
+    "https://player.vimeo.com/video/24430026"
+   ],
+   "url": "https://canal38.test/v/392637?ref=home"
+  },
+  {
+   "seed": 25185,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "html_quebrado"
+   ],
+   "escolhido": "https://video406.test/v/1482291/8S6u-XezkRBBYhwniZBQyL6fZpaaQE7Y/240p.mp4",
+   "prob": 0.387,
+   "verdade": [],
+   "url": "https://video406.test/p/entrevista-completa/yc4ap2qd-titulo-do-video"
+  },
+  {
+   "seed": 25188,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "outro_artigo",
+    "proximo_video",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media21.cdnhost20.test/v/2210189/3cU8-ugv4JsRe2nn/1440p.mp4",
+   "prob": 0.727,
+   "verdade": [
+    "https://media21.cdnhost20.test/hls/4615755/NBjnq5QQafMixjbf/playlist.m3u8"
+   ],
+   "url": "https://m.media278.test/v/4615755/fa27mxar-titulo-do-video"
+  },
+  {
+   "seed": 25305,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "promo_rodape",
+    "storyboard",
+    "relacionados_json",
+    "gif_mp4",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn2.vids697.test/v/5214430/pEXuBL9G/1440p.mp4",
+   "prob": 0.563,
+   "verdade": [
+    "https://cdn2.vids697.test/hls/4705763/JVaPNPhp/4705763.m3u8"
+   ],
+   "url": "https://vids697.test/videos/4705763/"
+  },
+  {
+   "seed": 25373,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge1.test/v/8634958/BVWU4KLYxTLTkRe6hgxNNKddb3hxHwSW/480p.mp4",
+   "prob": 0.677,
+   "verdade": [
+    "https://vod.edge1.test/hls/1163813/4vuB3k_zsKULwC6_yb-GWk39ziHrVffd/playlist.m3u8"
+   ],
+   "url": "https://www.video96.test/v/1163813?ref=home"
+  },
+  {
+   "seed": 25510,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media15.cdnhost35.test/v/4662271/_kM5eiCgrtz9mq5qz6vQoYpwtW2Y_Hfx/720p.mp4",
+   "prob": 0.639,
+   "verdade": [],
+   "url": "https://www.cine763.test/v/9007810?ref=home"
+  },
+  {
+   "seed": 25578,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "relacionados"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai7.test/v/4765728/SWYoNETP/1080p.mp4",
+   "prob": 0.624,
+   "verdade": [],
+   "url": "https://m.vids840.test/p/2975813"
+  },
+  {
+   "seed": 25704,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "legenda",
+    "gif_mp4",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media2.cdnhost48.test/v/1146616/niGFissaDinYngSHTjnUjACo-VYf5Uwa/240p.mp4",
+   "prob": 0.457,
+   "verdade": [],
+   "url": "https://canal929.test/p/3705815"
+  },
+  {
+   "seed": 25711,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "promo_rodape",
+    "storyboard"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn7.vids501.test/v/1128799/yAJPuWjLFFpmADXm/1080p.mp4",
+   "prob": 0.541,
+   "verdade": [],
+   "url": "https://m.vids501.test/v/3980647"
+  },
+  {
+   "seed": 25715,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://vod.edge9.test/v/317057/6DotzinzWFJAuCYkZcRVpsMvepieAc9U/240p.mp4",
+   "prob": 0.413,
+   "verdade": [],
+   "url": "https://m.portal634.test/v/9390408?ref=home"
+  },
+  {
+   "seed": 25839,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "html_quebrado"
+   ],
+   "escolhido": "https://media33.cdnhost68.test/v/165428/PBU9MnMco96bYrhHhJx7fMMw6_85w2R5/1440p.mp4",
+   "prob": 0.795,
+   "verdade": [
+    "https://media33.cdnhost68.test/hls/610471/h5cB4-5X6Ueccxuai3LBSHF_gfVgWRVA/610471.m3u8?token=e5wsKQ7erdhr9SDfarrgmx8o&expires=1777706802"
+   ],
+   "url": "https://m.vids997.test/watch/610471/cnmdjnfe-titulo-do-video"
+  },
+  {
+   "seed": 25962,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "gif_mp4",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://cdn7.clip857.test/v/8232697/wWqaxzFwqLpVa2Er/2160p.mp4",
+   "prob": 0.705,
+   "verdade": [
+    "https://cdn7.clip857.test/hls/3215331/KjCrrndgGTaGjpy3/index.m3u8?token=CccA_B6T9kubtK6jiaAo6NW8&expires=1732760756"
+   ],
+   "url": "https://clip857.test/videos/68339072/"
+  },
+  {
+   "seed": 26171,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "proximo_video",
+    "propaganda",
+    "previa_principal",
+    "proximo_video",
+    "propaganda",
+    "relacionados_json",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn2.clip210.test/v/5348460/akhKZwhm/2160p.mp4",
+   "prob": 0.772,
+   "verdade": [
+    "https://player.vimeo.com/video/74457628"
+   ],
+   "url": "https://clip210.test/videos/titulo-do-video-de-hoje/"
+  },
+  {
+   "seed": 26203,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn6.clip788.test/v/1943213/ht45NUucK3R-6u7xWcMxadgcFETBxn-6/720p.mp4",
+   "prob": 0.547,
+   "verdade": [],
+   "url": "https://www.clip788.test/p/aula-01/"
+  },
+  {
+   "seed": 26340,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "storyboard",
+    "fundo",
+    "propaganda",
+    "audio",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "relativo",
+    "barra_escapada",
+    "comentario"
+   ],
+   "escolhido": "https://media1.cdnhost8.test/v/2370320/kbSyqb-F/720p.mp4",
+   "prob": 0.507,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xL-Du7GwsHzL"
+   ],
+   "url": "https://www.clip932.test/v/99432716/"
+  },
+  {
+   "seed": 26564,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "outro_artigo",
+    "proximo_video",
+    "gif_mp4",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn8.clip747.test/v/5180468/owAA73ai5UQDi5Yd/2160p.mp4",
+   "prob": 0.868,
+   "verdade": [
+    "https://www.youtube.com/embed/YUcq39zeMGN"
+   ],
+   "url": "https://clip747.test/watch/3251971/"
+  },
+  {
+   "seed": 26712,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "comentario",
+    "base_href"
+   ],
+   "escolhido": "https://www.media981.test/v/3259477/jWri6QxjF9G_eoVq/480p.mp4",
+   "prob": 0.589,
+   "verdade": [],
+   "url": "https://www.media981.test/post/melhores-momentos"
+  },
+  {
+   "seed": 26766,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media33.cdnhost20.test/v/8328008/uJ8LVACmFH-3fi49/1440p.mp4",
+   "prob": 0.902,
+   "verdade": [
+    "https://media33.cdnhost20.test/hls/4240213/vZYNMV6JW4SMJ--C/index.m3u8"
+   ],
+   "url": "https://www.video865.test/p/25511287"
+  },
+  {
+   "seed": 26778,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "fundo",
+    "legenda",
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [
+    "relativo"
+   ],
+   "escolhido": "https://media10.cdnhost29.test/v/6974281/sf4cHnfQ/1440p.mp4",
+   "prob": 0.67,
+   "verdade": [
+    "https://media10.cdnhost29.test/hls/6032635/y67jm4hM/index.m3u8?token=coXMjTZMj_Wbzhu4dLKforRR&expires=1733617932"
+   ],
+   "url": "https://canal49.test/video/6032635/w6gpmtvd-titulo-do-video"
+  },
+  {
+   "seed": 26912,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "outro_artigo",
+    "proximo_video",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://vod.akamai9.test/v/8761542/heU7XYHK/2160p.mp4",
+   "prob": 0.934,
+   "verdade": [],
+   "url": "https://m.portal179.test/watch/15071122"
+  },
+  {
+   "seed": 27020,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "fundo",
+    "gif_mp4",
+    "gif_mp4",
+    "proximo_video",
+    "propaganda",
+    "storyboard"
+   ],
+   "peculiar": [
+    "relativo",
+    "comentario"
+   ],
+   "escolhido": "https://media33.cdnhost48.test/v/9350122/zoajVTmG5jUhZ6qd/2160p.mp4",
+   "prob": 0.905,
+   "verdade": [
+    "https://media33.cdnhost48.test/hls/4844170/aSZQYAryxZGG9CnM/index.m3u8"
+   ],
+   "url": "https://m.cine649.test/watch/4844170/szcuvvk7-titulo-do-video"
+  },
+  {
+   "seed": 27155,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "legenda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://cdn8.clip879.test/v/146013/59xoxPfY/720p.mp4",
+   "prob": 0.51,
+   "verdade": [],
+   "url": "https://www.clip879.test/p/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 27168,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.cine120.test/v/6985437/XmH_WEZKR3WJYFoT/2160p.mp4",
+   "prob": 0.699,
+   "verdade": [
+    "https://ok.ru/videoembed/14253526"
+   ],
+   "url": "https://m.cine120.test/p/5124039"
+  },
+  {
+   "seed": 27303,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "legenda",
+    "storyboard",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai1.test/v/1671652/ucoA8vFXdZ2w37rEETSFR7dEzTYo7xxZ/2160p.mp4",
+   "prob": 0.937,
+   "verdade": [
+    "https://vod.akamai1.test/hls/1162056/MWrnJFHUPrkaZAC4oP6Ai6a3LNdEMcJ5/playlist.m3u8"
+   ],
+   "url": "https://tube89.test/videos/aula-01?ref=home"
+  },
+  {
+   "seed": 27331,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "outro_artigo",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.edge4.test/v/4738980/N6q7pag4ciMmF4uo/360p.mp4",
+   "prob": 0.206,
+   "verdade": [],
+   "url": "https://m.portal532.test/p/8062773?ref=home"
+  },
+  {
+   "seed": 27624,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados",
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://media8.cdnhost51.test/v/9285071/JmhrFQE7/240p.mp4",
+   "prob": 0.301,
+   "verdade": [],
+   "url": "https://www.vids305.test/videos/aula-01/zf5tjfbc-titulo-do-video"
+  },
+  {
+   "seed": 27670,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://www.cine877.test/v/8940312/4GVrHuPq9E3YLDqhbPrrRnZ5gfz3xpAL/480p.mp4",
+   "prob": 0.523,
+   "verdade": [],
+   "url": "https://www.cine877.test/p/5665186/"
+  },
+  {
+   "seed": 27697,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "storyboard"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.tube815.test/v/6393888/V5gfCF4V/1080p.mp4",
+   "prob": 0.774,
+   "verdade": [],
+   "url": "https://m.tube815.test/p/2645091/u2czkk27-titulo-do-video"
+  },
+  {
+   "seed": 27741,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai2.test/v/8044597/HReDpfeQ_mtEHoLNSKqQtyqxNCQ_EmFY/1440p.mp4",
+   "prob": 0.822,
+   "verdade": [
+    "https://ok.ru/videoembed/16785172"
+   ],
+   "url": "https://m.canal691.test/post/44641954/"
+  },
+  {
+   "seed": 27795,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "propaganda",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "relativo"
+   ],
+   "escolhido": "https://vod.cloudfront8.test/v/9918179/UV2UFmXw/2160p.mp4",
+   "prob": 0.908,
+   "verdade": [],
+   "url": "https://canal307.test/post/aula-01?ref=home"
+  },
+  {
+   "seed": 27842,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "outro_artigo",
+    "relacionados",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://vod.akamai1.test/v/7281581/sNh5uqK7rumpMKfP/2160p.mp4",
+   "prob": 0.739,
+   "verdade": [
+    "https://ok.ru/videoembed/55841479"
+   ],
+   "url": "https://m.canal538.test/watch/1974288?ref=home"
+  },
+  {
+   "seed": 27886,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai8.test/v/6158941/LYreEr5x/1080p.mp4",
+   "prob": 0.755,
+   "verdade": [],
+   "url": "https://tube259.test/post/63197892/ehgz9dy5-titulo-do-video"
+  },
+  {
+   "seed": 27924,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "previa_principal",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://canal154.test/v/9283011/y4Pc5sBh/720p.mp4",
+   "prob": 0.48,
+   "verdade": [],
+   "url": "https://canal154.test/p/4359609/opyzq9u9-titulo-do-video"
+  },
+  {
+   "seed": 28081,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "relacionados",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.edge8.test/v/2704109/cREAphhYWhAbTYuG/2160p.mp4",
+   "prob": 0.871,
+   "verdade": [
+    "https://vod.edge8.test/hls/2594627/D26fHfZtoLt_xVdJ/index.m3u8"
+   ],
+   "url": "https://www.media782.test/v/aula-01/"
+  },
+  {
+   "seed": 28156,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.tube100.test/v/489088/NMUWaJjUp6bmuFxZ/240p.mp4",
+   "prob": 0.226,
+   "verdade": [],
+   "url": "https://m.tube100.test/p/6773624/s3kxazlx-titulo-do-video"
+  },
+  {
+   "seed": 28212,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media29.cdnhost34.test/v/2148755/-zLoh8edTFPjZaHB/1080p.mp4",
+   "prob": 0.496,
+   "verdade": [],
+   "url": "https://clip149.test/p/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 28253,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "fundo",
+    "proximo_video",
+    "gif_mp4",
+    "fundo"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media18.cdnhost17.test/v/7704297/7ocE6Mkk/1440p.mp4",
+   "prob": 0.74,
+   "verdade": [
+    "https://media18.cdnhost17.test/hls/3513480/9PMkjXwE/playlist.m3u8?token=qAroFnYog5eSk-5WJ7ssS3Ma&expires=1792545171"
+   ],
+   "url": "https://media891.test/videos/melhores-momentos"
+  },
+  {
+   "seed": 28374,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "promo_rodape",
+    "relacionados",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn2.video458.test/v/2923836/S6ndrqsLaHMqh7-Gqto9_4ACgyoRL3jU/2160p.mp4",
+   "prob": 0.745,
+   "verdade": [
+    "https://cdn2.video458.test/hls/4513938/JapXtnZYwDDQdwUAfbHCN_L3f2dYvmkK/master.m3u8"
+   ],
+   "url": "https://video458.test/videos/93279409/p4sfgif5-titulo-do-video"
+  },
+  {
+   "seed": 28436,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "trailer",
+    "propaganda",
+    "proximo_video",
+    "audio",
+    "relacionados_json",
+    "legenda",
+    "trailer",
+    "storyboard"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media18.cdnhost84.test/v/4727607/KksHq5YN/1080p.mp4",
+   "prob": 0.62,
+   "verdade": [
+    "https://www.youtube.com/embed/J3ucJ2KLJaL"
+   ],
+   "url": "https://www.portal458.test/post/entrevista-completa/"
+  },
+  {
+   "seed": 28505,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "fundo",
+    "audio",
+    "legenda",
+    "proximo_video",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada",
+    "relativo"
+   ],
+   "escolhido": "https://www.video210.test/v/9151609/vjUpV8ZT24dv87we_zb9vTnc_nW-qUH2/2160p.mp4",
+   "prob": 0.867,
+   "verdade": [
+    "https://www.video210.test/hls/4995967/JjqRjMUhRfR8dJSpT9C3TuovVWv9ah2e/4995967.m3u8"
+   ],
+   "url": "https://www.video210.test/watch/aula-01/"
+  },
+  {
+   "seed": 28528,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "audio",
+    "legenda"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://media34.cdnhost5.test/v/229327/mjXPpaxs/480p.mp4",
+   "prob": 0.541,
+   "verdade": [],
+   "url": "https://www.portal373.test/v/7215485"
+  },
+  {
+   "seed": 28689,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn9.vids880.test/v/454237/wrGtVjK-A9qzRDX8CYTEMMcdMoCAuU43/360p.mp4",
+   "prob": 0.432,
+   "verdade": [],
+   "url": "https://m.vids880.test/video/22827064/olhxp5nf-titulo-do-video"
+  },
+  {
+   "seed": 28876,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge6.test/v/615058/GSNavmq7-fdoFa9z/1440p.mp4",
+   "prob": 0.894,
+   "verdade": [],
+   "url": "https://www.cine244.test/videos/melhores-momentos"
+  },
+  {
+   "seed": 28889,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn1.video472.test/v/2744267/-oVQpcDpWYdbdXk8/2160p.mp4",
+   "prob": 0.823,
+   "verdade": [],
+   "url": "https://m.video472.test/p/4277316/"
+  },
+  {
+   "seed": 29223,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada"
+   ],
+   "escolhido": "https://media49.cdnhost68.test/v/3513697/mndPzBXVhESBaybU/1440p.mp4",
+   "prob": 0.809,
+   "verdade": [
+    "https://www.youtube.com/embed/DvquXWQZjz-"
+   ],
+   "url": "https://www.canal417.test/p/melhores-momentos/twktwgwc-titulo-do-video"
+  },
+  {
+   "seed": 29445,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "trailer",
+    "proximo_video",
+    "propaganda",
+    "legenda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn7.clip496.test/v/6180006/wpRqgx8Ztm-nKwkN/2160p.mp4",
+   "prob": 0.881,
+   "verdade": [
+    "https://cdn7.clip496.test/hls/699858/fsSKhbzQdhgLVviu/699858.m3u8"
+   ],
+   "url": "https://clip496.test/post/melhores-momentos/zuuxiocp-titulo-do-video"
+  },
+  {
+   "seed": 29449,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "fundo",
+    "relacionados_json",
+    "promo_rodape",
+    "trailer",
+    "trailer",
+    "relacionados"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://cine100.test/v/3374332/2q_uEY3k/2160p.mp4",
+   "prob": 0.797,
+   "verdade": [
+    "https://cine100.test/hls/4527870/_yKZECCt/4527870.m3u8?token=4hEUmbqYAumgPEahKe9267T9&expires=1792053292"
+   ],
+   "url": "https://cine100.test/post/4527870/"
+  },
+  {
+   "seed": 29487,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge3.test/v/8718335/ZKrMKBtBSxdtBqTAhpckWZqj_ECYJYM5/2160p.mp4",
+   "prob": 0.915,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xwMDbALB3nwe"
+   ],
+   "url": "https://media876.test/post/712550?ref=home"
+  },
+  {
+   "seed": 29707,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://m.portal670.test/v/487778/JxU-H952G8Prbaan/720p.mp4",
+   "prob": 0.614,
+   "verdade": [],
+   "url": "https://m.portal670.test/videos/1229920/"
+  },
+  {
+   "seed": 29812,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://portal917.test/v/7635204/8jZHNckL/1440p.mp4",
+   "prob": 0.828,
+   "verdade": [],
+   "url": "https://portal917.test/videos/1026303"
+  },
+  {
+   "seed": 29832,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "previa_principal",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn3.video408.test/v/1262272/S77-VWe-/240p.mp4",
+   "prob": 0.295,
+   "verdade": [],
+   "url": "https://video408.test/videos/195519/"
+  },
+  {
+   "seed": 30063,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "proximo_video",
+    "trailer"
+   ],
+   "peculiar": [
+    "relativo"
+   ],
+   "escolhido": "https://m.cine948.test/v/1426639/KgEyCn-FjPuTPdaE/2160p.mp4",
+   "prob": 0.838,
+   "verdade": [
+    "https://rumble.com/embed/v5V_VaDae6nX/"
+   ],
+   "url": "https://m.cine948.test/p/aula-01"
+  },
+  {
+   "seed": 30225,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "promo_rodape",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.portal998.test/v/3299903/ZTiEky7bzmZDWBZVgVjQVD2gS5vNFGK-/2160p.mp4",
+   "prob": 0.753,
+   "verdade": [],
+   "url": "https://www.portal998.test/video/titulo-do-video-de-hoje?ref=home"
+  },
+  {
+   "seed": 30639,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "relacionados",
+    "proximo_video",
+    "promo_rodape",
+    "promo_rodape",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "barra_escapada",
+    "relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media33.cdnhost33.test/v/5354253/aGcMLc2Xhg5-khcQxFH2az47yqs3JMnj/1440p.mp4",
+   "prob": 0.709,
+   "verdade": [
+    "https://www.youtube.com/embed/mETcDhT8hni"
+   ],
+   "url": "https://portal953.test/p/5920494"
+  },
+  {
+   "seed": 30728,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "promo_rodape",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge9.test/v/6334476/hfDKvbLCKWzfVkKq/1440p.mp4",
+   "prob": 0.653,
+   "verdade": [],
+   "url": "https://m.media137.test/p/4957021/ybtwzz5u-titulo-do-video"
+  },
+  {
+   "seed": 30751,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "relacionados_json",
+    "relacionados"
+   ],
+   "peculiar": [
+    "relativo"
+   ],
+   "escolhido": "https://cine502.test/v/9130707/tiGiycCdHsVQLJnZ/480p.mp4",
+   "prob": 0.23,
+   "verdade": [],
+   "url": "https://cine502.test/video/97239383?ref=home"
+  },
+  {
+   "seed": 30814,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media32.cdnhost38.test/v/6833664/fyZMjWCY/2160p.mp4",
+   "prob": 0.943,
+   "verdade": [],
+   "url": "https://m.vids596.test/p/entrevista-completa/"
+  },
+  {
+   "seed": 31013,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "fundo",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.akamai6.test/v/3421884/-ZKQWR6bz3KyJAq_SiQfTcRZNHgm8Bym/480p.mp4",
+   "prob": 0.316,
+   "verdade": [],
+   "url": "https://portal536.test/post/1621099/xukhd59m-titulo-do-video"
+  },
+  {
+   "seed": 31040,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape",
+    "propaganda"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn8.tube8.test/v/6403808/sNX5BNCFoyQgmwPwxDgYSNYrLExo5H7J/240p.mp4",
+   "prob": 0.295,
+   "verdade": [],
+   "url": "https://tube8.test/watch/4428137/"
+  },
+  {
+   "seed": 31163,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://cdn2.video724.test/v/3374793/j2fT6_MM/240p.mp4",
+   "prob": 0.357,
+   "verdade": [],
+   "url": "https://www.video724.test/videos/melhores-momentos/"
+  },
+  {
+   "seed": 31223,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "trailer"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "relativo"
+   ],
+   "escolhido": "https://m.canal811.test/v/622475/6zjMtuM9zn7cfm-5jiD6hnVbrxQDgnWa/2160p.mp4",
+   "prob": 0.838,
+   "verdade": [
+    "https://ok.ru/videoembed/34976439"
+   ],
+   "url": "https://m.canal811.test/videos/aula-01?ref=home"
+  },
+  {
+   "seed": 31444,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://media12.cdnhost72.test/v/4757200/M7Rhi2SFjgEwfPcZaamL7yVxhmxPu6jJ/2160p.mp4",
+   "prob": 0.768,
+   "verdade": [
+    "https://www.youtube.com/embed/rNVZpyo9P95"
+   ],
+   "url": "https://www.vids123.test/videos/4233563/"
+  },
+  {
+   "seed": 31559,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "promo_rodape",
+    "previa_principal",
+    "outro_artigo",
+    "outro_artigo",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "base_href"
+   ],
+   "escolhido": "https://media15.cdnhost51.test/v/4269939/saCA8Vq-/2160p.mp4",
+   "prob": 0.884,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xiobkR-zreNC"
+   ],
+   "url": "https://www.portal693.test/watch/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 31580,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge9.test/v/7547286/TAUgexdM/720p.mp4",
+   "prob": 0.507,
+   "verdade": [],
+   "url": "https://m.portal382.test/p/1190834/nwoqove3-titulo-do-video"
+  },
+  {
+   "seed": 31630,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "audio",
+    "storyboard",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://www.clip786.test/v/8243840/nS4GhH7C/480p.mp4",
+   "prob": 0.381,
+   "verdade": [],
+   "url": "https://www.clip786.test/v/3537113"
+  },
+  {
+   "seed": 31680,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "propaganda",
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn8.clip762.test/v/6721420/5TiEjeLVyVcka5-UtGD2pVA_kUitRUDw/2160p.mp4",
+   "prob": 0.913,
+   "verdade": [],
+   "url": "https://clip762.test/videos/1925283"
+  },
+  {
+   "seed": 31751,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados",
+    "audio",
+    "fundo",
+    "promo_rodape",
+    "promo_rodape",
+    "gif_mp4",
+    "promo_rodape",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "barra_escapada",
+    "relativo",
+    "barra_escapada",
+    "comentario"
+   ],
+   "escolhido": "https://vod.edge2.test/v/7877247/9yNQvvajYZfnSijPZ6QVhSvoqMtHb_QT/1440p.mp4",
+   "prob": 0.696,
+   "verdade": [
+    "https://rumble.com/embed/vPLf2bFSBFT8/"
+   ],
+   "url": "https://www.vids200.test/video/93434?ref=home"
+  },
+  {
+   "seed": 31796,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "gif_mp4",
+    "propaganda",
+    "proximo_video",
+    "audio",
+    "storyboard",
+    "propaganda",
+    "legenda",
+    "trailer"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn4.vids531.test/v/9953300/mm6Wf7dq/2160p.mp4",
+   "prob": 0.868,
+   "verdade": [
+    "https://streamable.com/e/T4ofoXdDBBH"
+   ],
+   "url": "https://m.vids531.test/v/96207083"
+  },
+  {
+   "seed": 32150,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "legenda"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://m.cine460.test/v/3138685/pfv4XAGV/480p.mp4",
+   "prob": 0.523,
+   "verdade": [],
+   "url": "https://m.cine460.test/videos/7810246/"
+  },
+  {
+   "seed": 32203,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "relacionados"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn9.portal988.test/v/8177108/pSUbVXe5/1440p.mp4",
+   "prob": 0.653,
+   "verdade": [],
+   "url": "https://m.portal988.test/watch/8477818?ref=home"
+  },
+  {
+   "seed": 32210,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "storyboard"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.vids950.test/v/1537178/qvLkX-rcs_othXmB/1440p.mp4",
+   "prob": 0.693,
+   "verdade": [],
+   "url": "https://www.vids950.test/watch/3966033?ref=home"
+  },
+  {
+   "seed": 32524,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "outro_artigo",
+    "storyboard"
+   ],
+   "peculiar": [
+    "relativo",
+    "html_quebrado"
+   ],
+   "escolhido": "https://m.clip850.test/v/8290137/_vPVPTTdttvtJ_JB/360p.mp4",
+   "prob": 0.243,
+   "verdade": [],
+   "url": "https://m.clip850.test/watch/melhores-momentos/"
+  },
+  {
+   "seed": 32537,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "audio",
+    "relacionados_json",
+    "fundo",
+    "legenda",
+    "fundo"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "base_href"
+   ],
+   "escolhido": "https://cdn1.tube841.test/v/6336834/ypkvoGQy/1080p.mp4",
+   "prob": 0.509,
+   "verdade": [
+    "https://rumble.com/embed/vMRUDK2FfGaM/"
+   ],
+   "url": "https://m.tube841.test/videos/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 32622,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn4.canal450.test/v/4666780/JbPPjS92KTucpZxt/360p.mp4",
+   "prob": 0.567,
+   "verdade": [
+    "https://cdn4.canal450.test/hls/5852811/DebeBNtgrS2FEuMi/5852811.m3u8"
+   ],
+   "url": "https://www.canal450.test/videos/5852811/4qvkycia-titulo-do-video"
+  },
+  {
+   "seed": 32714,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn2.clip830.test/v/6699070/7rC_Zcpu/1440p.mp4",
+   "prob": 0.795,
+   "verdade": [],
+   "url": "https://m.clip830.test/v/7716096?ref=home"
+  },
+  {
+   "seed": 32830,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.cine745.test/v/5430738/uft9XTuA/1440p.mp4",
+   "prob": 0.651,
+   "verdade": [
+    "https://player.vimeo.com/video/9555350"
+   ],
+   "url": "https://m.cine745.test/p/712928"
+  },
+  {
+   "seed": 32982,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "propaganda"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://www.clip116.test/v/2847193/gt-ArY8f/2160p.mp4",
+   "prob": 0.895,
+   "verdade": [
+    "https://www.clip116.test/hls/8471242/d4AsZCnX/master.m3u8"
+   ],
+   "url": "https://www.clip116.test/post/8471242"
+  },
+  {
+   "seed": 33031,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados",
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "relativo",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://clip513.test/v/5352642/QfgMENDP/1080p.mp4",
+   "prob": 0.392,
+   "verdade": [],
+   "url": "https://clip513.test/post/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 33063,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://tube29.test/v/7508475/-ukn9v5UwNNNDB7fzGgm5BLMjWQt9HrJ/720p.mp4",
+   "prob": 0.282,
+   "verdade": [],
+   "url": "https://tube29.test/p/39204958/dyyhauwd-titulo-do-video"
+  },
+  {
+   "seed": 33250,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "relacionados_json",
+    "relacionados"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "relativo",
+    "protocolo_relativo",
+    "relativo",
+    "protocolo_relativo",
+    "relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://m.tube88.test/v/8663752/JMY6_P9A/1080p.mp4",
+   "prob": 0.411,
+   "verdade": [],
+   "url": "https://m.tube88.test/p/3256805"
+  },
+  {
+   "seed": 33294,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://www.canal844.test/v/2568254/VtewrNv-/240p.mp4",
+   "prob": 0.287,
+   "verdade": [],
+   "url": "https://www.canal844.test/watch/aula-01/-kb_zlkf-titulo-do-video"
+  },
+  {
+   "seed": 33547,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "storyboard",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge2.test/v/292315/-F37prAHcQXyZ6Lg/2160p.mp4",
+   "prob": 0.71,
+   "verdade": [],
+   "url": "https://www.vids685.test/video/8331893?ref=home"
+  },
+  {
+   "seed": 33634,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.cloudfront4.test/v/8687478/YF254ZDtqCFTjcXLJxRdL3yX8tofPugM/2160p.mp4",
+   "prob": 0.942,
+   "verdade": [
+    "https://rumble.com/embed/vb-dSH_r-moh/"
+   ],
+   "url": "https://www.media598.test/p/47759493"
+  },
+  {
+   "seed": 33782,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "fundo"
+   ],
+   "peculiar": [
+    "comentario",
+    "pagina_enorme",
+    "base_href"
+   ],
+   "escolhido": "https://vod.akamai3.test/v/3063660/mBKZg6srB6QF-MXV/1080p.mp4",
+   "prob": 0.727,
+   "verdade": [
+    "https://vod.akamai3.test/hls/6211852/t3Zq-4oC-boWoeG7/6211852.m3u8"
+   ],
+   "url": "https://tube297.test/watch/6211852/"
+  },
+  {
+   "seed": 33785,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "trailer",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.canal658.test/v/9703340/GBe-uH6Ezg3NnVS2wGpsZ9sVwDqnkCrR/480p.mp4",
+   "prob": 0.286,
+   "verdade": [],
+   "url": "https://m.canal658.test/post/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 33791,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "promo_rodape",
+    "relacionados",
+    "gif_mp4",
+    "gif_mp4",
+    "storyboard",
+    "outro_artigo",
+    "relacionados_json",
+    "relacionados"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai1.test/v/9186628/6c2vGLE76oihkEaacu9wczMJuuL8BKwa/2160p.mp4",
+   "prob": 0.653,
+   "verdade": [
+    "https://rumble.com/embed/v9qvU4-P5zpr/"
+   ],
+   "url": "https://m.canal695.test/videos/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 33830,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "relacionados",
+    "legenda"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://vod.cloudfront8.test/v/5071235/3N7Htb2ZDVaYF-MQ-kH5qd6gPjgh-YPQ/2160p.mp4",
+   "prob": 0.882,
+   "verdade": [],
+   "url": "https://m.vids121.test/video/46092/dgtnqkvx-titulo-do-video"
+  },
+  {
+   "seed": 33983,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "previa_principal",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media20.cdnhost49.test/v/9568157/UTP5C2f6/1440p.mp4",
+   "prob": 0.641,
+   "verdade": [],
+   "url": "https://www.cine949.test/p/434221/"
+  },
+  {
+   "seed": 34034,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "propaganda",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://vod.cloudfront6.test/v/2567450/TPfhsjWNjxER8SboXngs8GYPcTooGHVH/1440p.mp4",
+   "prob": 0.507,
+   "verdade": [],
+   "url": "https://www.canal510.test/v/4492637"
+  },
+  {
+   "seed": 34203,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "relacionados_json",
+    "relacionados"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "html_quebrado"
+   ],
+   "escolhido": "https://cdn2.canal958.test/v/3046951/L6SbTkvu/1080p.mp4",
+   "prob": 0.519,
+   "verdade": [],
+   "url": "https://m.canal958.test/v/45026289/"
+  },
+  {
+   "seed": 34306,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "fundo"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://www.tube454.test/v/8391333/edU4EcdR/1080p.mp4",
+   "prob": 0.617,
+   "verdade": [],
+   "url": "https://www.tube454.test/v/598868?ref=home"
+  },
+  {
+   "seed": 34338,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "audio"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://vod.cloudfront7.test/v/3915685/8VQNpRW_/1080p.mp4",
+   "prob": 0.828,
+   "verdade": [],
+   "url": "https://m.media225.test/p/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 34432,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "audio",
+    "outro_artigo",
+    "trailer",
+    "legenda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.canal147.test/v/5881857/ayPeLAxG/1440p.mp4",
+   "prob": 0.651,
+   "verdade": [
+    "https://m.canal147.test/hls/689596/TA7LMpU3/playlist.m3u8"
+   ],
+   "url": "https://m.canal147.test/p/689596/"
+  },
+  {
+   "seed": 34533,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "relacionados",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://vod.cloudfront4.test/v/8782810/D2EeN_eY95CwJFVwr5WmfngpYZFxffFt/2160p.mp4",
+   "prob": 0.676,
+   "verdade": [],
+   "url": "https://media107.test/video/30281332?ref=home"
+  },
+  {
+   "seed": 34655,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn6.cine497.test/v/3352878/FWD7iaddZCSi5umc/480p.mp4",
+   "prob": 0.611,
+   "verdade": [],
+   "url": "https://cine497.test/v/59847359/8r2nkaua-titulo-do-video"
+  },
+  {
+   "seed": 34883,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "html_quebrado"
+   ],
+   "escolhido": "https://media4.cdnhost31.test/v/5957841/9KcsfxAhMbrfgALbUCpHY_ivynKkSzw3/1080p.mp4",
+   "prob": 0.841,
+   "verdade": [],
+   "url": "https://www.portal992.test/watch/2741864?ref=home"
+  },
+  {
+   "seed": 34903,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://canal864.test/v/5392657/TVL9-LYB/2160p.mp4",
+   "prob": 0.749,
+   "verdade": [],
+   "url": "https://canal864.test/post/40229640/"
+  },
+  {
+   "seed": 34931,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://www.cine712.test/v/4733497/hZinuGfaNFgyT_Pk/480p.mp4",
+   "prob": 0.246,
+   "verdade": [],
+   "url": "https://www.cine712.test/videos/titulo-do-video-de-hoje/dmlbr78l-titulo-do-video"
+  },
+  {
+   "seed": 34945,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "trailer",
+    "outro_artigo",
+    "propaganda",
+    "relacionados",
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "relativo",
+    "relativo",
+    "relativo"
+   ],
+   "escolhido": "https://portal857.test/v/3569489/bvizRXd9/2160p.mp4",
+   "prob": 0.694,
+   "verdade": [
+    "https://portal857.test/hls/2564711/w2EKSQRD/master.m3u8"
+   ],
+   "url": "https://portal857.test/video/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 35029,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "legenda"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.edge5.test/v/9762817/AjeoJj8f/720p.mp4",
+   "prob": 0.63,
+   "verdade": [
+    "https://vod.edge5.test/hls/7581816/5f2a2pwe/7581816.m3u8?token=K3izfXLC6piMunXJ6Ugbns8V&expires=1772995440"
+   ],
+   "url": "https://www.tube336.test/p/21845719"
+  },
+  {
+   "seed": 35174,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "legenda",
+    "storyboard",
+    "trailer"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "base_href"
+   ],
+   "escolhido": "https://cdn8.cine380.test/v/3611105/eo-EupmL/1440p.mp4",
+   "prob": 0.728,
+   "verdade": [
+    "https://player.vimeo.com/video/45963469"
+   ],
+   "url": "https://cine380.test/watch/8708392?ref=home"
+  },
+  {
+   "seed": 35267,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "audio",
+    "trailer",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://vod.edge4.test/v/2402766/yevB9Mf6oeqQbLpN/1080p.mp4",
+   "prob": 0.395,
+   "verdade": [],
+   "url": "https://portal474.test/video/3951979/"
+  },
+  {
+   "seed": 35357,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "outro_artigo",
+    "outro_artigo",
+    "previa_principal",
+    "previa_principal",
+    "legenda",
+    "propaganda",
+    "relacionados",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.edge6.test/v/4019558/dFSJ4Qqg/1440p.mp4",
+   "prob": 0.695,
+   "verdade": [
+    "https://streamable.com/e/iap4SmaFhSH"
+   ],
+   "url": "https://video250.test/p/9185119?ref=home"
+  },
+  {
+   "seed": 35413,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "relacionados_json",
+    "trailer"
+   ],
+   "peculiar": [
+    "relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media44.cdnhost72.test/v/4004750/_852m4dG/1440p.mp4",
+   "prob": 0.62,
+   "verdade": [],
+   "url": "https://www.media781.test/post/melhores-momentos/ukosgp2o-titulo-do-video"
+  },
+  {
+   "seed": 35843,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "audio",
+    "relacionados_json",
+    "promo_rodape",
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "html_quebrado"
+   ],
+   "escolhido": "https://vod.edge9.test/v/1585237/3yJ4i-Du/1440p.mp4",
+   "prob": 0.702,
+   "verdade": [
+    "https://player.vimeo.com/video/28324241"
+   ],
+   "url": "https://m.vids195.test/watch/aula-01/kcfrzf6w-titulo-do-video"
+  },
+  {
+   "seed": 35864,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn2.portal940.test/v/4335960/DLS_ymKe/1440p.mp4",
+   "prob": 0.635,
+   "verdade": [
+    "https://rumble.com/embed/v3_CF3E6H8Ly/"
+   ],
+   "url": "https://m.portal940.test/post/3325431"
+  },
+  {
+   "seed": 35929,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "html_quebrado"
+   ],
+   "escolhido": "https://cdn3.tube821.test/v/6158401/A-SLuT2D/1080p.mp4",
+   "prob": 0.554,
+   "verdade": [],
+   "url": "https://m.tube821.test/p/692095/"
+  },
+  {
+   "seed": 35994,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "legenda"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai7.test/v/1531390/NkkPMzm_VahKzEne3QZGBrKCKt6kbJi6/2160p.mp4",
+   "prob": 0.962,
+   "verdade": [],
+   "url": "https://www.video57.test/watch/aula-01"
+  },
+  {
+   "seed": 36013,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "previa_principal",
+    "outro_artigo",
+    "previa_principal",
+    "proximo_video",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media2.cdnhost82.test/v/364700/sfMfa-4tUH5gFdhV/1440p.mp4",
+   "prob": 0.683,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xjeQpK-fSRzU"
+   ],
+   "url": "https://m.video529.test/post/9961023/k4ardrcx-titulo-do-video"
+  },
+  {
+   "seed": 36102,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn9.media810.test/v/1709402/BmZh6sDQez7-nRWD/2160p.mp4",
+   "prob": 0.798,
+   "verdade": [],
+   "url": "https://media810.test/watch/entrevista-completa"
+  },
+  {
+   "seed": 36171,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://tube516.test/v/9592923/8VsCDb4yjpHKEbZ2YoTAKdWTdfjJGt9Y/2160p.mp4",
+   "prob": 0.936,
+   "verdade": [
+    "https://tube516.test/hls/8781645/TVnwfJNrjfAxnvP9jjArhe_kV7xBcW6B/master.m3u8"
+   ],
+   "url": "https://tube516.test/video/38853768"
+  },
+  {
+   "seed": 36187,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "outro_artigo",
+    "legenda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn9.media212.test/v/547733/bhnn_JTWWzdhD8_E/1080p.mp4",
+   "prob": 0.698,
+   "verdade": [
+    "https://cdn9.media212.test/hls/5372798/pZgGF24RsBQbycg4/index.m3u8"
+   ],
+   "url": "https://m.media212.test/v/5372798/"
+  },
+  {
+   "seed": 36230,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "previa_principal",
+    "proximo_video",
+    "proximo_video",
+    "legenda"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.cloudfront1.test/v/2796186/th8r8ZHuizDE6i48/1080p.mp4",
+   "prob": 0.727,
+   "verdade": [
+    "https://vod.cloudfront1.test/hls/6975257/CBaedGqMqGmVC_Yx/6975257.m3u8"
+   ],
+   "url": "https://video325.test/watch/6975257/"
+  },
+  {
+   "seed": 36444,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "proximo_video",
+    "relacionados"
+   ],
+   "peculiar": [
+    "relativo",
+    "relativo",
+    "comentario"
+   ],
+   "escolhido": "https://video128.test/v/1603599/8wUkQztMT3e8Amut/1080p.mp4",
+   "prob": 0.518,
+   "verdade": [],
+   "url": "https://video128.test/video/aula-01"
+  },
+  {
+   "seed": 36487,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "propaganda"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn6.media975.test/v/7297526/N66Jy7sVwQ6WvbebWkD-k3EdTTmrtqvd/360p.mp4",
+   "prob": 0.567,
+   "verdade": [
+    "https://cdn6.media975.test/hls/4912941/ZSw5-6jpGA3kGeptR8abgvFjkR-aBFJu/playlist.m3u8"
+   ],
+   "url": "https://www.media975.test/videos/4912941?ref=home"
+  },
+  {
+   "seed": 36490,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://m.tube794.test/v/9520108/eaBkdNL6tReNKMDJ8FN5d4iwtC2Ed3C2/1440p.mp4",
+   "prob": 0.363,
+   "verdade": [],
+   "url": "https://m.tube794.test/post/926119"
+  },
+  {
+   "seed": 36519,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "fundo",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.akamai6.test/v/4006915/Y7gWJW92Auvjrqxk/2160p.mp4",
+   "prob": 0.743,
+   "verdade": [],
+   "url": "https://m.clip610.test/video/361598?ref=home"
+  },
+  {
+   "seed": 36715,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://portal51.test/v/5333841/jBszxKjJ/2160p.mp4",
+   "prob": 0.838,
+   "verdade": [],
+   "url": "https://portal51.test/video/entrevista-completa/buddfcke-titulo-do-video"
+  },
+  {
+   "seed": 36741,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "trailer",
+    "trailer",
+    "proximo_video",
+    "relacionados",
+    "relacionados",
+    "audio",
+    "legenda",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://vod.edge8.test/v/9091164/wacYzc2Zmah4hxtk_NiJicf2QHXbrvZr/2160p.mp4",
+   "prob": 0.88,
+   "verdade": [
+    "https://vod.edge8.test/hls/262844/c7gXyKozHSgfFZA6_PVvDs5QrfKS_HfG/master.m3u8?token=2Twj6sjoxXiK5g7Jsx4h7BSg&expires=1724484413&ip=10.0.117.60"
+   ],
+   "url": "https://m.video66.test/video/262844"
+  },
+  {
+   "seed": 36871,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "trailer",
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media10.cdnhost27.test/v/333380/SZ_4tHbo/2160p.mp4",
+   "prob": 0.865,
+   "verdade": [],
+   "url": "https://www.tube353.test/post/titulo-do-video-de-hoje/"
+  },
+  {
+   "seed": 36959,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "legenda",
+    "propaganda",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://vod.edge1.test/v/6569785/-2pWvcYf/2160p.mp4",
+   "prob": 0.937,
+   "verdade": [
+    "https://vod.edge1.test/hls/1557176/BZHUoSA4/master.m3u8?token=cfc3rfwhv7bpYSTFsqbMYRrw&expires=1791308541"
+   ],
+   "url": "https://portal621.test/watch/aula-01/"
+  },
+  {
+   "seed": 37082,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "storyboard",
+    "proximo_video",
+    "outro_artigo",
+    "relacionados",
+    "gif_mp4"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn7.media805.test/v/1209324/tXtnpLzekEjeituN/2160p.mp4",
+   "prob": 0.842,
+   "verdade": [
+    "https://cdn7.media805.test/hls/6321887/BPz5HVGKQqaYkmRK/index.m3u8"
+   ],
+   "url": "https://www.media805.test/post/6321887/awzxawd--titulo-do-video"
+  },
+  {
+   "seed": 37125,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://cdn2.tube438.test/v/9189173/GKCvJyau-DFHLDij/2160p.mp4",
+   "prob": 0.915,
+   "verdade": [],
+   "url": "https://tube438.test/video/entrevista-completa?ref=home"
+  },
+  {
+   "seed": 37341,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "fundo",
+    "outro_artigo",
+    "legenda",
+    "fundo",
+    "relacionados",
+    "proximo_video",
+    "trailer",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://media27.cdnhost37.test/v/408759/ffj98B5aJrmHmk2v/1440p.mp4",
+   "prob": 0.72,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xHS6gLN4iYe7"
+   ],
+   "url": "https://m.canal801.test/post/6432436/fnhs2sjd-titulo-do-video"
+  },
+  {
+   "seed": 37450,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "relacionados_json",
+    "previa_principal",
+    "outro_artigo",
+    "promo_rodape",
+    "fundo"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn9.media311.test/v/2577295/xsLPXXxVzsKsLmqe_TTGwTwKF8bE7Rtj/2160p.mp4",
+   "prob": 0.719,
+   "verdade": [
+    "https://www.dailymotion.com/embed/video/xs7UFFzLEipi"
+   ],
+   "url": "https://www.media311.test/p/3809545/ef-cfzr2-titulo-do-video"
+  },
+  {
+   "seed": 37522,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "audio",
+    "storyboard",
+    "audio",
+    "previa_principal",
+    "relacionados_json",
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.akamai7.test/v/6642237/MRphftXdTB6cq4rD_nzuca8M6n4PJ98e/1440p.mp4",
+   "prob": 0.626,
+   "verdade": [
+    "https://ok.ru/videoembed/81457169"
+   ],
+   "url": "https://m.portal322.test/v/5506837?ref=home"
+  },
+  {
+   "seed": 37536,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://www.cine80.test/v/9655000/DgpMD7pckZ92_T5A/720p.mp4",
+   "prob": 0.236,
+   "verdade": [],
+   "url": "https://www.cine80.test/videos/aula-01?ref=home"
+  },
+  {
+   "seed": 37538,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://video905.test/v/4352926/7Gc8FwLFm9yMtfR5Gyq7RDbtpAqxVPGE/720p.mp4",
+   "prob": 0.256,
+   "verdade": [],
+   "url": "https://video905.test/v/melhores-momentos?ref=home"
+  },
+  {
+   "seed": 37560,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "base_href"
+   ],
+   "escolhido": "https://cdn9.vids74.test/v/8233382/PgnFSDET7nshNkScqEkP-_9juc_kjbhB/1080p.mp4",
+   "prob": 0.698,
+   "verdade": [
+    "https://cdn9.vids74.test/hls/3684258/FyG5sFesLSmbpyfuaYLVJJqALZAathvf/master.m3u8"
+   ],
+   "url": "https://m.vids74.test/v/71981052"
+  },
+  {
+   "seed": 37784,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "storyboard",
+    "promo_rodape",
+    "gif_mp4",
+    "fundo",
+    "relacionados",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn6.video1.test/v/9546970/B5HiimDj/2160p.mp4",
+   "prob": 0.84,
+   "verdade": [
+    "https://www.youtube.com/embed/u83Vz8TBcFy"
+   ],
+   "url": "https://www.video1.test/p/5580715/"
+  },
+  {
+   "seed": 37804,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "legenda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://cdn8.portal536.test/v/1376205/PSXiAqyfS474SL4G99Zp36FjrtBRnAAU/360p.mp4",
+   "prob": 0.308,
+   "verdade": [],
+   "url": "https://m.portal536.test/post/6429309/zy6hetfc-titulo-do-video"
+  },
+  {
+   "seed": 37959,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://vod.cloudfront7.test/v/1418101/fgrSWhWJxPR55EnuzjcNWc6BDzWuxDMd/720p.mp4",
+   "prob": 0.735,
+   "verdade": [],
+   "url": "https://www.vids490.test/watch/aula-01?ref=home"
+  },
+  {
+   "seed": 38398,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "trailer",
+    "gif_mp4"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn8.vids889.test/v/9413415/x2CDvTbU/1440p.mp4",
+   "prob": 0.652,
+   "verdade": [],
+   "url": "https://vids889.test/video/aula-01/w4xjm-zu-titulo-do-video"
+  },
+  {
+   "seed": 38476,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "audio",
+    "storyboard",
+    "trailer",
+    "gif_mp4",
+    "previa_principal",
+    "previa_principal",
+    "audio"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "protocolo_relativo",
+    "barra_escapada",
+    "base_href"
+   ],
+   "escolhido": "https://media47.cdnhost55.test/v/9814884/mFuhBY7ymwdTcm34gCVb9ex9cvnxXgAA/1080p.mp4",
+   "prob": 0.589,
+   "verdade": [
+    "https://www.youtube.com/embed/TgcPWU5zydY"
+   ],
+   "url": "https://www.tube867.test/p/titulo-do-video-de-hoje"
+  },
+  {
+   "seed": 38505,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "relacionados_json",
+    "outro_artigo"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "comentario"
+   ],
+   "escolhido": "https://media2.cdnhost60.test/v/6842514/jE_tJ4bwMjufpUJ5jFzqEZaJxFV7AqJm/720p.mp4",
+   "prob": 0.363,
+   "verdade": [],
+   "url": "https://www.tube928.test/videos/9705045/8hjzkvbx-titulo-do-video"
+  },
+  {
+   "seed": 38507,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "html_quebrado",
+    "pagina_enorme"
+   ],
+   "escolhido": "https://media17.cdnhost99.test/v/5508114/gVARfxjDxw-FmUtC/720p.mp4",
+   "prob": 0.752,
+   "verdade": [
+    "https://media17.cdnhost99.test/hls/5383117/fJpFedoyhUkNbBQr/index.m3u8"
+   ],
+   "url": "https://www.clip31.test/videos/5383117/sykvoniz-titulo-do-video"
+  },
+  {
+   "seed": 38607,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "audio",
+    "legenda",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "unicode_escapado"
+   ],
+   "escolhido": "https://cdn8.media669.test/v/1320175/MY6nTRN7/720p.mp4",
+   "prob": 0.57,
+   "verdade": [],
+   "url": "https://media669.test/video/3530840?ref=home"
+  },
+  {
+   "seed": 38661,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "audio",
+    "fundo"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "relativo"
+   ],
+   "escolhido": "https://media290.test/v/8571813/jezQK4heWPJ-y5cS/1440p.mp4",
+   "prob": 0.777,
+   "verdade": [
+    "https://media290.test/hls/4171250/QkfdD6fdKBsHUFUk/index.m3u8"
+   ],
+   "url": "https://media290.test/post/4171250"
+  },
+  {
+   "seed": 38754,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "proximo_video",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "barra_escapada",
+    "html_quebrado",
+    "base_href"
+   ],
+   "escolhido": "https://vod.cloudfront6.test/v/8391256/wFhHKN58r4UhS4sXV69_GeiVNnjPuEYN/360p.mp4",
+   "prob": 0.395,
+   "verdade": [],
+   "url": "https://m.tube666.test/post/9459297/"
+  },
+  {
+   "seed": 38935,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "unicode_escapado",
+    "comentario"
+   ],
+   "escolhido": "https://vod.akamai1.test/v/9121197/tkUtBe8JYvN8nWpR/1440p.mp4",
+   "prob": 0.801,
+   "verdade": [
+    "https://vod.akamai1.test/hls/388029/PaFkTWASfTfXhqoo/playlist.m3u8?token=L_tQYqByqdVuPhdM6j33dssT&expires=1750952239&ip=10.0.197.25"
+   ],
+   "url": "https://canal859.test/video/388029/xpxk5cjt-titulo-do-video"
+  },
+  {
+   "seed": 39287,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "previa_principal",
+    "gif_mp4",
+    "previa_principal",
+    "audio",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "protocolo_relativo",
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn9.clip915.test/v/7754625/7j-vZfBVKRmctMmE/1080p.mp4",
+   "prob": 0.554,
+   "verdade": [
+    "https://cdn9.clip915.test/hls/8937413/7EKtgdW_weDoKMwv/8937413.m3u8"
+   ],
+   "url": "https://clip915.test/watch/entrevista-completa/_ew4toer-titulo-do-video"
+  },
+  {
+   "seed": 39316,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "storyboard",
+    "relacionados_json",
+    "audio"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://m.clip636.test/v/3614658/MzZCHshPfaBKWUFQwk-C-joh2M62h_o7/1080p.mp4",
+   "prob": 0.273,
+   "verdade": [],
+   "url": "https://m.clip636.test/videos/4050518?ref=home"
+  },
+  {
+   "seed": 39318,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "gif_mp4",
+    "proximo_video",
+    "promo_rodape"
+   ],
+   "peculiar": [
+    "barra_escapada",
+    "protocolo_relativo"
+   ],
+   "escolhido": "https://cdn1.cine539.test/v/6290186/sp-3HNc_/2160p.mp4",
+   "prob": 0.89,
+   "verdade": [],
+   "url": "https://cine539.test/videos/3343606?ref=home"
+  },
+  {
+   "seed": 39332,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "fundo",
+    "relacionados_json",
+    "previa_principal"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://m.cine700.test/v/2592825/tPKpmMvB/720p.mp4",
+   "prob": 0.35,
+   "verdade": [],
+   "url": "https://m.cine700.test/post/2775944?ref=home"
+  },
+  {
+   "seed": 39446,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados",
+    "proximo_video"
+   ],
+   "peculiar": [
+    "comentario"
+   ],
+   "escolhido": "https://canal650.test/v/48053/jHL2ZLeXWzoJbGdzUCjCZTF_W6XWE8u8/1080p.mp4",
+   "prob": 0.252,
+   "verdade": [],
+   "url": "https://canal650.test/v/entrevista-completa"
+  },
+  {
+   "seed": 39463,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "proximo_video"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media12.cdnhost16.test/v/1616541/nNgtobXU/1440p.mp4",
+   "prob": 0.888,
+   "verdade": [],
+   "url": "https://video85.test/post/5176397?ref=home"
+  },
+  {
+   "seed": 39526,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "gif_mp4",
+    "storyboard",
+    "relacionados_json",
+    "fundo",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://cdn5.canal592.test/v/3931305/PNKJdEWXSh_cjecG/1440p.mp4",
+   "prob": 0.673,
+   "verdade": [
+    "https://cdn5.canal592.test/hls/2465705/UvcdRJc4SjvJ-iXG/master.m3u8"
+   ],
+   "url": "https://www.canal592.test/p/2465705/gpewktay-titulo-do-video"
+  },
+  {
+   "seed": 39789,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "previa_principal",
+    "promo_rodape",
+    "relacionados_json"
+   ],
+   "peculiar": [
+    "html_quebrado"
+   ],
+   "escolhido": "https://cdn2.media886.test/v/2480003/PjwzZ8WfmKFy6ysrqG5S4jAyoJGDK5nV/720p.mp4",
+   "prob": 0.228,
+   "verdade": [],
+   "url": "https://www.media886.test/p/2650336"
+  },
+  {
+   "seed": 40105,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "legenda"
+   ],
+   "peculiar": [
+    "pagina_enorme"
+   ],
+   "escolhido": "https://vod.edge1.test/v/7090571/mnTcDg6CXfDwW56W/480p.mp4",
+   "prob": 0.657,
+   "verdade": [
+    "https://vod.edge1.test/hls/9952621/6RC2dNBA_dfEe_tM/playlist.m3u8?token=DjL2enJ49cEXc3DDtQRQqkMD&expires=1798449882"
+   ],
+   "url": "https://m.cine74.test/post/entrevista-completa/cdkppwnz-titulo-do-video"
+  },
+  {
+   "seed": 40142,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "relacionados_json",
+    "relacionados_json",
+    "fundo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media34.cdnhost60.test/v/6828111/-ZpN-PcvXCBaTFyg/2160p.mp4",
+   "prob": 0.889,
+   "verdade": [],
+   "url": "https://vids805.test/post/41527376/tfbad_nz-titulo-do-video"
+  },
+  {
+   "seed": 40144,
+   "res": "isca",
+   "familia": "iframe_embed",
+   "espera": "video",
+   "iscas": [
+    "proximo_video",
+    "outro_artigo"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media15.cdnhost97.test/v/6629666/P45ji7qjt6RQc7jWBno9Y2NofjSty8jk/1440p.mp4",
+   "prob": 0.765,
+   "verdade": [
+    "https://ok.ru/videoembed/65568219"
+   ],
+   "url": "https://vids844.test/video/aula-01/"
+  },
+  {
+   "seed": 40158,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video",
+    "gif_mp4",
+    "gif_mp4",
+    "storyboard",
+    "audio"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn1.portal837.test/v/8934957/pUowoUG5/1080p.mp4",
+   "prob": 0.573,
+   "verdade": [
+    "https://cdn1.portal837.test/hls/584128/VPPfJBNH/playlist.m3u8"
+   ],
+   "url": "https://portal837.test/post/584128?ref=home"
+  },
+  {
+   "seed": 40166,
+   "res": "isca",
+   "familia": "mse_blob_js",
+   "espera": "navegador",
+   "iscas": [
+    "proximo_video"
+   ],
+   "peculiar": [
+    "barra_escapada"
+   ],
+   "escolhido": "https://cdn6.tube929.test/v/3062768/hFP4aho44zmi-LiQZ-H-p-hqT4a8iVJi/2160p.mp4",
+   "prob": 0.955,
+   "verdade": [
+    "https://cdn6.tube929.test/hls/8746702/uaqAkr-xEFuzfqeBpXATVR8u8_WLs5_p/master.m3u8"
+   ],
+   "url": "https://tube929.test/post/8746702/"
+  },
+  {
+   "seed": 40394,
+   "res": "isca",
+   "familia": "sem_video",
+   "espera": "nenhum",
+   "iscas": [
+    "legenda",
+    "relacionados_json"
+   ],
+   "peculiar": [],
+   "escolhido": "https://media161.test/v/6858649/DXfPBcBC/2160p.mp4",
+   "prob": 0.877,
+   "verdade": [],
+   "url": "https://media161.test/videos/40176328?ref=home"
+  }
+ ]
+}

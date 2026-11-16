@@ -1,0 +1,201 @@
+{
+ "total": 120,
+ "ok": 119,
+ "taxa_ok": 0.9917,
+ "resultados": {
+  "ok": 119,
+  "isca": 1
+ },
+ "segundos_medio": 6.33,
+ "tempo_total_s": 209,
+ "por": {
+  "familia:artplayer": {
+   "ok": 3
+  },
+  "familia:atob": {
+   "ok": 2
+  },
+  "familia:clappr": {
+   "ok": 5
+  },
+  "familia:dashjs": {
+   "ok": 8
+  },
+  "familia:download_link": {
+   "ok": 3
+  },
+  "familia:encoded_param": {
+   "ok": 5
+  },
+  "familia:flashvars": {
+   "ok": 4
+  },
+  "familia:flowplayer": {
+   "ok": 8
+  },
+  "familia:fluid": {
+   "ok": 5
+  },
+  "familia:hlsjs": {
+   "ok": 6
+  },
+  "familia:html5_sources": {
+   "ok": 4
+  },
+  "familia:html5_src": {
+   "ok": 2
+  },
+  "familia:jsonld": {
+   "ok": 7
+  },
+  "familia:jwplayer": {
+   "ok": 7
+  },
+  "familia:lazy_data": {
+   "ok": 3
+  },
+  "familia:mse_blob_js": {
+   "ok": 7
+  },
+  "familia:nuxt_state": {
+   "ok": 3
+  },
+  "familia:og_only": {
+   "ok": 8
+  },
+  "familia:plyr": {
+   "ok": 1
+  },
+  "familia:sem_video": {
+   "ok": 1,
+   "isca": 1
+  },
+  "familia:shaka": {
+   "ok": 5
+  },
+  "familia:social_json": {
+   "ok": 6
+  },
+  "familia:twitter_card": {
+   "ok": 4
+  },
+  "familia:videojs": {
+   "ok": 12
+  },
+  "fmt:360.mp4": {
+   "ok": 9
+  },
+  "fmt:av1.mp4": {
+   "ok": 8
+  },
+  "fmt:flv": {
+   "ok": 9
+  },
+  "fmt:hevc.mp4": {
+   "ok": 19
+  },
+  "fmt:mkv": {
+   "ok": 10
+  },
+  "fmt:mov": {
+   "ok": 13
+  },
+  "fmt:mp4": {
+   "ok": 25,
+   "isca": 1
+  },
+  "fmt:mudo.mp4": {
+   "ok": 5
+  },
+  "fmt:ts": {
+   "ok": 13
+  },
+  "fmt:webm": {
+   "ok": 8
+  },
+  "mania:chunked": {
+   "ok": 11
+  },
+  "mania:ck": {
+   "ok": 8
+  },
+  "mania:drop": {
+   "ok": 9
+  },
+  "mania:gzip": {
+   "ok": 12
+  },
+  "mania:norange": {
+   "ok": 12
+  },
+  "mania:octet": {
+   "ok": 10
+  },
+  "mania:r429": {
+   "ok": 17
+  },
+  "mania:r503": {
+   "ok": 10
+  },
+  "mania:redir": {
+   "ok": 10
+  },
+  "mania:ref": {
+   "ok": 10
+  },
+  "mania:seg404": {
+   "ok": 11
+  },
+  "mania:slow": {
+   "ok": 15
+  },
+  "mania:ua": {
+   "ok": 11
+  },
+  "motor:-": {
+   "ok": 1
+  },
+  "motor:direto": {
+   "ok": 57,
+   "isca": 1
+  },
+  "motor:ffmpeg": {
+   "ok": 13
+  },
+  "motor:streamlink": {
+   "ok": 33
+  },
+  "motor:yt-dlp": {
+   "ok": 15
+  }
+ },
+ "falhas": [
+  {
+   "seed": 94,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [],
+   "fmt": "mp4",
+   "hls": "hlsaes",
+   "cor": "verde",
+   "cor_baixada": "roxo",
+   "caminho": "direto · progressivo · dom, rede, video_tag, ytdlp · conexão direta",
+   "erro": "",
+   "iscas": [
+    "promo_rodape"
+   ],
+   "segundos": 16.4,
+   "log": [
+    "15:35:41 analisando o link...",
+    "15:35:41 perguntando ao yt-dlp...",
+    "15:35:41 lendo a página e procurando os players...",
+    "15:35:41 players na página: html5",
+    "15:35:41 abrindo a página no Edge escondido e apertando play...",
+    "15:35:57 baixando progressivo · dom, rede, video_tag, ytdlp (chance 0%)...",
+    "15:35:57 pronto: 180p · 0:03 · direto · progressivo · dom, rede, video_tag, ytdlp · conexão direta"
+   ],
+   "escolhido": "http://127.0.0.1:61744/c94/www.cine661.test/media/sponsor/EmSz--.mp4",
+   "verdade": []
+  }
+ ]
+}

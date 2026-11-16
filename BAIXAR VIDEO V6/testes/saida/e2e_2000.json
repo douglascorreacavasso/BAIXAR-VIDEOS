@@ -1,0 +1,163 @@
+{
+ "total": 120,
+ "ok": 120,
+ "taxa_ok": 1.0,
+ "resultados": {
+  "ok": 120
+ },
+ "segundos_medio": 5.25,
+ "tempo_total_s": 183,
+ "por": {
+  "familia:artplayer": {
+   "ok": 4
+  },
+  "familia:atob": {
+   "ok": 4
+  },
+  "familia:clappr": {
+   "ok": 2
+  },
+  "familia:dashjs": {
+   "ok": 8
+  },
+  "familia:download_link": {
+   "ok": 4
+  },
+  "familia:encoded_param": {
+   "ok": 5
+  },
+  "familia:flashvars": {
+   "ok": 2
+  },
+  "familia:flowplayer": {
+   "ok": 3
+  },
+  "familia:fluid": {
+   "ok": 5
+  },
+  "familia:hlsjs": {
+   "ok": 5
+  },
+  "familia:html5_sources": {
+   "ok": 4
+  },
+  "familia:html5_src": {
+   "ok": 1
+  },
+  "familia:jsonld": {
+   "ok": 7
+  },
+  "familia:jwplayer": {
+   "ok": 6
+  },
+  "familia:lazy_data": {
+   "ok": 5
+  },
+  "familia:mse_blob_js": {
+   "ok": 5
+  },
+  "familia:nuxt_state": {
+   "ok": 4
+  },
+  "familia:og_only": {
+   "ok": 7
+  },
+  "familia:plyr": {
+   "ok": 6
+  },
+  "familia:sem_video": {
+   "ok": 3
+  },
+  "familia:shaka": {
+   "ok": 3
+  },
+  "familia:social_json": {
+   "ok": 10
+  },
+  "familia:twitter_card": {
+   "ok": 10
+  },
+  "familia:videojs": {
+   "ok": 7
+  },
+  "fmt:360.mp4": {
+   "ok": 11
+  },
+  "fmt:av1.mp4": {
+   "ok": 13
+  },
+  "fmt:flv": {
+   "ok": 8
+  },
+  "fmt:hevc.mp4": {
+   "ok": 14
+  },
+  "fmt:mkv": {
+   "ok": 5
+  },
+  "fmt:mov": {
+   "ok": 9
+  },
+  "fmt:mp4": {
+   "ok": 21
+  },
+  "fmt:mudo.mp4": {
+   "ok": 13
+  },
+  "fmt:ts": {
+   "ok": 16
+  },
+  "fmt:webm": {
+   "ok": 10
+  },
+  "mania:chunked": {
+   "ok": 8
+  },
+  "mania:ck": {
+   "ok": 12
+  },
+  "mania:drop": {
+   "ok": 7
+  },
+  "mania:gzip": {
+   "ok": 10
+  },
+  "mania:norange": {
+   "ok": 12
+  },
+  "mania:octet": {
+   "ok": 8
+  },
+  "mania:r429": {
+   "ok": 7
+  },
+  "mania:r503": {
+   "ok": 15
+  },
+  "mania:redir": {
+   "ok": 12
+  },
+  "mania:ref": {
+   "ok": 13
+  },
+  "mania:seg404": {
+   "ok": 13
+  },
+  "mania:slow": {
+   "ok": 6
+  },
+  "mania:ua": {
+   "ok": 8
+  },
+  "motor:-": {
+   "ok": 3
+  },
+  "motor:direto": {
+   "ok": 76
+  },
+  "motor:yt-dlp": {
+   "ok": 41
+  }
+ },
+ "falhas": []
+}

@@ -1,0 +1,30 @@
+{
+ "quando": "2026-11-15 20:49",
+ "nivel1": {
+  "total": 95000,
+  "ok": 94900,
+  "taxa_ok": 0.99895,
+  "resultados": {
+   "ok": 94900,
+   "duvida": 15173,
+   "isca": 100
+  },
+  "ms_por_pagina": 4.78,
+  "tempo_s": 487,
+  "modelo": "novo"
+ },
+ "e2e": {
+  "total": 5000,
+  "ok": 117,
+  "taxa_ok": 0.0234,
+  "resultados": {
+   "erro:nao_achei": 140,
+   "quebrado": 4739,
+   "ok": 117,
+   "erro:bloqueio": 4
+  },
+  "segundos_medio": 1.37,
+  "tempo_total_s": 1752
+ },
+ "total_testes": 100000
+}
