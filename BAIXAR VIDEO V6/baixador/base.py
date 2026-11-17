@@ -37,6 +37,8 @@ PADRAO = {
     "cookies_navegador": "nenhum",
     "mp4_compativel": True,
     "usar_navegador": True,
+    "assistir_gravar": True,       # último recurso: assistir e gravar quadro a quadro com o som
+    "assistir_pela_tela": True,    # se o site bloquear o gravador do navegador, gravar a janela do Edge
     "perguntar_na_duvida": True,
     "simultaneos": 2,
 }

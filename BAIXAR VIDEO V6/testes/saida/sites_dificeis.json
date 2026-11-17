@@ -1,47 +1,49 @@
 {
- "acertos": 8,
- "total": 10,
+ "acertos": 11,
+ "total": 11,
  "por_cenario": {
   "token_header": "1/1",
   "token_uso_unico": "1/1",
   "mse_embaralhado": "1/1",
-  "manifesto_post": "0/1",
+  "manifesto_post": "1/1",
   "cookie_js": "1/1",
   "anti_robo": "1/1",
-  "assinado_curto": "0/1",
+  "assinado_curto": "1/1",
   "blob_inteiro": "1/1",
   "drm_falso": "1/1",
-  "referer_origem": "1/1"
+  "referer_origem": "1/1",
+  "canvas_player": "1/1"
  },
  "resultados": [
   {
    "repeticao": 1,
    "cenario": "token_header",
    "resultado": "ok",
-   "tecnica": "navegador_rede",
-   "caminho": "direto · progressivo · rede, script · conexão direta",
+   "tecnica": "captura_player",
+   "caminho": "captura do player (MSE/Blob) · conexão direta",
    "obstaculos": [
     "cabecalho_especial",
     "mse_blob"
    ],
    "tentou": [
-    "navegador_rede"
+    "navegador_rede",
+    "captura_player"
    ],
-   "segundos": 54.3,
+   "segundos": 35.1,
    "erro": "",
    "log": [
-    "01:28:26 analisando o link...",
-    "01:28:26 perguntando ao yt-dlp...",
-    "01:28:30 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.1:64174/c0002c5b/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.1:64174/c0002c5b/watch",
-    "01:28:30 lendo a página e procurando os players...",
-    "01:28:30 players na página: html5",
-    "01:28:30 abrindo a página no Edge escondido e apertando play...",
-    "01:28:51 modo difícil: investigando o que impede...",
-    "01:28:51 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
-    "01:29:19 obstáculo [cabecalho_especial]: o player mandou cabeçalhos próprios: x-token",
-    "01:29:19 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (0 pedaços, 1 blobs)",
-    "01:29:19 baixando progressivo · rede, script (chance 1%)...",
-    "01:29:20 pronto: 180p · 0:03 · direto · progressivo · rede, script · conexão direta"
+    "10:33:35 perguntando ao yt-dlp...",
+    "10:33:36 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.2:58992/c00064bd/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.2:58992/c00064bd/watch",
+    "10:33:36 lendo a página e procurando os players...",
+    "10:33:36 players na página: html5",
+    "10:33:36 abrindo a página no Edge escondido e apertando play...",
+    "10:33:47 modo difícil: investigando o que impede...",
+    "10:33:47 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:33:58 obstáculo [cabecalho_especial]: o player mandou cabeçalhos próprios: x-token",
+    "10:33:58 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (0 pedaços, 1 blobs)",
+    "10:33:58 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:33:58 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:34:10 pronto: 180p · 0:03 · captura do player (MSE/Blob) · conexão direta"
    ]
   },
   {
@@ -58,21 +60,21 @@
     "navegador_rede",
     "captura_player"
    ],
-   "segundos": 70.9,
+   "segundos": 34.8,
    "erro": "",
    "log": [
-    "01:29:21 modo difícil: investigando o que impede...",
-    "01:29:21 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
-    "01:29:53 obstáculo [cabecalho_especial]: o player mandou cabeçalhos próprios: x-token",
-    "01:29:53 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (0 pedaços, 1 blobs)",
-    "01:29:53 baixando progressivo · rede, script (chance 2%)...",
-    "01:29:53   motor direto: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:29:54   motor yt-dlp: [bloqueio] [generic] v: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] v: Unable to download webpage: HTTP",
-    "01:29:54   motor ffmpeg: [bloqueio] [in#0 @ 000002277fb55440] Error opening input: Server returned 403 Forbidden (access denied) | Error opening input file http://127.0.0.1:64174/c0017e15/media/v.",
-    "01:29:54 progressivo · rede, script: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:29:54 técnica navegador falhou: bloqueio",
-    "01:29:54 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
-    "01:30:31 pronto: 180p · 0:03 · captura do player (MSE/Blob) · conexão direta"
+    "10:34:11 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.3:58993/c0015e0e/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.3:58993/c0015e0e/watch",
+    "10:34:11 lendo a página e procurando os players...",
+    "10:34:11 players na página: html5",
+    "10:34:11 abrindo a página no Edge escondido e apertando play...",
+    "10:34:22 modo difícil: investigando o que impede...",
+    "10:34:22 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:34:32 baixar na hora: 403 em http://127.0.0.3:58993/c0015e0e/media/v.mp4",
+    "10:34:32 obstáculo [cabecalho_especial]: o player mandou cabeçalhos próprios: x-token",
+    "10:34:32 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (0 pedaços, 1 blobs)",
+    "10:34:32 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:34:32 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:34:45 pronto: 180p · 0:03 · captura do player (MSE/Blob) · conexão direta"
    ]
   },
   {
@@ -85,71 +87,80 @@
     "mse_blob"
    ],
    "tentou": [
+    "navegador_rede",
     "captura_player"
    ],
-   "segundos": 35.1,
+   "segundos": 35.2,
    "erro": "",
    "log": [
-    "01:30:33 analisando o link...",
-    "01:30:33 este site já ensinou: o caminho normal não funciona aqui; indo direto para capturar o que o player recebe (MSE/Blob)",
-    "01:30:33 modo difícil: investigando o que impede...",
-    "01:30:33 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
-    "01:31:06 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (1 pedaços, 0 blobs)",
-    "01:31:07 pronto: 180p · 0:04 · captura do player (MSE/Blob) · conexão direta"
+    "10:34:46 analisando o link...",
+    "10:34:46 perguntando ao yt-dlp...",
+    "10:34:46 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.4:58998/c0025b57/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.4:58998/c0025b57/watch",
+    "10:34:46 lendo a página e procurando os players...",
+    "10:34:46 players na página: html5",
+    "10:34:46 abrindo a página no Edge escondido e apertando play...",
+    "10:34:57 modo difícil: investigando o que impede...",
+    "10:34:57 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:35:08 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (1 pedaços, 0 blobs)",
+    "10:35:08 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:35:08 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:35:21 pronto: 180p · 0:04 · captura do player (MSE/Blob) · conexão direta"
    ]
   },
   {
    "repeticao": 1,
    "cenario": "manifesto_post",
-   "resultado": "falhou (erro/bloqueio/None)",
-   "tecnica": "",
-   "caminho": "",
+   "resultado": "ok",
+   "tecnica": "navegador_rede",
+   "caminho": "Edge baixou na hora · progressivo 180p · dom, rede, video_tag · conexão direta",
    "obstaculos": [
-    "endereco_assinado",
-    "referer_origem"
+    "endereco_assinado"
    ],
    "tentou": [
-    "captura_player",
-    "navegador_rede",
-    "captura_player",
     "navegador_rede"
    ],
-   "segundos": 169.1,
-   "erro": "O site recusou o download (403/429/proteção anti-robô) em todas as rotas. O que impede: endereço com validade curta; exige Referer/Origin. Tentei: capturar o que o player recebe (MSE/Blob), Edge escondido escutando a rede, capturar o que o ",
+   "segundos": 22.1,
+   "erro": "",
    "log": [
-    "01:32:55 obstáculo [endereco_assinado]: o endereço da mídia tem assinatura/validade (expires=)",
-    "01:32:55 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
-    "01:33:17 captura: o player não entregou vídeo aproveitável",
-    "01:33:17 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
-    "01:33:56 baixando progressivo 180p · dom, rede, video_tag (chance 98%)...",
-    "01:33:56   motor direto: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:33:57   motor yt-dlp: [bloqueio] [generic] v: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] v: Unable to download webpage: HTTP",
-    "01:33:57   motor ffmpeg: [bloqueio] [in#0 @ 000001c59bf9f640] Error opening input: Server returned 403 Forbidden (access denied) | Error opening input file http://127.0.0.1:64174/c00351cb/media/v.",
-    "01:33:57 progressivo 180p · dom, rede, video_tag: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:33:57 técnica navegador falhou: bloqueio",
-    "01:33:57 detalhe: HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:33:57 O site recusou o download (403/429/proteção anti-robô) em todas as rotas. O que impede: endereço com validade curta; exige Referer/Origin. Tentei: capturar o que o player recebe (MSE/Blob), Edge escondido escutando a rede, capturar o que o player recebe (MSE/Blob), Edge escondido escutando a rede."
+    "10:35:21 analisando o link...",
+    "10:35:21 perguntando ao yt-dlp...",
+    "10:35:21 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.5:59009/c00377d9/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.5:59009/c00377d9/watch",
+    "10:35:21 lendo a página e procurando os players...",
+    "10:35:21 players na página: html5",
+    "10:35:21 abrindo a página no Edge escondido e apertando play...",
+    "10:35:32 modo difícil: o que impede: endereço com validade curta...",
+    "10:35:32 obstáculo [endereco_assinado]: o endereço da mídia tem assinatura/validade (expires=)",
+    "10:35:32 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:35:33 baixei na hora o que o player pediu (0.0 MB)",
+    "10:35:43 pronto: 180p · 0:03 · Edge baixou na hora · progressivo 180p · dom, rede, video_tag · conexão direta"
    ]
   },
   {
    "repeticao": 1,
    "cenario": "cookie_js",
    "resultado": "ok",
-   "tecnica": "normal",
-   "caminho": "direto · progressivo · config_player, dom, rede, script, video_tag · conexão direta",
-   "obstaculos": [],
-   "tentou": [],
-   "segundos": 46.3,
+   "tecnica": "navegador_rede",
+   "caminho": "Edge baixou na hora · progressivo 180p · config_player, dom, rede, script, video_tag · conexão direta",
+   "obstaculos": [
+    "cookie_de_script"
+   ],
+   "tentou": [
+    "navegador_rede"
+   ],
+   "segundos": 22.3,
    "erro": "",
    "log": [
-    "01:33:57 analisando o link...",
-    "01:33:57 perguntando ao yt-dlp...",
-    "01:33:58 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.1:64174/c0048cb3/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.1:64174/c0048cb3/watch",
-    "01:33:58 lendo a página e procurando os players...",
-    "01:33:58 players na página: html5",
-    "01:33:58 abrindo a página no Edge escondido e apertando play...",
-    "01:34:43 baixando progressivo · config_player, dom, rede, script, video_tag (chance 26%)...",
-    "01:34:44 pronto: 180p · 0:03 · direto · progressivo · config_player, dom, rede, script, video_tag · conexão direta"
+    "10:35:43 analisando o link...",
+    "10:35:43 perguntando ao yt-dlp...",
+    "10:35:43 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.6:59023/c0041e8e/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.6:59023/c0041e8e/watch",
+    "10:35:43 lendo a página e procurando os players...",
+    "10:35:43 players na página: html5",
+    "10:35:43 abrindo a página no Edge escondido e apertando play...",
+    "10:35:54 modo difícil: investigando o que impede...",
+    "10:35:54 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:35:55 baixei na hora o que o player pediu (0.0 MB)",
+    "10:36:05 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:36:05 pronto: 180p · 0:03 · Edge baixou na hora · progressivo 180p · config_player, dom, rede, script, video_tag · conexão direta"
    ]
   },
   {
@@ -160,50 +171,49 @@
    "caminho": "direto · progressivo 180p · config_player, dom, rede, script, video_tag · conexão direta",
    "obstaculos": [],
    "tentou": [],
-   "segundos": 23.0,
+   "segundos": 12.3,
    "erro": "",
    "log": [
-    "01:34:44 analisando o link...",
-    "01:34:44 perguntando ao yt-dlp...",
-    "01:34:44 yt-dlp: [bloqueio] [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by",
-    "01:34:44 yt-dlp: [bloqueio] [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by",
-    "01:34:44 lendo a página e procurando os players...",
-    "01:34:44 página: [bloqueio] HTTP 403",
-    "01:34:44 abrindo a página no Edge escondido e apertando play...",
-    "01:34:47 navegador: página de verificação anti-robô; esperando ela liberar...",
-    "01:35:06 baixando progressivo 180p · config_player, dom, rede, script, video_tag (chance 100%)...",
-    "01:35:06 pronto: 180p · 0:03 · direto · progressivo 180p · config_player, dom, rede, script, video_tag · conexão direta"
+    "10:36:05 analisando o link...",
+    "10:36:05 perguntando ao yt-dlp...",
+    "10:36:06 yt-dlp: [bloqueio] [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by",
+    "10:36:06 yt-dlp: [bloqueio] [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] watch: Unable to download webpage: HTTP Error 403: Forbidden (caused by",
+    "10:36:06 lendo a página e procurando os players...",
+    "10:36:06 página: [bloqueio] HTTP 403",
+    "10:36:06 abrindo a página no Edge escondido e apertando play...",
+    "10:36:07 navegador: página de verificação anti-robô; esperando ela liberar...",
+    "10:36:17 baixando progressivo 180p · config_player, dom, rede, script, video_tag (chance 19%)...",
+    "10:36:18 pronto: 180p · 0:03 · direto · progressivo 180p · config_player, dom, rede, script, video_tag · conexão direta"
    ]
   },
   {
    "repeticao": 1,
    "cenario": "assinado_curto",
-   "resultado": "falhou (erro/bloqueio/None)",
-   "tecnica": "",
-   "caminho": "",
+   "resultado": "ok",
+   "tecnica": "navegador_rede",
+   "caminho": "Edge baixou na hora · progressivo 180p · dom, rede, video_tag · conexão direta",
    "obstaculos": [
     "referer_origem",
     "endereco_assinado"
    ],
    "tentou": [
-    "captura_player",
     "navegador_rede"
    ],
-   "segundos": 98.6,
-   "erro": "O site recusou o download (403/429/proteção anti-robô) em todas as rotas. O que impede: exige Referer/Origin; endereço com validade curta. Tentei: capturar o que o player recebe (MSE/Blob), Edge escondido escutando a rede.",
+   "segundos": 22.8,
+   "erro": "",
    "log": [
-    "01:36:44   motor direto: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:36:44   motor yt-dlp: [bloqueio] [generic] v: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] v: Unable to download webpage: HTTP",
-    "01:36:45   motor ffmpeg: [bloqueio] [in#0 @ 000001cb933dee40] Error opening input: Server returned 403 Forbidden (access denied) | Error opening input file http://127.0.0.1:64174/c0065d7a/media/v.",
-    "01:36:45 progressivo 180p · dom, rede, video_tag: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:36:45 baixando progressivo · config_player, script (chance 31%)...",
-    "01:36:45   motor direto: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:36:45   motor yt-dlp: [bloqueio] [generic] v: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] v: Unable to download webpage: HTTP",
-    "01:36:45   motor ffmpeg: [bloqueio] [in#0 @ 000001e767945400] Error opening input: Server returned 403 Forbidden (access denied) | Error opening input file http://127.0.0.1:64174/c0065d7a/media/v.",
-    "01:36:45 progressivo · config_player, script: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:36:45 técnica navegador falhou: bloqueio",
-    "01:36:45 detalhe: HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
-    "01:36:45 O site recusou o download (403/429/proteção anti-robô) em todas as rotas. O que impede: exige Referer/Origin; endereço com validade curta. Tentei: capturar o que o player recebe (MSE/Blob), Edge escondido escutando a rede."
+    "10:36:29 progressivo 180p · dom, rede, video_tag: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
+    "10:36:29 baixando progressivo · config_player, script (chance 2%)...",
+    "10:36:29   motor direto: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
+    "10:36:29   motor yt-dlp: [bloqueio] [generic] v: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>) | ERROR: [generic] v: Unable to download webpage: HTTP",
+    "10:36:29   motor ffmpeg: [bloqueio] [in#0 @ 0000025f4e3a14c0] Error opening input: Server returned 403 Forbidden (access denied) | Error opening input file http://127.0.0.8:59031/c006b4ad/media/v.",
+    "10:36:29 progressivo · config_player, script: [bloqueio] HTTP 403 (o site recusou; talvez precise de Referer/cookies)",
+    "10:36:29 modo difícil: o que impede: exige Referer/Origin, endereço com validade curta...",
+    "10:36:29 obstáculo [referer_origem]: a mídia respondeu 403 (o servidor exige algo do pedido)",
+    "10:36:29 obstáculo [endereco_assinado]: o endereço da mídia tem assinatura/validade (expires=)",
+    "10:36:29 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:36:30 baixei na hora o que o player pediu (0.0 MB)",
+    "10:36:40 pronto: 180p · 0:03 · Edge baixou na hora · progressivo 180p · dom, rede, video_tag · conexão direta"
    ]
   },
   {
@@ -216,21 +226,24 @@
     "mse_blob"
    ],
    "tentou": [
+    "navegador_rede",
     "captura_player"
    ],
-   "segundos": 53.0,
+   "segundos": 35.4,
    "erro": "",
    "log": [
-    "01:36:45 analisando o link...",
-    "01:36:45 perguntando ao yt-dlp...",
-    "01:36:46 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.1:64174/c0072104/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.1:64174/c0072104/watch",
-    "01:36:46 lendo a página e procurando os players...",
-    "01:36:46 players na página: html5",
-    "01:36:46 abrindo a página no Edge escondido e apertando play...",
-    "01:37:18 modo difícil: investigando o que impede...",
-    "01:37:18 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
-    "01:37:37 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (0 pedaços, 1 blobs)",
-    "01:37:38 pronto: 180p · 0:03 · captura do player (MSE/Blob) · conexão direta"
+    "10:36:40 analisando o link...",
+    "10:36:40 perguntando ao yt-dlp...",
+    "10:36:41 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.9:59036/c0071392/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.9:59036/c0071392/watch",
+    "10:36:41 lendo a página e procurando os players...",
+    "10:36:41 players na página: html5",
+    "10:36:41 abrindo a página no Edge escondido e apertando play...",
+    "10:36:52 modo difícil: investigando o que impede...",
+    "10:36:52 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:37:03 obstáculo [mse_blob]: o player montou o vídeo por MSE/Blob (0 pedaços, 1 blobs)",
+    "10:37:03 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:37:03 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:37:16 pronto: 180p · 0:03 · captura do player (MSE/Blob) · conexão direta"
    ]
   },
   {
@@ -243,23 +256,24 @@
     "drm"
    ],
    "tentou": [
-    "captura_player"
+    "navegador_rede",
+    "assistir_gravar"
    ],
-   "segundos": 32.6,
-   "erro": "Este vídeo tem proteção contra cópia (DRM). Nenhum baixador gratuito abre; use \"Gravar área\" com o vídeo tocando. O que impede: DRM (proteção contra cópia). Tentei: capturar o que o player recebe (MSE/Blob).",
+   "segundos": 26.7,
+   "erro": "Este vídeo tem proteção contra cópia (DRM). Nenhum baixador gratuito abre; use \"Gravar área\" com o vídeo tocando. O que impede: DRM (proteção contra cópia). Tentei: Edge escondido escutando a rede, assistir e gravar quadro a quadro com o so",
    "log": [
-    "01:37:38 analisando o link...",
-    "01:37:38 perguntando ao yt-dlp...",
-    "01:37:39 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.1:64174/c0082299/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.1:64174/c0082299/watch",
-    "01:37:39 lendo a página e procurando os players...",
-    "01:37:39 players na página: html5",
-    "01:37:39 abrindo a página no Edge escondido e apertando play...",
-    "01:37:56 modo difícil: investigando o que impede...",
-    "01:37:56 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
-    "01:38:09 captura: a página pediu chave de DRM; a gravação dos bytes não serve (vêm cifrados)",
-    "01:38:11 obstáculo [drm]: a página pediu chave de DRM: com.widevine.alpha, org.w3.clearkey",
-    "01:38:11 detalhe: a página pediu chave de DRM: com.widevine.alpha, org.w3.clearkey",
-    "01:38:11 Este vídeo tem proteção contra cópia (DRM). Nenhum baixador gratuito abre; use \"Gravar área\" com o vídeo tocando. O que impede: DRM (proteção contra cópia). Tentei: capturar o que o player recebe (MSE/Blob)."
+    "10:37:16 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.10:59037/c0085de1/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.10:59037/c0085de1/watch",
+    "10:37:16 lendo a página e procurando os players...",
+    "10:37:16 players na página: html5",
+    "10:37:16 abrindo a página no Edge escondido e apertando play...",
+    "10:37:27 modo difícil: investigando o que impede...",
+    "10:37:27 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:37:38 obstáculo [drm]: a página pediu chave de DRM: com.widevine.alpha, org.w3.clearkey",
+    "10:37:38 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:37:42 assistir: o <video> da página não tem vídeo carregado",
+    "10:37:43 assistir e gravar não deu: o <video> da página não tem vídeo carregado",
+    "10:37:43 detalhe: a página pediu chave de DRM: com.widevine.alpha, org.w3.clearkey",
+    "10:37:43 Este vídeo tem proteção contra cópia (DRM). Nenhum baixador gratuito abre; use \"Gravar área\" com o vídeo tocando. O que impede: DRM (proteção contra cópia). Tentei: Edge escondido escutando a rede, assistir e gravar quadro a quadro com o som."
    ]
   },
   {
@@ -272,24 +286,53 @@
     "referer_origem"
    ],
    "tentou": [
-    "captura_player",
     "navegador_rede"
    ],
-   "segundos": 125.7,
+   "segundos": 32.1,
    "erro": "",
    "log": [
-    "01:38:11 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.1:64174/c009721e/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.1:64174/c009721e/watch",
-    "01:38:11 lendo a página e procurando os players...",
-    "01:38:11 players na página: html5",
-    "01:38:11 abrindo a página no Edge escondido e apertando play...",
-    "01:39:06 modo difícil: investigando o que impede...",
-    "01:39:06 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
-    "01:39:46 captura: o player não recebeu nada (sem MSE/Blob nesta página)",
-    "01:39:53 obstáculo [referer_origem]: a mídia respondeu 403 (1x)",
-    "01:39:53 captura: o player não entregou vídeo aproveitável",
-    "01:39:53 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
-    "01:40:16 baixando progressivo · script (chance 2%)...",
-    "01:40:16 pronto: 180p · 0:03 · direto · progressivo · script · conexão direta"
+    "10:37:43 analisando o link...",
+    "10:37:43 perguntando ao yt-dlp...",
+    "10:37:43 yt-dlp: [nao_suportado] Unsupported URL: http://127.0.0.11:59041/c0097bcd/watch | [generic] Falling back on generic information extractor | ERROR: Unsupported URL: http://127.0.0.11:59041/c0097bcd/watch",
+    "10:37:43 lendo a página e procurando os players...",
+    "10:37:43 players na página: html5",
+    "10:37:43 abrindo a página no Edge escondido e apertando play...",
+    "10:38:04 modo difícil: investigando o que impede...",
+    "10:38:04 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:38:14 obstáculo [referer_origem]: a mídia respondeu 403 (1x)",
+    "10:38:14 baixando progressivo · script (chance 0%)...",
+    "10:38:15 pronto: 180p · 0:03 · direto · progressivo · script · conexão direta"
+   ]
+  },
+  {
+   "repeticao": 1,
+   "cenario": "canvas_player",
+   "resultado": "ok",
+   "tecnica": "assistir_gravar",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "obstaculos": [
+    "player_canvas"
+   ],
+   "tentou": [
+    "navegador_rede",
+    "captura_player",
+    "assistir_gravar"
+   ],
+   "segundos": 72.9,
+   "erro": "",
+   "log": [
+    "10:38:15 lendo a página e procurando os players...",
+    "10:38:15 abrindo a página no Edge escondido e apertando play...",
+    "10:38:25 modo difícil: investigando o que impede...",
+    "10:38:25 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:38:36 obstáculo [player_canvas]: a página desenha o vídeo num <canvas> e não tem <video>",
+    "10:38:36 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:38:36 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:39:12 captura: o player não recebeu nada (sem MSE/Blob nesta página)",
+    "10:39:12 captura: o player não entregou vídeo aproveitável",
+    "10:39:12 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:39:16 assistir: gravando o canvas da página em tempo real",
+    "10:39:27 pronto: 360p · 0:00 · assistido e gravado (gravador do navegador) · conexão direta"
    ]
   }
  ]

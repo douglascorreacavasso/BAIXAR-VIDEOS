@@ -54,6 +54,7 @@ class Contexto:
 # ------------------------------------------------------------------ erros
 _CATEGORIAS = [
     ("ffmpeg", r"ffmpeg not found|ffprobe not found|ffmpeg is not installed|ffmpeg não encontrado"),
+    ("servidor_morto", r"servidor que não existe mais"),
     ("drm", r"drm protected|\bdrm\b|widevine|playready|fairplay|encrypted media"),
     ("cookies_travados", r"could not copy .*cookie|cookie database|database is locked|failed to decrypt|cookies? .*(?:lock|perm)"),
     ("rede", r"getaddrinfo failed|failed to resolve|name or service not known|temporary failure in name|"
@@ -253,6 +254,12 @@ def baixar_direto(url: str, ctx: Contexto, nome: str, headers: dict | None = Non
             r = s.get(url, stream=True, timeout=(15, 40), headers=h, allow_redirects=True)
         except requests.RequestException as e:
             tentativas += 1
+            m_host = re.search(r"host='([^']+)'", str(e))
+            if m_host and re.search(r"NameResolution|getaddrinfo|Failed to resolve|Max retries", str(e), re.I):
+                from .rede import servidor_existe
+                if servidor_existe(m_host.group(1), ctx.proxy) is False:
+                    raise ErroMotor("servidor_morto", f"o site manda o vídeo para {m_host.group(1)}, servidor que não existe mais "
+                                                      f"(o DNS do próprio domínio responde que ele não existe)")
             if tentativas > 6:
                 raise ErroMotor(classificar_erro(str(e)) if classificar_erro(str(e)) != "outro" else "rede", str(e)[:300])
             time.sleep(min(2 ** tentativas, 20))

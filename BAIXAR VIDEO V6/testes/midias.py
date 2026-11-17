@@ -105,9 +105,13 @@ ULTIMO_DIAG: dict = {}   # por que a cor não saiu (vai para as falhas da bateri
 def cor_media(caminho) -> tuple[int, int, int] | None:
     """Cor média de um quadro do meio (o quadrado branco ocupa pouco e quase não mexe na média)."""
     extra = ["-allowed_extensions", "ALL"] if str(caminho).endswith(".m3u8") else []
-    r = subprocess.run([achar_programa("ffmpeg") or "ffmpeg", "-v", "error", *extra, "-i", str(caminho), "-ss", "1.2", "-frames:v", "1", "-vf", "scale=32:18",
+    try:
+        r = subprocess.run([achar_programa("ffmpeg") or "ffmpeg", "-v", "error", *extra, "-i", str(caminho), "-ss", "1.2", "-frames:v", "1", "-vf", "scale=32:18",
                         "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, timeout=30,
-                       creationflags=SEM_JANELA)  # sem isto, num processo sem console (bateria em segundo plano) o ffmpeg não abria
+                           creationflags=SEM_JANELA)  # sem isto, num processo sem console (bateria em segundo plano) o ffmpeg não abria
+    except subprocess.TimeoutExpired:  # PC ocupado: conta como "não li a cor", não derruba a bateria
+        ULTIMO_DIAG[str(caminho)] = {"codigo": "tempo_esgotado"}
+        return None
     b = r.stdout
     if len(b) < 32 * 18 * 3:
         return None

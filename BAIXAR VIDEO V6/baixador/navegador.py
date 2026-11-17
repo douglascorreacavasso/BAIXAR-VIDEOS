@@ -164,6 +164,7 @@ def farejar(url: str, proxy: str | None = None, espera_s: float = 9.0, cancel=No
                         return
                     if resp.status in (401, 403, 451):
                         obs["status_midia"][str(resp.status)] = obs["status_midia"].get(str(resp.status), 0) + 1
+                        obs.setdefault("urls_recusadas", []).append(u)  # o player pediu e o servidor recusou: é o vídeo dele
                         return
                     if tipo in ("ignorar",) or (ct.startswith(("image/", "text/css", "font/", "text/javascript")) and tipo == "desconhecido"):
                         return
@@ -191,6 +192,34 @@ def farejar(url: str, proxy: str | None = None, espera_s: float = 9.0, cancel=No
                     pass
 
             pg.on("response", ao_responder)
+            if baixar_na_hora:
+                # o arquivo de vídeo que o <video> pede é baixado INTEIRO no mesmo instante do pedido (o endereço ainda
+                # vale) e entregue ao player do mesmo jeito: nada muda para a página
+                pasta_hora = Path(baixar_na_hora)
+                pasta_hora.mkdir(parents=True, exist_ok=True)
+
+                def ao_rotear(route):
+                    req = route.request
+                    u = req.url
+                    if req.resource_type != "media" or u in out["baixados"] or u.startswith(("blob:", "data:")):
+                        return route.continue_()
+                    try:
+                        h = {k: v for k, v in req.headers.items() if k.lower() not in ("range", "if-range")}
+                        resp = route.fetch(headers=h, max_redirects=10, timeout=600000)
+                        corpo = resp.body()
+                        if resp.ok and len(corpo) > 1000 and not corpo[:200].lstrip().lower().startswith((b"<!doctype", b"<html")):
+                            arq = pasta_hora / f"midia_{len(out['baixados'])}.bin"
+                            arq.write_bytes(corpo)
+                            out["baixados"][u] = str(arq)
+                            log(f"baixei na hora o que o player pediu ({len(corpo) / 1e6:.1f} MB)")
+                        route.fulfill(response=resp, body=corpo)
+                    except Exception as e:
+                        log(f"baixar na hora: {type(e).__name__}: {str(e)[:100]}")
+                        try:
+                            route.continue_()
+                        except Exception:
+                            pass
+                ctx.route("**/*", ao_rotear)
             try:
                 pg.goto(url, wait_until="domcontentloaded", timeout=30000)
             except Exception as e:
@@ -232,6 +261,12 @@ def farejar(url: str, proxy: str | None = None, espera_s: float = 9.0, cancel=No
                     obs["drm"] = sorted(set(b["drm"]))
                     obs["mse_appends"] = b["appends"]
                     obs["blobs_video"] = b["blobs"]
+            except Exception:
+                pass
+            try:  # vídeo desenhado num <canvas> (sem <video>): só assistindo e gravando dá
+                obs["canvas_grande"] = bool(pg.evaluate("""() => { const vs = document.querySelectorAll('video').length;
+                    const cs = [...document.querySelectorAll('canvas')].filter(c => { const r = c.getBoundingClientRect(); return r.width * r.height > 60000; });
+                    return vs === 0 && cs.length > 0; }"""))
             except Exception:
                 pass
             try:
@@ -342,6 +377,8 @@ def _baixar_na_hora(ctx, vistos: dict, pedidos: dict, pasta: Path, out: dict, lo
                     and ("video" in r["ct"] or tipo_da_url(u, r["ct"]) == "progressivo")]
     progressivos.sort(key=lambda x: (not x[1]["depois"], -(x[1]["tam"] or 0)))
     for i, (u, r) in enumerate(progressivos[:4]):
+        if u in out["baixados"]:
+            continue
         if r["tam"] and r["tam"] > limite_bytes:
             log(f"baixar na hora: {u[:60]} é grande demais para o navegador ({r['tam'] / 1e9:.1f} GB)")
             continue

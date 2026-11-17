@@ -174,6 +174,9 @@ def caracteristicas(c: Candidato, pagina_host: str = "", memoria_site: dict | No
     return f
 
 
+AJUSTE_MAX = 2.0   # quanto o uso pode mover cada peso de fábrica, para cima ou para baixo
+
+
 class Modelo:
     """Regressão logística com pesos esparsos (nome da característica -> peso).
     Peso final = peso de fábrica (modelo_inicial.json) + AJUSTE aprendido com o seu uso (dados/modelo_aprendido.json).
@@ -242,6 +245,8 @@ class Modelo:
             for k, v in f.items():
                 w = alvo.get(k, 0.0)
                 alvo[k] = w + taxa * (erro * v - l2 * w)
+                if not na_base:  # o uso ajusta, mas não apaga o que foi treinado (achado: milhares de casos de um site só
+                    alvo[k] = max(-AJUSTE_MAX, min(AJUSTE_MAX, alvo[k]))  # derrubavam a chance do vídeo certo para 1%)
             self.n_atualizacoes += 0 if na_base else 1
 
 

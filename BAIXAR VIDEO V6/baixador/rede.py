@@ -108,3 +108,23 @@ def montar_rotas(proxies_txt: str, usar_tor: bool) -> list[dict]:
         for i in range(3):
             rotas.append({"nome": f"Tor (país #{i + 1})", "proxy": TOR_SOCKS, "tor": True})
     return rotas
+
+
+def servidor_existe(host: str, proxy: str | None = None) -> bool | None:
+    """True = existe; False = o DNS do próprio domínio diz que NÃO existe (NXDOMAIN, conferido em 2 DNS seguros);
+    None = não deu para saber. (Achado no caso real do doug, 17/11: o site mandava o vídeo para g1.swiftsrv9.com,
+    servidor que não existe mais; nem o navegador tocava.)"""
+    px = {"http": proxy, "https": proxy} if proxy else None
+    respostas = []
+    for url in ("https://1.1.1.1/dns-query", "https://8.8.8.8/resolve"):
+        try:
+            d = requests.get(url, params={"name": host, "type": "A"}, headers={"accept": "application/dns-json"},
+                             timeout=6, proxies=px).json()
+            respostas.append(d.get("Status"))
+            if d.get("Status") == 0 and d.get("Answer"):
+                return True
+        except Exception:
+            continue
+    if respostas and all(s == 3 for s in respostas):
+        return False
+    return None

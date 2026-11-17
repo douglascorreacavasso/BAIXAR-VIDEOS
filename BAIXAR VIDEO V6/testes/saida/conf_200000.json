@@ -1,0 +1,530 @@
+{
+ "total": 1000,
+ "ok": 991,
+ "taxa_ok": 0.991,
+ "resultados": {
+  "ok": 991,
+  "isca": 9
+ },
+ "segundos_medio": 3.59,
+ "tempo_total_s": 969,
+ "por": {
+  "familia:artplayer": {
+   "ok": 45
+  },
+  "familia:atob": {
+   "ok": 44
+  },
+  "familia:clappr": {
+   "ok": 42
+  },
+  "familia:dashjs": {
+   "ok": 41
+  },
+  "familia:download_link": {
+   "ok": 39
+  },
+  "familia:encoded_param": {
+   "ok": 45,
+   "isca": 2
+  },
+  "familia:flashvars": {
+   "ok": 42
+  },
+  "familia:flowplayer": {
+   "ok": 40
+  },
+  "familia:fluid": {
+   "ok": 51
+  },
+  "familia:hlsjs": {
+   "ok": 40
+  },
+  "familia:html5_sources": {
+   "ok": 50
+  },
+  "familia:html5_src": {
+   "ok": 31
+  },
+  "familia:jsonld": {
+   "ok": 40
+  },
+  "familia:jwplayer": {
+   "ok": 35
+  },
+  "familia:lazy_data": {
+   "ok": 48
+  },
+  "familia:mse_blob_js": {
+   "ok": 27
+  },
+  "familia:nuxt_state": {
+   "ok": 48
+  },
+  "familia:og_only": {
+   "ok": 37
+  },
+  "familia:plyr": {
+   "ok": 43
+  },
+  "familia:sem_video": {
+   "isca": 7,
+   "ok": 14
+  },
+  "familia:shaka": {
+   "ok": 49
+  },
+  "familia:social_json": {
+   "ok": 52
+  },
+  "familia:twitter_card": {
+   "ok": 49
+  },
+  "familia:videojs": {
+   "ok": 39
+  },
+  "fmt:360.mp4": {
+   "ok": 83,
+   "isca": 1
+  },
+  "fmt:av1.mp4": {
+   "ok": 86,
+   "isca": 3
+  },
+  "fmt:flv": {
+   "ok": 63,
+   "isca": 2
+  },
+  "fmt:hevc.mp4": {
+   "ok": 89,
+   "isca": 1
+  },
+  "fmt:mkv": {
+   "ok": 77
+  },
+  "fmt:mov": {
+   "ok": 90
+  },
+  "fmt:mp4": {
+   "ok": 239,
+   "isca": 1
+  },
+  "fmt:mudo.mp4": {
+   "ok": 85
+  },
+  "fmt:ts": {
+   "ok": 85
+  },
+  "fmt:webm": {
+   "ok": 94,
+   "isca": 1
+  },
+  "mania:chunked": {
+   "ok": 68
+  },
+  "mania:ck": {
+   "ok": 80,
+   "isca": 2
+  },
+  "mania:drop": {
+   "ok": 86,
+   "isca": 1
+  },
+  "mania:gzip": {
+   "ok": 83
+  },
+  "mania:norange": {
+   "ok": 94,
+   "isca": 1
+  },
+  "mania:octet": {
+   "ok": 92,
+   "isca": 1
+  },
+  "mania:r429": {
+   "ok": 102,
+   "isca": 1
+  },
+  "mania:r503": {
+   "ok": 85
+  },
+  "mania:redir": {
+   "ok": 78
+  },
+  "mania:ref": {
+   "ok": 81
+  },
+  "mania:seg404": {
+   "ok": 88
+  },
+  "mania:slow": {
+   "ok": 90
+  },
+  "mania:ua": {
+   "ok": 75,
+   "isca": 1
+  },
+  "motor:-": {
+   "ok": 14
+  },
+  "motor:assistido": {
+   "isca": 7
+  },
+  "motor:direto": {
+   "ok": 660
+  },
+  "motor:ffmpeg": {
+   "ok": 11
+  },
+  "motor:yt-dlp": {
+   "ok": 306,
+   "isca": 2
+  }
+ },
+ "falhas": [
+  {
+   "seed": 200020,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [
+    "ck",
+    "ua"
+   ],
+   "fmt": "webm",
+   "hls": "hls",
+   "cor": "verde",
+   "cor_baixada": "ciano",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "erro": "",
+   "iscas": [
+    "audio",
+    "propaganda"
+   ],
+   "segundos": 44.1,
+   "log": [
+    "10:16:52 perguntando ao yt-dlp...",
+    "10:16:52 lendo a página e procurando os players...",
+    "10:16:52 players na página: html5",
+    "10:16:52 abrindo a página no Edge escondido e apertando play...",
+    "10:17:03 modo difícil: investigando o que impede...",
+    "10:17:03 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:17:04 baixei na hora o que o player pediu (0.0 MB)",
+    "10:17:14 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:17:14 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:17:14 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:17:27 captura: o player não entregou vídeo aproveitável",
+    "10:17:27 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:17:31 assistir: gravando o video da página em tempo real (3 s de vídeo)",
+    "10:17:36 pronto: 180p · 0:03 · assistido e gravado (gravador do navegador) · conexão direta"
+   ],
+   "escolhido": null,
+   "verdade": [],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 1806333 Canal 53 (1).mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200243,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [
+    "octet"
+   ],
+   "fmt": "av1.mp4",
+   "hls": "hlsaes",
+   "cor": "amarelo",
+   "cor_baixada": "roxo",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "erro": "",
+   "iscas": [
+    "propaganda",
+    "promo_rodape",
+    "relacionados"
+   ],
+   "segundos": 44.4,
+   "log": [
+    "10:19:47 players na página: html5",
+    "10:19:47 abrindo a página no Edge escondido e apertando play...",
+    "10:19:58 modo difícil: investigando o que impede...",
+    "10:19:58 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:19:59 baixei na hora o que o player pediu (0.0 MB)",
+    "10:19:59 baixei na hora o que o player pediu (0.0 MB)",
+    "10:19:59 baixei na hora o que o player pediu (0.0 MB)",
+    "10:20:09 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:20:09 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:20:09 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:20:22 captura: o player não entregou vídeo aproveitável",
+    "10:20:22 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:20:26 assistir: gravando o video da página em tempo real (3 s de vídeo)",
+    "10:20:31 pronto: 180p · 0:03 · assistido e gravado (gravador do navegador) · conexão direta"
+   ],
+   "escolhido": null,
+   "verdade": [],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 2901421 Canal 85.mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200286,
+   "res": "isca",
+   "familia": "encoded_param",
+   "manias": [
+    "drop"
+   ],
+   "fmt": "av1.mp4",
+   "hls": "hls",
+   "cor": "amarelo",
+   "cor_baixada": "roxo",
+   "caminho": "yt-dlp · hls · ytdlp · conexão direta",
+   "erro": "",
+   "iscas": [],
+   "segundos": 11.5,
+   "log": [
+    "10:20:38 analisando o link...",
+    "10:20:38 perguntando ao yt-dlp...",
+    "10:20:38 lendo a página e procurando os players...",
+    "10:20:38 abrindo a página no Edge escondido e apertando play...",
+    "10:20:49 baixando hls · ytdlp (chance 100%)...",
+    "10:20:49 Destination: C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\.parciais\\Vídeo 2487164 Canal 47 2026-11-17 10 20.mp4",
+    "10:20:49 pronto: 360p · 0:03 · yt-dlp · hls · ytdlp · conexão direta"
+   ],
+   "escolhido": "http://127.0.0.1:49537/c200286/clip255.test/videos/v360/index.m3u8",
+   "verdade": [
+    "http://127.0.0.1:49537/c200286/cdn7.clip255.test/hls/2487164/GjkU_v_2/2487164.m3u8"
+   ],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 2487164 Canal 47 2026-11-17 10 20.mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200404,
+   "res": "isca",
+   "familia": "encoded_param",
+   "manias": [
+    "norange"
+   ],
+   "fmt": "av1.mp4",
+   "hls": "hls",
+   "cor": "azul",
+   "cor_baixada": "roxo",
+   "caminho": "yt-dlp · hls · ytdlp · conexão direta",
+   "erro": "",
+   "iscas": [
+    "legenda",
+    "propaganda"
+   ],
+   "segundos": 0.5,
+   "log": [
+    "10:23:01 analisando o link...",
+    "10:23:01 perguntando ao yt-dlp...",
+    "10:23:01 lendo a página e procurando os players...",
+    "10:23:01 baixando hls · ytdlp (chance 99%)...",
+    "10:23:01 Destination: C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\.parciais\\Vídeo 83498 Canal 39 2026-11-17 10 23.mp4",
+    "10:23:02 pronto: 360p · 0:03 · yt-dlp · hls · ytdlp · conexão direta"
+   ],
+   "escolhido": "http://127.0.0.1:49537/c200404/m.cine843.test/p/51583556/v360/index.m3u8",
+   "verdade": [
+    "http://127.0.0.1:49537/c200404/cdn4.cine843.test/hls/83498/AVKLuWw2oTnfUqZAt63TXnjLGY_CZsdr/83498.m3u8"
+   ],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 83498 Canal 39 2026-11-17 10 23.mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200358,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [
+    "r429"
+   ],
+   "fmt": "hevc.mp4",
+   "hls": "hlsaes",
+   "cor": "azul",
+   "cor_baixada": "rosa",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "erro": "",
+   "iscas": [
+    "fundo",
+    "promo_rodape"
+   ],
+   "segundos": 92.0,
+   "log": [
+    "10:21:43 players na página: html5",
+    "10:21:43 abrindo a página no Edge escondido e apertando play...",
+    "10:21:54 modo difícil: investigando o que impede...",
+    "10:21:54 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:21:55 baixei na hora o que o player pediu (0.0 MB)",
+    "10:21:55 baixei na hora o que o player pediu (0.0 MB)",
+    "10:22:05 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:22:05 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:22:05 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:22:20 captura: o player não entregou vídeo aproveitável",
+    "10:22:20 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:22:24 assistir: gravando o video da página em tempo real (3 s de vídeo)",
+    "10:23:13 assistir: o vídeo parou de andar há 45 s; fechando a gravação",
+    "10:23:15 pronto: 180p · 0:48 · assistido e gravado (gravador do navegador) · conexão direta"
+   ],
+   "escolhido": null,
+   "verdade": [],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 6455920 Canal 2.mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200550,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [
+    "ck"
+   ],
+   "fmt": "mp4",
+   "hls": "hls",
+   "cor": "verde",
+   "cor_baixada": "laranja",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "erro": "",
+   "iscas": [
+    "relacionados_json",
+    "promo_rodape",
+    "legenda"
+   ],
+   "segundos": 43.8,
+   "log": [
+    "10:25:14 perguntando ao yt-dlp...",
+    "10:25:14 lendo a página e procurando os players...",
+    "10:25:14 players na página: html5",
+    "10:25:14 abrindo a página no Edge escondido e apertando play...",
+    "10:25:25 modo difícil: investigando o que impede...",
+    "10:25:25 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:25:25 baixei na hora o que o player pediu (0.0 MB)",
+    "10:25:35 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:25:35 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:25:35 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:25:49 captura: o player não entregou vídeo aproveitável",
+    "10:25:49 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:25:53 assistir: gravando o video da página em tempo real (3 s de vídeo)",
+    "10:25:57 pronto: 180p · 0:03 · assistido e gravado (gravador do navegador) · conexão direta"
+   ],
+   "escolhido": null,
+   "verdade": [],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 8079656 Canal 3 (1).mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200666,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [],
+   "fmt": "360.mp4",
+   "hls": "hlsfmp4",
+   "cor": "verde",
+   "cor_baixada": "rosa",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "erro": "",
+   "iscas": [
+    "storyboard",
+    "fundo",
+    "proximo_video"
+   ],
+   "segundos": 106.4,
+   "log": [
+    "10:26:28 lendo a página e procurando os players...",
+    "10:26:28 players na página: html5",
+    "10:26:28 abrindo a página no Edge escondido e apertando play...",
+    "10:26:39 modo difícil: investigando o que impede...",
+    "10:26:39 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:26:40 baixei na hora o que o player pediu (0.0 MB)",
+    "10:26:50 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:26:50 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:26:50 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:27:20 captura: o player não entregou vídeo aproveitável",
+    "10:27:20 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:27:24 assistir: gravando o video da página em tempo real (3 s de vídeo)",
+    "10:28:12 assistir: o vídeo parou de andar há 45 s; fechando a gravação",
+    "10:28:14 pronto: 180p · 0:48 · assistido e gravado (gravador do navegador) · conexão direta"
+   ],
+   "escolhido": null,
+   "verdade": [],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 3244282 Canal 30 (1).mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200856,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [],
+   "fmt": "flv",
+   "hls": "hls",
+   "cor": "amarelo",
+   "cor_baixada": "roxo",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "erro": "",
+   "iscas": [
+    "promo_rodape"
+   ],
+   "segundos": 43.2,
+   "log": [
+    "10:28:53 perguntando ao yt-dlp...",
+    "10:28:53 lendo a página e procurando os players...",
+    "10:28:53 players na página: html5",
+    "10:28:53 abrindo a página no Edge escondido e apertando play...",
+    "10:29:04 modo difícil: investigando o que impede...",
+    "10:29:04 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:29:05 baixei na hora o que o player pediu (0.0 MB)",
+    "10:29:15 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:29:15 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:29:15 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:29:28 captura: o player não entregou vídeo aproveitável",
+    "10:29:28 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:29:32 assistir: gravando o video da página em tempo real (3 s de vídeo)",
+    "10:29:36 pronto: 180p · 0:03 · assistido e gravado (gravador do navegador) · conexão direta"
+   ],
+   "escolhido": null,
+   "verdade": [],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 2208977 Canal 92 (1).mp4",
+   "existe": true,
+   "diag_cor": null
+  },
+  {
+   "seed": 200990,
+   "res": "isca",
+   "familia": "sem_video",
+   "manias": [],
+   "fmt": "flv",
+   "hls": "hlsfmp4",
+   "cor": "amarelo",
+   "cor_baixada": "rosa",
+   "caminho": "assistido e gravado (gravador do navegador) · conexão direta",
+   "erro": "",
+   "iscas": [
+    "legenda",
+    "fundo",
+    "storyboard"
+   ],
+   "segundos": 95.6,
+   "log": [
+    "10:31:09 lendo a página e procurando os players...",
+    "10:31:09 players na página: html5",
+    "10:31:09 abrindo a página no Edge escondido e apertando play...",
+    "10:31:21 modo difícil: investigando o que impede...",
+    "10:31:21 modo difícil: abrindo no Edge e copiando os pedidos exatos do player...",
+    "10:31:22 baixei na hora o que o player pediu (0.0 MB)",
+    "10:31:32 obstáculo [cookie_de_script]: a mídia foi pedida com cookie que não veio do servidor (criado pelo JavaScript)",
+    "10:31:32 navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)",
+    "10:31:32 modo difícil: capturando o que o player recebe (tocando em velocidade alta)...",
+    "10:31:50 captura: o player não entregou vídeo aproveitável",
+    "10:31:50 modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+    "10:31:54 assistir: gravando o video da página em tempo real (3 s de vídeo)",
+    "10:32:43 assistir: o vídeo parou de andar há 45 s; fechando a gravação",
+    "10:32:45 pronto: 180p · 0:48 · assistido e gravado (gravador do navegador) · conexão direta"
+   ],
+   "escolhido": null,
+   "verdade": [],
+   "arquivo": "C:\\Users\\Douglas\\Documents\\GitHub\\BAIXAR VIDEOS\\BAIXAR VIDEO V6\\testes\\saida\\baixados_conf_200000\\Vídeo 7586766 Canal 38 (1).mp4",
+   "existe": true,
+   "diag_cor": null
+  }
+ ]
+}

@@ -34,7 +34,7 @@ from urllib.parse import parse_qs, urlparse
 AQUI = Path(__file__).resolve().parent
 SAIDA = AQUI / "saida"
 SAIDA.mkdir(exist_ok=True)
-os.environ["BAIXADOR_DADOS"] = str(SAIDA / "dados_dificeis")
+os.environ.setdefault("BAIXADOR_DADOS", str(SAIDA / "dados_dificeis"))
 sys.path.insert(0, str(AQUI.parent))
 sys.path.insert(0, str(AQUI))
 
@@ -42,7 +42,7 @@ from baixador.base import SEM_JANELA, achar_programa  # noqa: E402
 from midias import CORES, PASTA as MIDIAS, cor_media, gerar_tudo, qual_cor  # noqa: E402
 
 CENARIOS = ["token_header", "token_uso_unico", "mse_embaralhado", "manifesto_post", "cookie_js", "anti_robo",
-            "assinado_curto", "blob_inteiro", "drm_falso", "referer_origem"]
+            "assinado_curto", "blob_inteiro", "drm_falso", "referer_origem", "canvas_player"]
 ESPERADO = {c: "video" for c in CENARIOS}
 ESPERADO["drm_falso"] = "drm"
 CODEC = 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
@@ -69,6 +69,14 @@ LOCK = threading.Lock()
 def pagina(cen: str, cid: str) -> str:
     base = f"/{cid}"
     titulo = f"<title>Vídeo protegido {cid}</title>"
+    if cen == "canvas_player":  # sem <video>: o vídeo é desenhado num canvas (só "assistir e gravar" pega)
+        return (f"<!doctype html><html><head><meta charset='utf-8'>{titulo}</head><body><h1>Vídeo</h1>"
+                f"<canvas id='c' width='640' height='360'></canvas><script>(async () => {{"
+                f"const g = document.getElementById('c').getContext('2d');"
+                f"const cor = await (await fetch('{base}/api/cor')).json(); let i = 0;"
+                f"const t = setInterval(() => {{ g.fillStyle = 'rgb(' + cor.join(',') + ')'; g.fillRect(0, 0, 640, 360);"
+                f"g.fillStyle = '#fff'; g.fillRect((i * 8) % 600, 150, 40, 40); i++; if (i > 96) clearInterval(t); }}, 1000 / 24);"
+                f"}})();</script></body></html>")
     if cen in ("token_header", "token_uso_unico"):
         js = f"""const t = await (await fetch('{base}/api/token')).json();
                  const r = await fetch('{base}/media/v.mp4', {{headers: {{'X-Token': t.token}}}});
@@ -103,6 +111,11 @@ def pagina(cen: str, cid: str) -> str:
     return (f"<!doctype html><html><head><meta charset='utf-8'>{titulo}</head><body><h1>Vídeo</h1>"
             f"<video id='v' controls muted width='640' height='360'></video>"
             f"<script>(async () => {{ const v = document.getElementById('v'); {js} }})();</script></body></html>")
+
+
+class Quieto(ThreadingHTTPServer):
+    def handle_error(self, request, client_address):
+        pass   # conexão cortada pelo navegador ao trocar de pedido: normal
 
 
 class H(BaseHTTPRequestHandler):
@@ -155,6 +168,8 @@ class H(BaseHTTPRequestHandler):
                          f"</script></body></html>").encode()
                 return self.env(403, corpo, "text/html; charset=utf-8")
             return self.env(200, pagina(cen, cid).encode(), "text/html; charset=utf-8")
+        if resto == "/api/cor":
+            return self.env(200, json.dumps(list(CORES[st["cor"]])).encode(), "application/json")
         if resto == "/api/token":
             tok = secrets.token_hex(8)
             with LOCK:
@@ -213,7 +228,7 @@ def rodar(repeticoes: int = 2):
     # um "site" por proteção: cada cenário num endereço próprio (127.0.0.2, .3 ...), para o aprendizado por site valer
     servidores = {}
     for i, cen in enumerate(CENARIOS):
-        s = ThreadingHTTPServer((f"127.0.0.{2 + i}", 0), H)
+        s = Quieto((f"127.0.0.{2 + i}", 0), H)
         s.daemon_threads = True
         threading.Thread(target=s.serve_forever, daemon=True).start()
         servidores[cen] = s

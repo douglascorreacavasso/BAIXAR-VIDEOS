@@ -33,12 +33,15 @@ TECNICAS = ["normal", "fingir_chrome", "cookies_navegador", "cabecalhos_capturad
 NOME_TECNICA = {"normal": "download normal", "fingir_chrome": "fingir ser o Chrome", "cookies_navegador": "cookies do seu navegador",
                 "cabecalhos_capturados": "repetir os cabeçalhos exatos do navegador", "navegador_rede": "Edge escondido escutando a rede",
                 "captura_player": "capturar o que o player recebe (MSE/Blob)", "gravar_area": "gravar a área da tela",
+                "assistir_gravar": "assistir e gravar quadro a quadro com o som",
                 "outra_rota": "outra rota (proxy/Tor)"}
 NOME_OBSTACULO = {"login": "pede login", "cookie_de_script": "cookie criado pelo JavaScript", "cabecalho_especial": "cabeçalho especial",
                   "referer_origem": "exige Referer/Origin", "endereco_assinado": "endereço com validade curta",
                   "anti_robo": "proteção anti-robô", "escondido_no_js": "vídeo escondido no JavaScript",
                   "mse_blob": "player monta o vídeo em pedaços (MSE/Blob)", "drm": "DRM (proteção contra cópia)",
-                  "geo": "bloqueio por país", "limite": "limite de pedidos (429)"}
+                  "geo": "bloqueio por país", "limite": "limite de pedidos (429)",
+                  "servidor_morto": "o servidor do vídeo não existe mais (defeito do site)",
+                  "player_canvas": "o vídeo é desenhado num canvas (sem arquivo de vídeo)"}
 # para cada obstáculo, as técnicas na ordem de tentativa
 PLANO = {"login": ["cookies_navegador", "navegador_rede", "captura_player"],
          "cookie_de_script": ["navegador_rede", "cabecalhos_capturados", "captura_player"],
@@ -50,7 +53,9 @@ PLANO = {"login": ["cookies_navegador", "navegador_rede", "captura_player"],
          "mse_blob": ["captura_player"],
          "drm": ["gravar_area"],
          "geo": ["outra_rota"],
-         "limite": ["normal"]}
+         "limite": ["normal"],
+         "servidor_morto": ["navegador_rede", "captura_player"],
+         "player_canvas": ["assistir_gravar"]}
 
 
 def diagnosticar(erros: list, obs: dict | None, html: str = "", urls: list | None = None) -> dict[str, str]:
@@ -60,6 +65,8 @@ def diagnosticar(erros: list, obs: dict | None, html: str = "", urls: list | Non
     low = texto.lower()
     if re.search(r"login|sign in|private|cookies? (are )?(needed|required)|members", low):
         d["login"] = "o site disse que precisa de conta (" + _trecho(low, r"login|sign in|private|members") + ")"
+    if "servidor que não existe mais" in low:
+        d["servidor_morto"] = _trecho(low, r"servidor que não existe mais")
     if re.search(r"geo|not available in your country|in your region", low):
         d["geo"] = "o site disse que não libera para o seu país"
     if re.search(r"\b429\b|too many requests|rate.?limit", low):
@@ -93,6 +100,8 @@ def diagnosticar(erros: list, obs: dict | None, html: str = "", urls: list | Non
             d.setdefault("referer_origem", "a mídia respondeu " + ", ".join(f"{k} ({v}x)" for k, v in obs["status_midia"].items()))
         if obs.get("mse_appends") or obs.get("blobs_video"):
             d["mse_blob"] = f"o player montou o vídeo por MSE/Blob ({obs.get('mse_appends', 0)} pedaços, {obs.get('blobs_video', 0)} blobs)"
+        if obs.get("canvas_grande"):
+            d["player_canvas"] = "a página desenha o vídeo num <canvas> e não tem <video>"
         if obs.get("manifesto_por_post"):
             d["mse_blob"] = d.get("mse_blob", "") + "; a lista do vídeo veio por POST"
     return d
@@ -110,7 +119,7 @@ def plano(diag: dict, memoria_site: dict | None) -> list[str]:
     aprendidas = sorted((k for k, r in tec.items() if r.get("ok", 0) > 0),
                         key=lambda k: -((tec[k].get("ok", 0) + 1) / (tec[k].get("ok", 0) + tec[k].get("fail", 0) + 2)))
     ordem += aprendidas
-    for ob in ("drm", "login", "geo", "anti_robo", "cabecalho_especial", "cookie_de_script", "referer_origem",
+    for ob in ("servidor_morto", "drm", "login", "geo", "anti_robo", "cabecalho_especial", "cookie_de_script", "referer_origem",
                "endereco_assinado", "escondido_no_js", "mse_blob", "limite"):
         if ob in diag:
             for t in PLANO[ob]:

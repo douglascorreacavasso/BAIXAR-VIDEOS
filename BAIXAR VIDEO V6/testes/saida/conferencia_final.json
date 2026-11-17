@@ -1,0 +1,31 @@
+{
+ "quando": "2026-11-17 10:39",
+ "ponta_a_ponta": {
+  "total": 1000,
+  "ok": 991,
+  "taxa_ok": 0.991,
+  "resultados": {
+   "ok": 991,
+   "isca": 9
+  },
+  "segundos_medio": 3.59,
+  "tempo_total_s": 969
+ },
+ "sites_dificeis": {
+  "acertos": 11,
+  "total": 11,
+  "por_cenario": {
+   "token_header": "1/1",
+   "token_uso_unico": "1/1",
+   "mse_embaralhado": "1/1",
+   "manifesto_post": "1/1",
+   "cookie_js": "1/1",
+   "anti_robo": "1/1",
+   "assinado_curto": "1/1",
+   "blob_inteiro": "1/1",
+   "drm_falso": "1/1",
+   "referer_origem": "1/1",
+   "canvas_player": "1/1"
+  }
+ }
+}

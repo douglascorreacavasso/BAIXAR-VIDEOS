@@ -52,6 +52,7 @@ MENSAGENS = {
     "nao_achei": "Não achei o vídeo nesta página. Use \"Marcar na tela\" para apontar o vídeo, ou \"Gravar a área\".",
     "ffmpeg": "Falta o FFmpeg. Rode o BAIXAR_VIDEO.bat de novo para instalar.",
     "formato": "Achei o vídeo, mas nenhum formato baixou certo.",
+    "servidor_morto": "O site manda o vídeo para um servidor que não existe mais. É defeito do próprio site (por isso nem no navegador o vídeo toca); não é a sua internet nem bloqueio de pop-up. Tente mais tarde ou outra fonte do mesmo vídeo.",
     "drm": "Este vídeo tem proteção contra cópia (DRM). Nenhum baixador gratuito abre; use \"Gravar área\" com o vídeo tocando.",
     "outro": "Não deu certo.",
 }
@@ -268,7 +269,7 @@ class Motor:
             self._historico(t)
 
     # -------------------------------------------------------------- sites que não deixam baixar
-    DIFICEIS = ("navegador_rede", "cabecalhos_capturados", "captura_player")
+    DIFICEIS = ("navegador_rede", "cabecalhos_capturados", "captura_player", "assistir_gravar")
 
     def _tentar_rota(self, t: Tarefa, ctx: Contexto) -> Path:
         """Caminho normal; se falhar por bloqueio, entra no MODO DIFÍCIL (diagnóstico + técnicas de captura).
@@ -365,9 +366,17 @@ class Motor:
                     cands = self._juntar(cands, analisar_html(r["html"], pagina).candidatos)
                 t.cookies_nav += [k for k in r.get("cookies", []) if isinstance(k, dict)]
                 t.titulo = t.titulo or r.get("titulo") or ""
+                recusadas = set((r.get("obs") or {}).get("urls_recusadas", []))
+                for c in cands:
+                    if c.url in recusadas:
+                        c.ctx["pedido_pelo_player"] = True
                 ordenados = self._ranquear(t, cands, dom)
+                # o mesmo cuidado do caminho normal: com só iscas (fundo, propaganda, prévia) é melhor avisar do que baixar
+                ordenados = [c for c in ordenados if c.prob >= LIMIAR_MINIMO or c.ctx.get("escolha_humana") or self._video_do_player(c)]
                 if not ordenados:
+                    t.log("navegador: só achei vídeos com cara de isca (fundo, propaganda, prévia)")
                     self.memoria.registrar(dom, "tecnicas", "navegador_rede", fail=1)
+                    shutil.rmtree(pasta_hora, ignore_errors=True)
                     continue
                 t.candidatos = ordenados
                 # 1º o que o próprio navegador já baixou na hora (endereço assinado/curto), na ordem do modelo
@@ -444,6 +453,15 @@ class Motor:
                 t.tecnica = "captura_player"
                 self.memoria.registrar(dom, "tecnicas", "captura_player", ok=1)
                 return final
+        # último recurso automático: fingir que é você assistindo e gravar quadro a quadro com o som (ideia do doug, 17/11).
+        # Só quando há prova de player protegido; página só com vídeo de fundo/propaganda não é gravada.
+        protegido = {"drm", "mse_blob", "cabecalho_especial", "cookie_de_script", "endereco_assinado", "anti_robo",
+                     "referer_origem", "escondido_no_js", "player_canvas"}
+        if (self.cfg.get("assistir_gravar", True) and "servidor_morto" not in t.obstaculos
+                and set(t.obstaculos) & protegido):
+            caminho = self._assistir(t, ctx, pagina, dom, hdr, cookies_extra)
+            if caminho is not None:
+                return caminho
         if "drm" in t.obstaculos:
             raise ErroFinal("drm", t.obstaculos["drm"])
         if "login" in t.obstaculos and self.cfg.get("cookies_navegador", "nenhum") == "nenhum":
@@ -451,6 +469,63 @@ class Motor:
         if ultimo is not None:
             raise ErroFinal(ultimo.categoria if ultimo.categoria in MENSAGENS else "nao_achei", ultimo.detalhe)
         raise ErroFinal("nao_achei", "; ".join(f"{k}: {v}" for k, v in t.obstaculos.items()))
+
+    def _assistir(self, t: Tarefa, ctx: Contexto, pagina: str, dom: str, hdr: dict, cookies_extra: list) -> Path | None:
+        from .assistir import assistir_e_gravar
+        t.tecnicas_tentadas.append("assistir_gravar")
+        self._avisar(t, "modo difícil: assistindo o vídeo e gravando quadro a quadro com o som (leva o tempo do vídeo)...",
+                     None, "baixando")
+        pasta = Path(self.cfg["pasta_destino"]) / ".parciais" / f"assistir_{t.id}"
+
+        def prog(p, texto):
+            t.progresso, t.texto = p, texto
+            try:
+                self.ao_mudar(t)
+            except Exception:
+                pass
+        try:
+            r = assistir_e_gravar(pagina, pasta, usar_tela=bool(self.cfg.get("assistir_pela_tela", True)), proxy=ctx.proxy,
+                                  headers=hdr, cookies_extra=cookies_extra, cancel=t.cancel, log=t.log, progresso=prog)
+        except Exception as e:
+            r = {"arquivo": None, "erro": f"{type(e).__name__}: {str(e)[:160]}", "modo": ""}
+        if not r.get("arquivo"):
+            t.log(f"assistir e gravar não deu: {r.get('erro', '')[:200]}")
+            self.memoria.registrar(dom, "tecnicas", "assistir_gravar", fail=1)
+            shutil.rmtree(pasta, ignore_errors=True)
+            return None
+        try:
+            convertido, info = verificar_e_converter(Path(r["arquivo"]), ctx)
+        except ErroMotor as e:
+            t.log(f"assistir e gravar: o arquivo não serviu ({e.msg[:120]})")
+            self.memoria.registrar(dom, "tecnicas", "assistir_gravar", fail=1)
+            shutil.rmtree(pasta, ignore_errors=True)
+            return None
+        final = caminho_livre(Path(self.cfg["pasta_destino"]), nome_seguro(t.titulo or dom), convertido.suffix.lstrip("."))
+        shutil.move(str(convertido), str(final))
+        shutil.rmtree(pasta, ignore_errors=True)
+        t.info_arquivo = info
+        t.caminho = f"assistido e gravado ({r.get('modo', '')})"
+        t.tecnica = "assistir_gravar"
+        self.memoria.registrar(dom, "tecnicas", "assistir_gravar", ok=1)
+        return final
+
+    SINAIS_DE_ISCA = ("url_previa", "url_propaganda", "fundo_mudo_loop", "autoplay_mudo", "ctx_ruim", "dentro_link",
+                      "tag_pequena", "aside", "script_ruim", "url_audio", "muito_pequeno", "duracao_curta")
+
+    def _video_do_player(self, c: Candidato) -> bool:
+        """No modo difícil o modelo costuma dar chance baixa ao único vídeo que o player pediu (ele aprendeu com páginas
+        comuns). Vale se o próprio navegador viu o player pedir/tocar e não há nenhum sinal de isca (achado na conferência:
+        5 dos 10 sites difíceis falharam por isso)."""
+        f = c.ctx.get("_f") or {}
+        sinais = set(self.SINAIS_DE_ISCA)
+        if c.ctx.get("maior_visivel") and (c.ctx.get("controls") or "controles" in f):
+            sinais -= {"muito_pequeno", "duracao_curta"}  # o maior vídeo com controles é o player, mesmo se for curto
+        if any(k in f for k in sinais) or c.tipo == "audio":
+            return False
+        if c.ctx.get("pedido_pelo_player"):
+            return True  # o player da página pediu este endereço (e o servidor recusou o pedido sem os cabeçalhos certos)
+        return bool(c.origens & {"rede", "dom"}) and bool(c.ctx.get("depois_do_play") or c.ctx.get("maior_visivel")
+                                                          or "dom" in c.origens)
 
     def _absorver_obs(self, t: Tarefa, r: dict, dom: str):
         novos = diagnosticar([], r.get("obs"), r.get("html", ""), [c.url for c in r.get("candidatos", [])[:12]])
@@ -608,8 +683,8 @@ class Motor:
             if not e:
                 continue
             u = e.get("url") or e.get("webpage_url")
-            if not u:
-                continue
+            if not u or not str(u).lower().startswith(("http://", "https://")):
+                continue  # endereço relativo do yt-dlp (variante de HLS) não é relativo à página: virava isca
             ie = (e.get("ie_key") or e.get("extractor_key") or "").lower()
             ctx = {"e_entrada_ytdlp": True, "duracao": e.get("duration") or 0, "rotulo": e.get("title") or ""}
             brutos.append((u, "ytdlp", ctx))
@@ -769,8 +844,9 @@ class Motor:
                 t.erros_vistos.append(e)
                 t.log(f"{c.resumo()}: [{e.categoria}] {e.msg[:200]}")
                 self.memoria.registrar_candidato(dom, c, ok=False)
-                if e.categoria in ("rede",):
-                    raise ErroFinal("rede", e.msg)
+                if e.categoria == "rede" and dominio(c.url) == dominio(pagina):
+                    raise ErroFinal("rede", e.msg)   # nem o próprio site responde: trocar de rota
+                # servidor de mídia caído/inexistente: tenta a outra qualidade/fonte antes de desistir
         cat = ultimo.categoria if ultimo else "nao_achei"
         raise ErroFinal(cat if cat in MENSAGENS else "formato", ultimo.msg if ultimo else "")
 

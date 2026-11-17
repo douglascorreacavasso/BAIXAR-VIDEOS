@@ -790,6 +790,10 @@ class App:
                                   "escuto a rede (perfil limpo, sem as suas senhas).")
         v_nav2 = tk.BooleanVar(value=self.cfg.get("usar_navegador", True))
         Chave(s, "Usar o Edge escondido quando precisar", v_nav2, lambda v: self._guardar("usar_navegador", v)).pack(side="left")
+        v_ass = tk.BooleanVar(value=self.cfg.get("assistir_gravar", True))
+        Chave(s, "Assistir e gravar quando nada baixar", v_ass, lambda v: self._guardar("assistir_gravar", v),
+              dica="Último recurso: toca o vídeo e grava quadro a quadro com o som, em tempo real. Se o site bloquear, "
+                   "grava a janela do Edge (não cubra a janela; o som do PC entra junto).").pack(side="left", padx=(16, 0))
         tk.Label(s, text="Downloads ao mesmo tempo", font=(FONTE, 10), bg=C["painel"], fg=C["texto"]).pack(side="left", padx=(24, 6))
         v_sim = tk.StringVar(value=str(self.cfg.get("simultaneos", 2)))
         cb2 = ttk.Combobox(s, textvariable=v_sim, values=["1", "2", "3", "4"], state="readonly", width=3)
